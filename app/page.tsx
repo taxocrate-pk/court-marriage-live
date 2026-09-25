@@ -18,7 +18,7 @@ function PhoneIcon() { return <span aria-hidden="true">↗</span> }
 function Chevron() { return <span aria-hidden="true" className="chevron">⌄</span> }
 
 export default function Page() {
-  const [openFaq, setOpenFaq] = useState(null)
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
@@ -27,8 +27,8 @@ export default function Page() {
       <header className="site-header">
         <div className="container nav-inner">
           <a href="#home" className="brand"><Mark /><span><strong>CourtMarriage</strong><b>.live</b><small>Pakistan&apos;s marriage specialists</small></span></a>
-          <button className="menu-button" aria-label="Toggle navigation" onClick={() => setMenuOpen(!menuOpen)}>☰</button>
-          <nav className={menuOpen ? 'nav-links open' : 'nav-links'} aria-label="Main navigation">
+          <button className="menu-button" aria-label="Toggle navigation" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>☰</button>
+          <nav className={menuOpen ? 'nav-links open' : 'nav-links'} aria-label="Main navigation" onClick={() => setMenuOpen(false)}>
             <a href="#home">Home</a>
             <a href="#court-marriage">Court Marriage <Chevron /></a>
             <a href="#nikah">Nikah Services <Chevron /></a>
@@ -70,7 +70,7 @@ export default function Page() {
 
       <section className="final-cta" id="contact"><div className="container final-inner"><div><div className="section-kicker light">Let&apos;s make the next step clear</div><h2>Ready to talk about your <em>marriage?</em></h2><p>Tell us what you need. We&apos;ll help you understand the right next step for your circumstances.</p></div><div className="hero-actions"><a className="button button-light" href="tel:+923001234567">Call now <PhoneIcon /></a><a className="button button-ghost-light" href="https://wa.me/923001234567">WhatsApp us <span>↗</span></a></div></div></section>
 
-      <footer className="footer"><div className="container footer-grid"><div><a className="brand footer-brand" href="#home"><Mark /><span><strong>CourtMarriage</strong><b>.live</b><small>Pakistan&apos;s marriage specialists</small></span></a><p>Professional guidance for Court Marriage, Nikah and Marriage Registration in Pakistan.</p></div><div><h3>Explore</h3><a href="#court-marriage">Court Marriage</a><a href="#nikah">Nikah Services</a><a href="#about">About Us</a><a href="#contact">Contact Us</a></div><div><h3>Talk to us</h3><a href="tel:+923001234567">+92 300 1234567</a><a href="mailto:hello@courtmarriage.live">hello@courtmarriage.live</a><span>Mon–Sat · 9:00am–8:00pm</span></div></div><div className="container footer-bottom"><span>© 2025 CourtMarriage.live. All rights reserved.</span><span>Privacy Policy · Terms of Service</span></div></footer>
+      <footer className="footer"><div className="container footer-grid"><div><a className="brand footer-brand" href="#home"><Mark /><span><strong>CourtMarriage</strong><b>.live</b><small>Pakistan&apos;s marriage specialists</small></span></a><p>Professional guidance for Court Marriage, Nikah and Marriage Registration in Pakistan.</p></div><div><h3>Explore</h3><a href="#court-marriage">Court Marriage</a><a href="#nikah">Nikah Services</a><a href="#about">About Us</a><a href="#contact">Contact Us</a></div><div><h3>Talk to us</h3><a href="tel:+923001234567">+92 300 1234567</a><a href="mailto:hello@courtmarriage.live">hello@courtmarriage.live</a><span>Mon–Sat · 9:00am–8:00pm</span></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} CourtMarriage.live. All rights reserved.</span><span>Privacy Policy · Terms of Service</span></div></footer>
     </main>
   )
 }
