@@ -1,97 +1,28 @@
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { cityContacts, cityServices, serviceLinks, site } from '@/lib/site-config'
+import { cityContacts, cityServices, nikahNamaServices, serviceLinks, site } from '@/lib/site-config'
 import { getLongFormContent } from '@/lib/long-form-content'
+import { getNikahNamaContent } from '@/lib/nikah-nama-content'
 
 const pages = {
-  'court-marriage-in-karachi': {
-    title: 'Court Marriage in Karachi',
-    description: 'Court marriage in Karachi with professional assistance for Nikah, documents and marriage registration.',
-    kicker: 'Court marriage Karachi',
-    intro: 'Professional assistance for adults seeking a lawful Nikah, accurate marriage documents and the applicable registration process in Karachi.',
-    phone: cityContacts.Karachi,
-  },
-  'court-marriage-in-lahore': {
-    title: 'Court Marriage in Lahore',
-    description: 'Court marriage in Lahore with assistance for Nikah, documentation and marriage registration requirements.',
-    kicker: 'Court marriage Lahore',
-    intro: 'Court marriage assistance in Lahore focused on free consent, correct Nikah documentation and the relevant registration formalities.',
-    phone: cityContacts.Lahore,
-  },
-  'court-marriage-in-islamabad': {
-    title: 'Court Marriage in Islamabad',
-    description: 'Court marriage in Islamabad with professional Nikah and marriage registration assistance.',
-    kicker: 'Court marriage Islamabad',
-    intro: 'Professional court marriage and Nikah assistance in Islamabad with case-specific document review and registration guidance.',
-    phone: cityContacts.Islamabad,
-  },
-  'court-marriage-in-karachi-lahore-islamabad-rawalpindi': {
-    title: 'Court Marriage in Rawalpindi',
-    description: 'Court marriage assistance in Rawalpindi with Nikah documentation and marriage registration guidance.',
-    kicker: 'Court marriage Rawalpindi',
-    intro: 'This established legacy URL is retained during migration and refined around Rawalpindi court marriage intent.',
-    phone: cityContacts.Rawalpindi,
-  },
-  'court-marriage-services-in-faisalabad': {
-    title: 'Court Marriage Services in Faisalabad',
-    description: 'Court marriage services in Faisalabad for Nikah, documents and marriage registration assistance.',
-    kicker: 'Court marriage Faisalabad',
-    intro: 'Professional assistance for court marriage, Nikah documentation and registration requirements in Faisalabad.',
-  },
-  'court-marriages-in-multan': {
-    title: 'Court Marriage in Multan',
-    description: 'Court marriage in Multan with assistance for Nikah, marriage documentation and registration.',
-    kicker: 'Court marriage Multan',
-    intro: 'Court marriage and Nikah assistance in Multan with a focus on legal accuracy, documentation and the applicable registration process.',
-  },
-  'online-nikah-has-gained-popularity': {
-    title: 'Online Nikah in Pakistan',
-    description: 'Online Nikah assistance for eligible couples in Pakistan and overseas, subject to applicable legal and religious requirements.',
-    kicker: 'Online Nikah services',
-    intro: 'Online or proxy Nikah can require careful attention to identity, consent, witnesses, authority or wakalat arrangements and later registration.',
-  },
-  'online-nikah-for-foreigners': {
-    title: 'Online Nikah for Foreigners',
-    description: 'Online Nikah assistance for foreign nationals and overseas couples with case-specific documentation guidance.',
-    kicker: 'Foreign national Nikah',
-    intro: 'Foreign-national and overseas Nikah cases require case-specific review because nationality, marital status and destination-country requirements can differ.',
-  },
-  'nikah-services': {
-    title: 'Nikah Services in Pakistan',
-    description: 'Professional Nikah services with documentation and marriage registration assistance in Pakistan.',
-    kicker: 'Nikah services Pakistan',
-    intro: 'Nikah services for couples who need clear assistance with solemnisation arrangements, documentation and the relevant registration steps.',
-  },
-  'nikah-khawan-services-and-fees': {
-    title: 'Nikah Khawan Services in Pakistan',
-    description: 'Nikah Khawan services with professional assistance for Nikah documentation and registration requirements.',
-    kicker: 'Nikah Khawan services',
-    intro: 'Coordination for Nikah solemnisation with clear distinction between the Nikah Khawan role and the statutory marriage-registration process.',
-  },
-  'nadra-marriage-certificate-in-pakistan': {
-    title: 'Marriage Registration Certificate in Pakistan',
-    description: 'Guidance on Nikah Nama registration, computerised Marriage Registration Certificate and related civil record steps in Pakistan.',
-    kicker: 'Marriage registration certificate',
-    intro: 'Nikah Nama, local marriage registration, computerised marriage certificates and later NADRA identity-record steps are related but distinct processes.',
-  },
-  'about-us': {
-    title: 'About CourtMarriage.live',
-    description: 'About CourtMarriage.live and its professional court marriage, Nikah and marriage registration assistance in Pakistan.',
-    kicker: 'About CourtMarriage.live',
-    intro: 'CourtMarriage.live provides professional assistance for court marriage, Nikah, marriage documentation and related registration matters in Pakistan.',
-  },
-  'blogs': {
-    title: 'Court Marriage & Nikah Blog',
-    description: 'Articles and practical information about court marriage, Nikah, marriage documents and registration in Pakistan.',
-    kicker: 'Court marriage resources',
-    intro: 'Legal and practical information about court marriage, Nikah, marriage registration, overseas cases and related documentation.',
-  },
-  'contact-us': {
-    title: 'Contact CourtMarriage.live',
-    description: 'Contact CourtMarriage.live for court marriage, Nikah and marriage registration assistance in Pakistan.',
-    kicker: 'Contact CourtMarriage.live',
-    intro: 'Speak with our team about court marriage, Nikah, documents or marriage registration. City-specific contact numbers are shown below.',
-  },
+  'court-marriage-in-karachi': { title: 'Court Marriage in Karachi', description: 'Court marriage in Karachi with professional assistance for Nikah, documents and marriage registration.', kicker: 'Court marriage Karachi', intro: 'Professional assistance for adults seeking a lawful Nikah, accurate marriage documents and the applicable registration process in Karachi.', phone: cityContacts.Karachi },
+  'court-marriage-in-lahore': { title: 'Court Marriage in Lahore', description: 'Court marriage in Lahore with assistance for Nikah, documentation and marriage registration requirements.', kicker: 'Court marriage Lahore', intro: 'Court marriage assistance in Lahore focused on free consent, correct Nikah documentation and the relevant registration formalities.', phone: cityContacts.Lahore },
+  'court-marriage-in-islamabad': { title: 'Court Marriage in Islamabad', description: 'Court marriage in Islamabad with professional Nikah and marriage registration assistance.', kicker: 'Court marriage Islamabad', intro: 'Professional court marriage and Nikah assistance in Islamabad with case-specific document review and registration guidance.', phone: cityContacts.Islamabad },
+  'court-marriage-in-karachi-lahore-islamabad-rawalpindi': { title: 'Court Marriage in Rawalpindi', description: 'Court marriage assistance in Rawalpindi with Nikah documentation and marriage registration guidance.', kicker: 'Court marriage Rawalpindi', intro: 'This established legacy URL is retained during migration and refined around Rawalpindi court marriage intent.', phone: cityContacts.Rawalpindi },
+  'court-marriage-services-in-faisalabad': { title: 'Court Marriage Services in Faisalabad', description: 'Court marriage services in Faisalabad for Nikah, documents and marriage registration assistance.', kicker: 'Court marriage Faisalabad', intro: 'Professional assistance for court marriage, Nikah documentation and registration requirements in Faisalabad.' },
+  'court-marriages-in-multan': { title: 'Court Marriage in Multan', description: 'Court marriage in Multan with assistance for Nikah, marriage documentation and registration.', kicker: 'Court marriage Multan', intro: 'Court marriage and Nikah assistance in Multan with a focus on legal accuracy, documentation and the applicable registration process.' },
+  'online-nikah-has-gained-popularity': { title: 'Online Nikah in Pakistan', description: 'Online Nikah assistance for eligible couples in Pakistan and overseas, subject to applicable legal and religious requirements.', kicker: 'Online Nikah services', intro: 'Online or proxy Nikah can require careful attention to identity, consent, witnesses, authority or wakalat arrangements and later registration.' },
+  'online-nikah-for-foreigners': { title: 'Online Nikah for Foreigners', description: 'Online Nikah assistance for foreign nationals and overseas couples with case-specific documentation guidance.', kicker: 'Foreign national Nikah', intro: 'Foreign-national and overseas Nikah cases require case-specific review because nationality, marital status and destination-country requirements can differ.' },
+  'nikah-services': { title: 'Nikah Services in Pakistan', description: 'Professional Nikah services with documentation and marriage registration assistance in Pakistan.', kicker: 'Nikah services Pakistan', intro: 'Nikah services for couples who need clear assistance with solemnisation arrangements, documentation and the relevant registration steps.' },
+  'nikah-khawan-services-and-fees': { title: 'Nikah Khawan Services in Pakistan', description: 'Nikah Khawan services with professional assistance for Nikah documentation and registration requirements.', kicker: 'Nikah Khawan services', intro: 'Coordination for Nikah solemnisation with clear distinction between the Nikah Khawan role and the statutory marriage-registration process.' },
+  'nadra-marriage-certificate-in-pakistan': { title: 'Marriage Registration Certificate in Pakistan', description: 'Guidance on Nikah Nama registration, computerised Marriage Registration Certificate and related civil record steps in Pakistan.', kicker: 'Marriage registration certificate', intro: 'Nikah Nama, local marriage registration, computerised marriage certificates and later NADRA identity-record steps are related but distinct processes.' },
+  'nikah-nama-english-urdu-karachi': { title: 'Nikah Nama in Karachi – Urdu, English Translation & Registration', description: 'Nikah Nama services in Karachi for accurate marriage documentation, registration, English translation and certificate guidance.', kicker: 'Nikah Nama Karachi', intro: 'Professional assistance with a correctly prepared and registered Nikah Nama in Karachi, including guidance on English translation and later marriage-record use.', phone: cityContacts.Karachi },
+  'nikah-nama-english-urdu-lahore': { title: 'Nikah Nama in Lahore – Urdu, English Translation & Registration', description: 'Nikah Nama services in Lahore for marriage documentation, registration, English translation and related certificate requirements.', kicker: 'Nikah Nama Lahore', intro: 'Professional assistance with Nikah Nama preparation, registration and English translation requirements in Lahore.', phone: cityContacts.Lahore },
+  'nikah-nama-english-urdu-islamabad': { title: 'Nikah Nama in Islamabad – Urdu, English Translation & Registration', description: 'Nikah Nama services in Islamabad for accurate marriage documentation, registration and English translation.', kicker: 'Nikah Nama Islamabad', intro: 'Professional assistance with Nikah Nama preparation, registration and later document use in Islamabad.', phone: cityContacts.Islamabad },
+  'nikah-nama-english-urdu-rawalpindi': { title: 'Nikah Nama in Rawalpindi – Urdu, English Translation & Registration', description: 'Nikah Nama services in Rawalpindi for marriage documentation, registration and English translation guidance.', kicker: 'Nikah Nama Rawalpindi', intro: 'Professional assistance with Nikah Nama preparation, registration and English translation requirements in Rawalpindi.', phone: cityContacts.Rawalpindi },
+  'about-us': { title: 'About CourtMarriage.live', description: 'About CourtMarriage.live and its professional court marriage, Nikah and marriage registration assistance in Pakistan.', kicker: 'About CourtMarriage.live', intro: 'CourtMarriage.live provides professional assistance for court marriage, Nikah, marriage documentation and related registration matters in Pakistan.' },
+  'blogs': { title: 'Court Marriage & Nikah Blog', description: 'Articles and practical information about court marriage, Nikah, marriage documents and registration in Pakistan.', kicker: 'Court marriage resources', intro: 'Legal and practical information about court marriage, Nikah, marriage registration, overseas cases and related documentation.' },
+  'contact-us': { title: 'Contact CourtMarriage.live', description: 'Contact CourtMarriage.live for court marriage, Nikah and marriage registration assistance in Pakistan.', kicker: 'Contact CourtMarriage.live', intro: 'Speak with our team about court marriage, Nikah, documents or marriage registration. City-specific contact numbers are shown below.' },
 }
 
 export const dynamicParams = false
@@ -139,7 +70,10 @@ export default async function LegacyPage({ params }) {
 
   const phoneDisplay = page.phone || site.primaryPhoneDisplay
   const phone = telNumber(phoneDisplay)
-  const { sections, faqs } = getLongFormContent(slug, page)
+  const standardContent = getLongFormContent(slug, page)
+  const nikahNamaContent = getNikahNamaContent(slug, page)
+  const sections = standardContent.sections.length ? standardContent.sections : nikahNamaContent.sections
+  const faqs = standardContent.faqs.length ? standardContent.faqs : nikahNamaContent.faqs
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -174,10 +108,7 @@ export default async function LegacyPage({ params }) {
 
       <header className="site-header">
         <div className="container nav-inner">
-          <a href="/" className="brand" aria-label="CourtMarriage.live home">
-            <Mark />
-            <span><strong>CourtMarriage</strong><b>.live</b><small>Marriage legal services</small></span>
-          </a>
+          <a href="/" className="brand" aria-label="CourtMarriage.live home"><Mark /><span><strong>CourtMarriage</strong><b>.live</b><small>Marriage legal services</small></span></a>
           <nav className="nav-links desktop-nav" aria-label="Main navigation">
             <a href="/">Home</a>
             <a href="/court-marriage-in-karachi/">Karachi</a>
@@ -191,12 +122,7 @@ export default async function LegacyPage({ params }) {
           <details className="mobile-nav">
             <summary aria-label="Open navigation">☰</summary>
             <div className="mobile-menu">
-              <a href="/">Home</a>
-              <a href="/court-marriage-in-karachi/">Karachi</a>
-              <a href="/court-marriage-in-lahore/">Lahore</a>
-              <a href="/court-marriage-in-islamabad/">Islamabad</a>
-              <a href={serviceLinks.onlineNikah}>Online Nikah</a>
-              <a href={serviceLinks.contact}>Contact Us</a>
+              <a href="/">Home</a><a href="/court-marriage-in-karachi/">Karachi</a><a href="/court-marriage-in-lahore/">Lahore</a><a href="/court-marriage-in-islamabad/">Islamabad</a><a href={serviceLinks.onlineNikah}>Online Nikah</a><a href={serviceLinks.contact}>Contact Us</a>
             </div>
           </details>
         </div>
@@ -209,31 +135,17 @@ export default async function LegacyPage({ params }) {
             <div className="eyebrow"><span className="eyebrow-line" /> {page.kicker}</div>
             <h1>{page.title}</h1>
             <p className="hero-lead">{page.intro}</p>
-            <div className="hero-actions">
-              <a className="button button-primary" href={`tel:${phone}`}>Call for consultation ↗</a>
-              <a className="button button-whatsapp" href={`https://wa.me/${phone.replace(/[^0-9]/g, '')}`}>WhatsApp us ↗</a>
-            </div>
+            <div className="hero-actions"><a className="button button-primary" href={`tel:${phone}`}>Call for consultation ↗</a><a className="button button-whatsapp" href={`https://wa.me/${phone.replace(/[^0-9]/g, '')}`}>WhatsApp us ↗</a></div>
             <div className="trust-row"><span>✓ Confidential handling</span><span>✓ Clear document review</span><span>✓ Legal accuracy first</span></div>
           </div>
           <div className="hero-visual">
-            <div className="hero-image-wrap">
-              <Image src="/court-marriage-hero.png" alt={`${page.title} - Nikah and marriage documentation assistance`} fill priority sizes="(max-width: 800px) 100vw, 50vw" />
-            </div>
+            <div className="hero-image-wrap"><Image src="/court-marriage-hero.png" alt={`${page.title} - Nikah and marriage documentation assistance`} fill priority sizes="(max-width: 800px) 100vw, 50vw" /></div>
           </div>
         </div>
       </section>
 
       {slug === 'contact-us' && (
-        <section className="section contact-strip">
-          <div className="container">
-            <div className="section-heading"><div><div className="section-kicker">City contact numbers</div><h2>Contact the <span>relevant city team.</span></h2></div></div>
-            <div className="city-grid">
-              {Object.entries(cityContacts).map(([city, number]) => (
-                <a className="city-card" key={city} href={`tel:${telNumber(number)}`}><strong>{city}</strong><b>{number}</b></a>
-              ))}
-            </div>
-          </div>
-        </section>
+        <section className="section contact-strip"><div className="container"><div className="section-heading"><div><div className="section-kicker">City contact numbers</div><h2>Contact the <span>relevant city team.</span></h2></div></div><div className="city-grid">{Object.entries(cityContacts).map(([city, number]) => <a className="city-card" key={city} href={`tel:${telNumber(number)}`}><strong>{city}</strong><b>{number}</b></a>)}</div></div></section>
       )}
 
       {sections.length > 0 && (
@@ -243,14 +155,7 @@ export default async function LegacyPage({ params }) {
               <div className="section-kicker">Complete legal and practical guide</div>
               <h2>{page.title}: <span>what you should know before proceeding.</span></h2>
               <p>This page is intentionally detailed so a client can understand the major legal, documentation and registration issues before booking a service. Individual facts can change the answer, so general information should not be treated as a substitute for review of a specific file.</p>
-              <nav className="content-toc" aria-label="On this page">
-                <strong>On this page</strong>
-                <ol>
-                  {sections.map((section, index) => (
-                    <li key={section.heading}><a href={`#${anchorFromHeading(section.heading, index)}`}>{section.heading}</a></li>
-                  ))}
-                </ol>
-              </nav>
+              <nav className="content-toc" aria-label="On this page"><strong>On this page</strong><ol>{sections.map((section, index) => <li key={section.heading}><a href={`#${anchorFromHeading(section.heading, index)}`}>{section.heading}</a></li>)}</ol></nav>
             </div>
           </section>
 
@@ -260,12 +165,7 @@ export default async function LegacyPage({ params }) {
                 <div className="container content-shell">
                   <h2>{section.heading}</h2>
                   {section.paragraphs.map((paragraph, pIndex) => <p key={pIndex}>{paragraph}</p>)}
-                  {(index === 2 || index === 7 || index === 11) && (
-                    <div className="inline-cta">
-                      <div><strong>Need advice on your own documents?</strong><span>Speak to the relevant team before relying on a generic checklist.</span></div>
-                      <a href={`tel:${phone}`}>Call {phoneDisplay}</a>
-                    </div>
-                  )}
+                  {(index === 2 || index === 7 || index === 11) && <div className="inline-cta"><div><strong>Need advice on your own documents?</strong><span>Speak to the relevant team before relying on a generic checklist.</span></div><a href={`tel:${phone}`}>Call {phoneDisplay}</a></div>}
                 </div>
               </section>
             ))}
@@ -276,50 +176,33 @@ export default async function LegacyPage({ params }) {
       {faqs.length > 0 && (
         <section className="section-muted longform-faq">
           <div className="container faq-grid">
-            <div>
-              <div className="section-kicker">Frequently asked questions</div>
-              <h2>{page.title} <span>FAQs.</span></h2>
-              <p>These answers explain common issues in general terms. Documents, nationality, previous marital status and the relevant authority can change the advice for an individual case.</p>
-              <a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a>
-            </div>
-            <div className="faq-list">
-              {faqs.map(([question, answer]) => (
-                <details className="faq-item" key={question}>
-                  <summary><span>{question}</span><b>+</b></summary>
-                  <p>{answer}</p>
-                </details>
-              ))}
-            </div>
+            <div><div className="section-kicker">Frequently asked questions</div><h2>{page.title} <span>FAQs.</span></h2><p>These answers explain common issues in general terms. Documents, nationality, previous marital status and the relevant authority can change the advice for an individual case.</p><a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a></div>
+            <div className="faq-list">{faqs.map(([question, answer]) => <details className="faq-item" key={question}><summary><span>{question}</span><b>+</b></summary><p>{answer}</p></details>)}</div>
           </div>
         </section>
       )}
 
       <section className="section related-longform">
         <div className="container">
-          <div className="section-heading"><div><div className="section-kicker">Related court marriage services</div><h2>Continue to the <span>right service or city page.</span></h2></div></div>
+          <div className="section-heading"><div><div className="section-kicker">Related marriage services</div><h2>Continue to the <span>right service or city page.</span></h2></div></div>
           <div className="city-grid">
             <a className="city-card" href={serviceLinks.onlineNikah}><strong>Online Nikah</strong><b>View service →</b></a>
             <a className="city-card" href={serviceLinks.marriageCertificate}><strong>Marriage Registration</strong><b>View service →</b></a>
-            <a className="city-card" href="/court-marriage-in-karachi/"><strong>Karachi</strong><b>{cityContacts.Karachi} →</b></a>
-            <a className="city-card" href="/court-marriage-in-lahore/"><strong>Lahore</strong><b>{cityContacts.Lahore} →</b></a>
-            <a className="city-card" href="/court-marriage-in-islamabad/"><strong>Islamabad</strong><b>{cityContacts.Islamabad} →</b></a>
+            <a className="city-card" href={serviceLinks.nikahNamaKarachi}><strong>Nikah Nama Karachi</strong><b>View page →</b></a>
+            <a className="city-card" href={serviceLinks.nikahNamaLahore}><strong>Nikah Nama Lahore</strong><b>View page →</b></a>
+            <a className="city-card" href={serviceLinks.nikahNamaIslamabad}><strong>Nikah Nama Islamabad</strong><b>View page →</b></a>
             <a className="city-card" href={serviceLinks.contact}><strong>Contact Us</strong><b>{phoneDisplay} →</b></a>
           </div>
         </div>
       </section>
 
-      <section className="final-cta">
-        <div className="container final-inner">
-          <div><div className="section-kicker light">CourtMarriage.live</div><h2>Need case-specific <em>guidance?</em></h2><p>Contact the team before relying on a generic checklist, particularly for foreign-national, previous-marriage or overseas cases.</p></div>
-          <div className="hero-actions"><a className="button button-light" href={`tel:${phone}`}>Call {phoneDisplay}</a><a className="button button-ghost-light" href={`https://wa.me/${phone.replace(/[^0-9]/g, '')}`}>WhatsApp us</a></div>
-        </div>
-      </section>
+      <section className="final-cta"><div className="container final-inner"><div><div className="section-kicker light">CourtMarriage.live</div><h2>Need case-specific <em>guidance?</em></h2><p>Contact the team before relying on a generic checklist, particularly for foreign-national, previous-marriage or overseas cases.</p></div><div className="hero-actions"><a className="button button-light" href={`tel:${phone}`}>Call {phoneDisplay}</a><a className="button button-ghost-light" href={`https://wa.me/${phone.replace(/[^0-9]/g, '')}`}>WhatsApp us</a></div></div></section>
 
       <footer className="footer">
         <div className="container footer-grid">
-          <div><a className="brand footer-brand" href="/"><Mark /><span><strong>CourtMarriage</strong><b>.live</b><small>Marriage legal services</small></span></a><p>Professional assistance for Court Marriage, Nikah and Marriage Registration in Pakistan.</p></div>
+          <div><a className="brand footer-brand" href="/"><Mark /><span><strong>CourtMarriage</strong><b>.live</b><small>Marriage legal services</small></span></a><p>Professional assistance for Court Marriage, Nikah, Nikah Nama and Marriage Registration in Pakistan.</p></div>
           <div><h3>Major cities</h3>{cityServices.slice(0,4).map((city) => <a key={city.name} href={city.href}>{city.name}</a>)}</div>
-          <div><h3>Talk to us</h3><a href={`tel:${phone}`}>{phoneDisplay}</a><a href={serviceLinks.contact}>Contact page</a></div>
+          <div><h3>Nikah Nama</h3>{nikahNamaServices.map((item) => <a key={item.name} href={item.href}>{item.name}</a>)}</div>
         </div>
         <div className="container footer-bottom"><span>© {new Date().getFullYear()} CourtMarriage.live. All rights reserved.</span><span><a href="/">Home</a></span></div>
       </footer>
