@@ -1,16 +1,6 @@
 import Image from 'next/image'
 import { cityContacts, cityServices, serviceLinks, site } from '@/lib/site-config'
-
-const faqs = [
-  ['What does court marriage mean in Pakistan?', 'In Pakistan, court marriage is a common expression for a free-will marriage completed through a lawful Nikah, correct documentation and registration through the competent Nikah Registrar and local authority. An ordinary Muslim court marriage is not usually a wedding ceremony performed by a judge.'],
-  ['Do both partners have to go to court?', 'Not as a universal rule. The required attendance depends on the facts, the type of Nikah, the documents and the authority handling registration. We review the case before advising what attendance or representation is appropriate.'],
-  ['Which documents are normally required?', 'Valid CNIC, NICOP or passport documents are usually central to the process. Photographs, witness identification, prior-marriage documents, affidavits or other supporting records may also be relevant depending on the couple’s circumstances.'],
-  ['Can overseas Pakistanis use Online Nikah services?', 'Remote or proxy Nikah may be possible where the applicable religious requirements, identity checks, authority or wakalat arrangements and registration requirements are properly satisfied. Overseas use of the resulting documents may require further attestation or destination-country formalities.'],
-  ['Is an embassy NOC always required for a foreign national?', 'No single rule applies to every nationality and case. Requirements may depend on nationality, religion, marital status, visa position, local registration practice and the authority that will later use the marriage documents.'],
-  ['Who issues the Marriage Registration Certificate?', 'The Nikah Nama, local marriage registration, computerised Marriage Registration Certificate and later NADRA identity-record steps should be treated as distinct processes. The competent local authority handles the applicable marriage-registration record; NADRA-related identity or family-record processes are separate.'],
-  ['Can court marriage be completed the same day?', 'Some eligible service work such as consultation, document preparation and Nikah solemnisation may be arranged quickly when documents are complete. Official registration, MRC issuance, attestation or other authority-controlled steps follow the timetable of the competent office.'],
-  ['Is the service confidential?', 'Client information is handled privately and only the information reasonably required for consultation, documentation and the relevant legal or registration process should be collected or shared.'],
-]
+import { homeSections, homeFaqs } from '@/lib/home-long-form'
 
 const services = [
   ['01', 'Court Marriage in Pakistan', 'Free-will Nikah, document review and registration assistance for eligible couples.', '#court-marriage'],
@@ -27,6 +17,11 @@ function Mark() {
 
 function PhoneIcon() { return <span aria-hidden="true">↗</span> }
 
+function anchorFromHeading(heading, index) {
+  const clean = heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  return `${clean || 'section'}-${index + 1}`
+}
+
 export default function Page() {
   const legalServiceSchema = {
     '@context': 'https://schema.org',
@@ -41,7 +36,7 @@ export default function Page() {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faqs.map(([question, answer]) => ({
+    mainEntity: homeFaqs.map(([question, answer]) => ({
       '@type': 'Question',
       name: question,
       acceptedAnswer: { '@type': 'Answer', text: answer },
@@ -133,7 +128,7 @@ export default function Page() {
           <div><div className="section-kicker">Court marriage in Pakistan</div><h2>What court marriage <span>actually means.</span></h2></div>
           <div className="intro-text">
             <p>“Court marriage” is a widely used practical expression in Pakistan. For an ordinary Muslim marriage, it does not mean that every couple must marry before a judge or inside a courtroom. The usual focus is a lawful Nikah based on free consent, accurate identity and marital-status information, proper Nikah documentation and registration through the competent Nikah Registrar and local authority.</p>
-            <p>The correct route can differ according to the parties’ ages, nationality, religion, previous marital status, city, school of Islamic law and intended use of the documents. CourtMarriage.live therefore starts with the facts instead of promising one fixed procedure for every couple.</p>
+            <p>The correct route can differ according to the parties’ ages, nationality, religion, previous marital status, city and intended use of the documents. CourtMarriage.live therefore starts with the facts instead of promising one fixed procedure for every couple.</p>
             <a className="text-link" href={serviceLinks.contact}>Discuss your circumstances <span>→</span></a>
           </div>
         </div>
@@ -177,7 +172,7 @@ export default function Page() {
 
       <section className="services section-muted" id="nikah">
         <div className="container">
-          <div className="section-heading"><div><div className="section-kicker">Marriage legal services</div><h2>Court marriage, Nikah and <span>registration support.</span></h2></div><p>Each service page is being migrated on its existing URL so established search visibility is not discarded during the move to Next.js.</p></div>
+          <div className="section-heading"><div><div className="section-kicker">Marriage legal services</div><h2>Court marriage, Nikah and <span>registration support.</span></h2></div><p>Each service page retains its established URL while the content is expanded around one clear search intent.</p></div>
           <div className="service-grid">
             {services.map(([n,t,d,href]) => <article className="service-card" key={n}><span className="service-no">{n}</span><h3>{t}</h3><p>{d}</p><a href={href}>Learn more <span>→</span></a></article>)}
           </div>
@@ -186,7 +181,7 @@ export default function Page() {
 
       <section className="cities section">
         <div className="container">
-          <div className="section-heading"><div><div className="section-kicker">Court marriage by city</div><h2>Local guidance across <span>major Pakistani cities.</span></h2></div><p>City pages retain their established legacy slugs. Their content will be refined around one city intent rather than mixing several cities into one money page.</p></div>
+          <div className="section-heading"><div><div className="section-kicker">Court marriage by city</div><h2>Local guidance across <span>major Pakistani cities.</span></h2></div><p>City pages retain their established legacy slugs and focus on the law and registration context relevant to that location.</p></div>
           <div className="city-grid">
             {cityServices.map((city, i) => <a href={city.href} className="city-card" key={city.name}><span>0{i + 1}</span><strong>{city.name}</strong><b>{city.phone || 'View service'} →</b></a>)}
           </div>
@@ -218,10 +213,41 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="faq section-muted">
+      <section className="longform-intro section-muted">
+        <div className="container content-shell">
+          <div className="section-kicker">Court Marriage in Pakistan complete guide</div>
+          <h2>Legal, practical and registration guidance <span>in one national pillar.</span></h2>
+          <p>This detailed guide expands the homepage beyond a sales landing page. It explains the major issues an adult couple should understand before a Nikah, while recognising that province, nationality, previous marital status and the intended use of documents can change the answer.</p>
+          <nav className="content-toc" aria-label="Court Marriage in Pakistan guide">
+            <strong>On this page</strong>
+            <ol>
+              {homeSections.map((section, index) => <li key={section.heading}><a href={`#${anchorFromHeading(section.heading, index)}`}>{section.heading}</a></li>)}
+            </ol>
+          </nav>
+        </div>
+      </section>
+
+      <div className="longform-content">
+        {homeSections.map((section, index) => (
+          <section className={index % 2 === 1 ? 'content-section content-section-muted' : 'content-section'} id={anchorFromHeading(section.heading, index)} key={section.heading}>
+            <div className="container content-shell">
+              <h2>{section.heading}</h2>
+              {section.paragraphs.map((paragraph, pIndex) => <p key={pIndex}>{paragraph}</p>)}
+              {(index === 2 || index === 7 || index === 11) && (
+                <div className="inline-cta">
+                  <div><strong>Need a case-specific document review?</strong><span>Tell us your city, nationality and marital status before relying on a generic checklist.</span></div>
+                  <a href={`tel:${site.primaryPhone}`}>Call {site.primaryPhoneDisplay}</a>
+                </div>
+              )}
+            </div>
+          </section>
+        ))}
+      </div>
+
+      <section className="faq section-muted longform-faq">
         <div className="container faq-grid">
           <div><div className="section-kicker">Court marriage FAQs</div><h2>Answers to common <span>marriage questions.</span></h2><p>General information cannot replace a review of the couple’s documents and circumstances. For a case-specific answer, contact the relevant city team.</p><a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a></div>
-          <div className="faq-list">{faqs.map(([q,a]) => <details className="faq-item" key={q}><summary><span>{q}</span><b>+</b></summary><p>{a}</p></details>)}</div>
+          <div className="faq-list">{homeFaqs.map(([q,a]) => <details className="faq-item" key={q}><summary><span>{q}</span><b>+</b></summary><p>{a}</p></details>)}</div>
         </div>
       </section>
 
