@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { cityContacts, cityServices, serviceLinks, site } from '@/lib/site-config'
+import { getLongFormContent } from '@/lib/long-form-content'
 
 const pages = {
   'court-marriage-in-karachi': {
@@ -28,7 +29,7 @@ const pages = {
     title: 'Court Marriage in Rawalpindi',
     description: 'Court marriage assistance in Rawalpindi with Nikah documentation and marriage registration guidance.',
     kicker: 'Court marriage Rawalpindi',
-    intro: 'This established legacy URL is being retained during migration and refined around Rawalpindi court marriage intent.',
+    intro: 'This established legacy URL is retained during migration and refined around Rawalpindi court marriage intent.',
     phone: cityContacts.Rawalpindi,
   },
   'court-marriage-services-in-faisalabad': {
@@ -113,6 +114,7 @@ export async function generateMetadata({ params }) {
       url: `${site.url}/${slug}/`,
       siteName: 'CourtMarriage.live',
       type: 'website',
+      images: [{ url: '/court-marriage-hero.png', alt: page.title }],
     },
   }
 }
@@ -125,15 +127,44 @@ function telNumber(display) {
   return display ? `+${display.replace(/[^0-9]/g, '')}` : site.primaryPhone
 }
 
+function anchorFromHeading(heading, index) {
+  const clean = heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  return `${clean || 'section'}-${index + 1}`
+}
+
 export default async function LegacyPage({ params }) {
   const { slug } = await params
   const page = pages[slug]
   if (!page) notFound()
+
   const phoneDisplay = page.phone || site.primaryPhoneDisplay
   const phone = telNumber(phoneDisplay)
+  const { sections, faqs } = getLongFormContent(slug, page)
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
+      { '@type': 'ListItem', position: 2, name: page.title, item: `${site.url}/${slug}/` },
+    ],
+  }
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(([question, answer]) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: { '@type': 'Answer', text: answer },
+    })),
+  }
 
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      {faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+
       <div className="topbar">
         <div className="container topbar-inner">
           <span>Professional court marriage and Nikah assistance across Pakistan</span>
@@ -151,11 +182,23 @@ export default async function LegacyPage({ params }) {
             <a href="/">Home</a>
             <a href="/court-marriage-in-karachi/">Karachi</a>
             <a href="/court-marriage-in-lahore/">Lahore</a>
+            <a href="/court-marriage-in-islamabad/">Islamabad</a>
             <a href={serviceLinks.onlineNikah}>Online Nikah</a>
             <a href={serviceLinks.blogs}>Blog</a>
             <a href={serviceLinks.contact}>Contact Us</a>
             <a className="nav-call" href={`tel:${phone}`}>Call now</a>
           </nav>
+          <details className="mobile-nav">
+            <summary aria-label="Open navigation">☰</summary>
+            <div className="mobile-menu">
+              <a href="/">Home</a>
+              <a href="/court-marriage-in-karachi/">Karachi</a>
+              <a href="/court-marriage-in-lahore/">Lahore</a>
+              <a href="/court-marriage-in-islamabad/">Islamabad</a>
+              <a href={serviceLinks.onlineNikah}>Online Nikah</a>
+              <a href={serviceLinks.contact}>Contact Us</a>
+            </div>
+          </details>
         </div>
       </header>
 
@@ -180,24 +223,10 @@ export default async function LegacyPage({ params }) {
         </div>
       </section>
 
-      <section className="section">
-        <div className="container two-col">
-          <div>
-            <div className="section-kicker">Migration-safe service page</div>
-            <h2>{page.title} <span>without losing the existing URL.</span></h2>
-          </div>
-          <div className="intro-text">
-            <p>This legacy URL has now been restored in the Next.js website so visitors and search engines do not land on a 404 during migration.</p>
-            <p>The full page is being expanded with city- or service-specific legal content, FAQs, internal links and structured data. Existing search intent will be preserved rather than replaced with generic copy.</p>
-            <a className="text-link" href="/">Back to homepage <span>→</span></a>
-          </div>
-        </div>
-      </section>
-
-      {slug === 'contact-us' ? (
-        <section className="section-muted">
+      {slug === 'contact-us' && (
+        <section className="section contact-strip">
           <div className="container">
-            <div className="section-heading"><div><div className="section-kicker">City contacts</div><h2>Contact the <span>relevant city team.</span></h2></div></div>
+            <div className="section-heading"><div><div className="section-kicker">City contact numbers</div><h2>Contact the <span>relevant city team.</span></h2></div></div>
             <div className="city-grid">
               {Object.entries(cityContacts).map(([city, number]) => (
                 <a className="city-card" key={city} href={`tel:${telNumber(number)}`}><strong>{city}</strong><b>{number}</b></a>
@@ -205,18 +234,79 @@ export default async function LegacyPage({ params }) {
             </div>
           </div>
         </section>
-      ) : (
-        <section className="section-muted">
-          <div className="container">
-            <div className="section-heading"><div><div className="section-kicker">Related services</div><h2>Continue to the <span>right marriage service.</span></h2></div></div>
-            <div className="city-grid">
-              <a className="city-card" href={serviceLinks.onlineNikah}><strong>Online Nikah</strong><b>View service →</b></a>
-              <a className="city-card" href={serviceLinks.marriageCertificate}><strong>Marriage Registration</strong><b>View service →</b></a>
-              <a className="city-card" href={serviceLinks.contact}><strong>Contact Us</strong><b>{phoneDisplay} →</b></a>
+      )}
+
+      {sections.length > 0 && (
+        <>
+          <section className="longform-intro section">
+            <div className="container content-shell">
+              <div className="section-kicker">Complete legal and practical guide</div>
+              <h2>{page.title}: <span>what you should know before proceeding.</span></h2>
+              <p>This page is intentionally detailed so a client can understand the major legal, documentation and registration issues before booking a service. Individual facts can change the answer, so general information should not be treated as a substitute for review of a specific file.</p>
+              <nav className="content-toc" aria-label="On this page">
+                <strong>On this page</strong>
+                <ol>
+                  {sections.map((section, index) => (
+                    <li key={section.heading}><a href={`#${anchorFromHeading(section.heading, index)}`}>{section.heading}</a></li>
+                  ))}
+                </ol>
+              </nav>
+            </div>
+          </section>
+
+          <div className="longform-content">
+            {sections.map((section, index) => (
+              <section className={index % 2 === 1 ? 'content-section content-section-muted' : 'content-section'} id={anchorFromHeading(section.heading, index)} key={section.heading}>
+                <div className="container content-shell">
+                  <h2>{section.heading}</h2>
+                  {section.paragraphs.map((paragraph, pIndex) => <p key={pIndex}>{paragraph}</p>)}
+                  {(index === 2 || index === 7 || index === 11) && (
+                    <div className="inline-cta">
+                      <div><strong>Need advice on your own documents?</strong><span>Speak to the relevant team before relying on a generic checklist.</span></div>
+                      <a href={`tel:${phone}`}>Call {phoneDisplay}</a>
+                    </div>
+                  )}
+                </div>
+              </section>
+            ))}
+          </div>
+        </>
+      )}
+
+      {faqs.length > 0 && (
+        <section className="section-muted longform-faq">
+          <div className="container faq-grid">
+            <div>
+              <div className="section-kicker">Frequently asked questions</div>
+              <h2>{page.title} <span>FAQs.</span></h2>
+              <p>These answers explain common issues in general terms. Documents, nationality, previous marital status and the relevant authority can change the advice for an individual case.</p>
+              <a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a>
+            </div>
+            <div className="faq-list">
+              {faqs.map(([question, answer]) => (
+                <details className="faq-item" key={question}>
+                  <summary><span>{question}</span><b>+</b></summary>
+                  <p>{answer}</p>
+                </details>
+              ))}
             </div>
           </div>
         </section>
       )}
+
+      <section className="section related-longform">
+        <div className="container">
+          <div className="section-heading"><div><div className="section-kicker">Related court marriage services</div><h2>Continue to the <span>right service or city page.</span></h2></div></div>
+          <div className="city-grid">
+            <a className="city-card" href={serviceLinks.onlineNikah}><strong>Online Nikah</strong><b>View service →</b></a>
+            <a className="city-card" href={serviceLinks.marriageCertificate}><strong>Marriage Registration</strong><b>View service →</b></a>
+            <a className="city-card" href="/court-marriage-in-karachi/"><strong>Karachi</strong><b>{cityContacts.Karachi} →</b></a>
+            <a className="city-card" href="/court-marriage-in-lahore/"><strong>Lahore</strong><b>{cityContacts.Lahore} →</b></a>
+            <a className="city-card" href="/court-marriage-in-islamabad/"><strong>Islamabad</strong><b>{cityContacts.Islamabad} →</b></a>
+            <a className="city-card" href={serviceLinks.contact}><strong>Contact Us</strong><b>{phoneDisplay} →</b></a>
+          </div>
+        </div>
+      </section>
 
       <section className="final-cta">
         <div className="container final-inner">
