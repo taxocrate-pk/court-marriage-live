@@ -1,0 +1,46 @@
+.hero-image-wrap { position: relative; }
+.hero-image-wrap img { object-position: center; }
+
+.nav-dropdown { position: relative; }
+.nav-dropdown summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+.nav-dropdown summary::-webkit-details-marker { display: none; }
+.nav-dropdown summary span { color: var(--gold); }
+.nav-dropdown[open] summary { color: var(--gold); }
+.nav-menu { position: absolute; top: 30px; left: -18px; width: 250px; padding: 10px; background: #fff; border: 1px solid var(--line); box-shadow: 0 18px 40px #183b3020; display: grid; gap: 2px; z-index: 30; }
+.nav-menu a { padding: 10px 11px; display: block; font-size: 11px; line-height: 1.35; }
+.nav-menu a:hover { background: var(--cream); }
+
+.mobile-nav { display: none; position: relative; }
+.mobile-nav > summary { list-style: none; cursor: pointer; font-size: 24px; color: var(--deep); }
+.mobile-nav > summary::-webkit-details-marker { display: none; }
+.mobile-menu { position: absolute; right: 0; top: 42px; width: 250px; background: #fff; border: 1px solid var(--line); box-shadow: 0 18px 40px #183b3020; padding: 13px; display: grid; z-index: 40; }
+.mobile-menu a { padding: 11px 9px; color: #52615c; font-size: 12px; border-bottom: 1px solid #eef1ee; }
+.mobile-menu a:last-child { border-bottom: 0; }
+
+.photo-document { position: relative; min-height: 510px; overflow: hidden; background: #e6ece7; }
+.photo-document img { object-fit: cover; object-position: center; }
+.photo-document:after { content: ''; position: absolute; inset: auto 0 0; height: 38%; background: linear-gradient(transparent, #102b24b8); pointer-events: none; }
+.photo-label { position: absolute; left: 22px; bottom: 20px; z-index: 2; color: #fff; font: 400 18px Georgia, serif; }
+
+.faq-item summary { width: 100%; padding: 21px 0; display: flex; justify-content: space-between; gap: 20px; color: var(--deep); font: 400 15px Georgia, serif; cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary b { color: var(--gold); font-size: 20px; font-weight: 400; transition: transform .2s ease; }
+.faq-item[open] summary b { transform: rotate(45deg); }
+.faq-item p { color: var(--muted); line-height: 1.7; font-size: 13px; margin: 0 30px 22px 0; }
+
+.service-card h3 { line-height: 1.25; }
+.footer-grid a { line-height: 1.45; }
+
+@media (max-width: 800px) {
+  .desktop-nav { display: none; }
+  .mobile-nav { display: block; }
+  .menu-button { display: none; }
+  .photo-document { min-height: 440px; }
+  .topbar-inner { text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .mobile-menu { width: min(280px, calc(100vw - 32px)); }
+  .photo-document { min-height: 390px; }
+  .hero-image-wrap { aspect-ratio: .82; }
+}
