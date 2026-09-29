@@ -58,6 +58,44 @@
 .contact-strip { padding-bottom: 35px; }
 .related-longform { padding-top: 85px; padding-bottom: 85px; }
 
+/* Court Marriage Live Services navbar branding */
+.brand { gap: 12px; flex-shrink: 0; }
+.brand-mark {
+  width: 52px;
+  height: 52px;
+  display: block;
+  border: 0;
+  transform: none;
+  border-radius: 8px;
+  background: #fff url('/court-marriage-live-services-logo.png') center / contain no-repeat;
+}
+.brand-mark span { display: none; }
+.brand > span {
+  display: grid;
+  width: auto;
+  min-width: 188px;
+  line-height: 1.04;
+}
+.brand > span > strong,
+.brand > span > b,
+.brand > span > small { display: none; }
+.brand > span::before {
+  content: 'Court Marriage Live';
+  color: var(--deep);
+  font: 700 17px/1.05 Georgia, serif;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+}
+.brand > span::after {
+  content: 'Services';
+  color: #7a8780;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
 @media (max-width: 800px) {
   .desktop-nav { display: none; }
   .mobile-nav { display: block; }
@@ -68,6 +106,10 @@
   .content-toc ol { columns: 1; }
   .content-section { padding: 58px 0; }
   .inline-cta { align-items: flex-start; flex-direction: column; }
+  .brand-mark { width: 46px; height: 46px; }
+  .brand > span { min-width: 168px; }
+  .brand > span::before { font-size: 15px; }
+  .brand > span::after { font-size: 8px; margin-top: 5px; }
 }
 
 @media (max-width: 480px) {
@@ -77,4 +119,8 @@
   .content-toc { padding: 21px 20px; }
   .content-section h2 { font-size: 31px; }
   .content-section p { font-size: 14px; line-height: 1.85; }
+  .brand { gap: 9px; }
+  .brand-mark { width: 42px; height: 42px; }
+  .brand > span { min-width: 150px; }
+  .brand > span::before { font-size: 14px; }
 }
