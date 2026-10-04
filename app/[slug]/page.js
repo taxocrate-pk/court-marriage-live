@@ -4,6 +4,25 @@ import { cityContacts, cityServices, nikahNamaServices, serviceLinks, site } fro
 import { getLongFormContent } from '@/lib/long-form-content'
 import { getNikahNamaContent } from '@/lib/nikah-nama-content'
 
+const heroImages = {
+  'court-marriage-in-karachi': '/images/court-marriage-karachi.svg',
+  'court-marriage-in-lahore': '/images/court-marriage-lahore.svg',
+  'court-marriage-in-islamabad': '/images/court-marriage-islamabad.svg',
+  'court-marriage-in-karachi-lahore-islamabad-rawalpindi': '/images/court-marriage-rawalpindi.svg',
+  'court-marriage-services-in-faisalabad': '/images/court-marriage-faisalabad.svg',
+  'court-marriages-in-multan': '/images/court-marriage-multan.svg',
+}
+
+function headingCase(text = '') {
+  const lowerWords = new Set(['of', 'for', 'and'])
+  return String(text).replace(/\b([A-Za-z][A-Za-z'-]*)\b/g, (word) => {
+    if (/^[A-Z0-9]{2,}$/.test(word)) return word
+    const lower = word.toLowerCase()
+    if (lowerWords.has(lower)) return lower
+    return lower.charAt(0).toUpperCase() + lower.slice(1)
+  })
+}
+
 const pages = {
   'court-marriage-in-karachi': { title: 'Court Marriage in Karachi', description: 'Court marriage in Karachi with professional assistance for Nikah, documents and marriage registration.', kicker: 'Court marriage Karachi', intro: 'Professional assistance for adults seeking a lawful Nikah, accurate marriage documents and the applicable registration process in Karachi.', phone: cityContacts.Karachi },
   'court-marriage-in-lahore': { title: 'Court Marriage in Lahore', description: 'Court marriage in Lahore with assistance for Nikah, documentation and marriage registration requirements.', kicker: 'Court marriage Lahore', intro: 'Court marriage assistance in Lahore focused on free consent, correct Nikah documentation and the relevant registration formalities.', phone: cityContacts.Lahore },
@@ -45,7 +64,7 @@ export async function generateMetadata({ params }) {
       url: `${site.url}/${slug}/`,
       siteName: 'CourtMarriage.live',
       type: 'website',
-      images: [{ url: '/court-marriage-hero.png', alt: page.title }],
+      images: [{ url: heroImages[slug] || '/court-marriage-hero.png', alt: page.title }],
     },
   }
 }
@@ -133,13 +152,13 @@ export default async function LegacyPage({ params }) {
         <div className="container hero-grid">
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-line" /> {page.kicker}</div>
-            <h1>{page.title}</h1>
+            <h1>{headingCase(page.title)}</h1>
             <p className="hero-lead">{page.intro}</p>
             <div className="hero-actions"><a className="button button-primary" href={`tel:${phone}`}>Call for consultation ↗</a><a className="button button-whatsapp" href={`https://wa.me/${phone.replace(/[^0-9]/g, '')}`}>WhatsApp us ↗</a></div>
             <div className="trust-row"><span>✓ Confidential handling</span><span>✓ Clear document review</span><span>✓ Legal accuracy first</span></div>
           </div>
           <div className="hero-visual">
-            <div className="hero-image-wrap"><Image src="/court-marriage-hero.png" alt={`${page.title} - Nikah and marriage documentation assistance`} fill priority sizes="(max-width: 800px) 100vw, 50vw" /></div>
+            <div className="hero-image-wrap"><Image src={heroImages[slug] || "/court-marriage-hero.png"} alt={`${page.title} - Nikah and marriage documentation assistance`} fill priority sizes="(max-width: 800px) 100vw, 50vw" /></div>
           </div>
         </div>
       </section>
@@ -153,7 +172,7 @@ export default async function LegacyPage({ params }) {
           <section className="longform-intro section">
             <div className="container content-shell">
               <div className="section-kicker">Complete legal and practical guide</div>
-              <h2>{page.title}: <span>what you should know before proceeding.</span></h2>
+              <h2>{headingCase(page.title)}: <span>What You Should Know Before Proceeding.</span></h2>
               <p>This page is intentionally detailed so a client can understand the major legal, documentation and registration issues before booking a service. Individual facts can change the answer, so general information should not be treated as a substitute for review of a specific file.</p>
               <nav className="content-toc" aria-label="On this page"><strong>On this page</strong><ol>{sections.map((section, index) => <li key={section.heading}><a href={`#${anchorFromHeading(section.heading, index)}`}>{section.heading}</a></li>)}</ol></nav>
             </div>
@@ -163,7 +182,7 @@ export default async function LegacyPage({ params }) {
             {sections.map((section, index) => (
               <section className={index % 2 === 1 ? 'content-section content-section-muted' : 'content-section'} id={anchorFromHeading(section.heading, index)} key={section.heading}>
                 <div className="container content-shell">
-                  <h2>{section.heading}</h2>
+                  <h2>{headingCase(section.heading)}</h2>
                   {section.paragraphs.map((paragraph, pIndex) => <p key={pIndex}>{paragraph}</p>)}
                   {(index === 2 || index === 7 || index === 11) && <div className="inline-cta"><div><strong>Need advice on your own documents?</strong><span>Speak to the relevant team before relying on a generic checklist.</span></div><a href={`tel:${phone}`}>Call {phoneDisplay}</a></div>}
                 </div>
@@ -176,7 +195,7 @@ export default async function LegacyPage({ params }) {
       {faqs.length > 0 && (
         <section className="section-muted longform-faq">
           <div className="container faq-grid">
-            <div><div className="section-kicker">Frequently asked questions</div><h2>{page.title} <span>FAQs.</span></h2><p>These answers explain common issues in general terms. Documents, nationality, previous marital status and the relevant authority can change the advice for an individual case.</p><a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a></div>
+            <div><div className="section-kicker">Frequently asked questions</div><h2>{headingCase(page.title)} <span>FAQs.</span></h2><p>These answers explain common issues in general terms. Documents, nationality, previous marital status and the relevant authority can change the advice for an individual case.</p><a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a></div>
             <div className="faq-list">{faqs.map(([question, answer]) => <details className="faq-item" key={question}><summary><span>{question}</span><b>+</b></summary><p>{answer}</p></details>)}</div>
           </div>
         </section>
@@ -184,7 +203,7 @@ export default async function LegacyPage({ params }) {
 
       <section className="section related-longform">
         <div className="container">
-          <div className="section-heading"><div><div className="section-kicker">Related marriage services</div><h2>Continue to the <span>right service or city page.</span></h2></div></div>
+          <div className="section-heading"><div><div className="section-kicker">Related marriage services</div><h2>Continue to the <span>Right Service or City Page.</span></h2></div></div>
           <div className="city-grid">
             <a className="city-card" href={serviceLinks.onlineNikah}><strong>Online Nikah</strong><b>View service →</b></a>
             <a className="city-card" href={serviceLinks.marriageCertificate}><strong>Marriage Registration</strong><b>View service →</b></a>
@@ -196,7 +215,7 @@ export default async function LegacyPage({ params }) {
         </div>
       </section>
 
-      <section className="final-cta"><div className="container final-inner"><div><div className="section-kicker light">CourtMarriage.live</div><h2>Need case-specific <em>guidance?</em></h2><p>Contact the team before relying on a generic checklist, particularly for foreign-national, previous-marriage or overseas cases.</p></div><div className="hero-actions"><a className="button button-light" href={`tel:${phone}`}>Call {phoneDisplay}</a><a className="button button-ghost-light" href={`https://wa.me/${phone.replace(/[^0-9]/g, '')}`}>WhatsApp us</a></div></div></section>
+      <section className="final-cta"><div className="container final-inner"><div><div className="section-kicker light">CourtMarriage.live</div><h2>Need Case-Specific <em>Guidance?</em></h2><p>Contact the team before relying on a generic checklist, particularly for foreign-national, previous-marriage or overseas cases.</p></div><div className="hero-actions"><a className="button button-light" href={`tel:${phone}`}>Call {phoneDisplay}</a><a className="button button-ghost-light" href={`https://wa.me/${phone.replace(/[^0-9]/g, '')}`}>WhatsApp us</a></div></div></section>
 
       <footer className="footer">
         <div className="container footer-grid">
