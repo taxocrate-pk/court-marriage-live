@@ -223,7 +223,7 @@ export default async function LegacyPage({ params }) {
           <div><h3>Major cities</h3>{cityServices.slice(0,4).map((city) => <a key={city.name} href={city.href}>{city.name}</a>)}</div>
           <div><h3>Nikah Nama</h3>{nikahNamaServices.map((item) => <a key={item.name} href={item.href}>{item.name}</a>)}</div>
         </div>
-        <div className="container footer-bottom"><span>© {new Date().getFullYear()} CourtMarriage.live. All rights reserved.</span><span><a href="/">Home</a></span></div>
+        <div className="container footer-bottom"><span>© {site.copyrightYear} CourtMarriage.live. All rights reserved.</span><span><a href="/">Home</a></span></div>
       </footer>
     </main>
   )

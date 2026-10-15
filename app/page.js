@@ -34,6 +34,13 @@ export default function Page() {
     name: 'CourtMarriage.live',
     url: site.url,
     telephone: site.primaryPhoneDisplay,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '2nd Floor, Supreme Corner, Johar Chowrangi, Gulistan-e-Johar',
+      addressLocality: 'Karachi',
+      addressRegion: 'Sindh',
+      addressCountry: 'PK',
+    },
     areaServed: ['Pakistan', 'Karachi', 'Lahore', 'Islamabad', 'Rawalpindi', 'Faisalabad', 'Multan'],
     serviceType: ['Court Marriage Assistance', 'Nikah Services', 'Marriage Registration Assistance', 'Online Nikah Assistance'],
   }
@@ -42,7 +49,7 @@ export default function Page() {
     '@context':'https://schema.org',
     '@graph':[
       {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:'Court Marriage In Pakistan',about:{'@id':`${site.url}/#legalservice`}},
-      {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Multan']},
+      {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,address:{'@type':'PostalAddress',streetAddress:'2nd Floor, Supreme Corner, Johar Chowrangi, Gulistan-e-Johar',addressLocality:'Karachi',addressRegion:'Sindh',addressCountry:'PK'},areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Multan']},
       {'@type':'BreadcrumbList','@id':`${site.url}/#breadcrumb`,itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${site.url}/`}]}
     ]
   }
@@ -291,7 +298,7 @@ export default function Page() {
           <div><h3>Explore</h3><a href="#court-marriage">Court Marriage</a><a href={serviceLinks.onlineNikah}>Online Nikah</a><a href={serviceLinks.nikahServices}>Nikah Services</a><a href={serviceLinks.about}>About Us</a><a href={serviceLinks.blogs}>Blogs</a></div>
           <div><h3>City contacts</h3><a href="tel:+923331127830">Karachi · {cityContacts.Karachi}</a><a href="tel:+923331127835">Lahore · {cityContacts.Lahore}</a><a href="tel:+923331127836">Islamabad · {cityContacts.Islamabad}</a><a href="tel:+923331127831">Rawalpindi · {cityContacts.Rawalpindi}</a></div>
         </div>
-        <div className="container footer-bottom"><span>© {new Date().getFullYear()} CourtMarriage.live. All rights reserved.</span><span>Legal information is general and requirements may vary by case and jurisdiction.</span></div>
+        <div className="container footer-bottom"><span>© {site.copyrightYear} CourtMarriage.live. All rights reserved.</span><span>Legal information is general and requirements may vary by case and jurisdiction.</span></div>
       </footer>
     </main>
   )
