@@ -23,13 +23,12 @@ export const metadata = {
   },
   robots: { index: true, follow: true },
   generator: 'CourtMarriage.live',
+  // The commissioned 120x120 Court Marriage Live Services logo is also
+  // the favicon: use one consistent brand mark instead of generic starter icons.
   icons: {
-    icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
-    apple: '/apple-icon.png',
+    icon: [{ url: '/court-marriage-live-services-logo.png', type: 'image/png', sizes: '120x120' }],
+    shortcut: '/court-marriage-live-services-logo.png',
+    apple: '/court-marriage-live-services-logo.png',
   },
 }
 
