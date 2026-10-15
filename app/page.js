@@ -132,7 +132,7 @@ export default function Page() {
           </div>
           <div className="hero-visual">
             <div className="hero-image-wrap">
-              <Image src="/court-marriage-hero.png" alt="Couple completing Nikah documentation in Pakistan" fill priority sizes="(max-width: 800px) 100vw, 50vw" />
+              <Image src="/court-marriage-hero.png" alt="Couple completing Nikah documentation in Pakistan" fill priority unoptimized sizes="(max-width: 800px) 100vw, 50vw" />
             </div>
             <div className="floating-card"><span className="seal">✓</span><div><strong>Lawful Nikah & documentation</strong><small>Requirements reviewed case by case</small></div></div>
             <div className="image-caption">Marriage solemnisation, documentation and registration are related but distinct steps.</div>
