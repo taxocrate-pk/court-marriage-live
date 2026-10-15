@@ -5,7 +5,8 @@ import { getLongFormContent } from '@/lib/long-form-content'
 import { getNikahNamaContent } from '@/lib/nikah-nama-content'
 
 const heroImages = {
-  'court-marriage-in-karachi': '/images/court-marriage-karachi.svg',
+  // Existing repository photographic hero; replaces low-contrast SVG in first fold.
+  'court-marriage-in-karachi': '/court-marriage-hero.png',
   'court-marriage-in-lahore': '/images/court-marriage-lahore.svg',
   'court-marriage-in-islamabad': '/images/court-marriage-islamabad.svg',
   'court-marriage-in-karachi-lahore-islamabad-rawalpindi': '/images/court-marriage-rawalpindi.svg',
@@ -158,7 +159,8 @@ export default async function LegacyPage({ params }) {
             <div className="trust-row"><span>✓ Confidential handling</span><span>✓ Clear document review</span><span>✓ Legal accuracy first</span></div>
           </div>
           <div className="hero-visual">
-            <div className="hero-image-wrap"><Image src={heroImages[slug] || "/court-marriage-hero.png"} alt={`${page.title} - Nikah and marriage documentation assistance`} fill priority sizes="(max-width: 800px) 100vw, 50vw" /></div>
+            <div className="hero-image-wrap"><Image src={heroImages[slug] || "/court-marriage-hero.png"} alt={slug === 'court-marriage-in-karachi' ? 'Professional court marriage and Nikah document consultation in Karachi' : `${page.title} - Nikah and marriage documentation assistance`} fill priority unoptimized sizes="(max-width: 800px) 100vw, 50vw" /></div>
+            {slug === 'court-marriage-in-karachi' && <div className="image-caption">Court Marriage in Karachi — Confidential Nikah and document review by appointment.</div>}
           </div>
         </div>
       </section>
