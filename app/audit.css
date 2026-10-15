@@ -1,4 +1,5 @@
-.hero-image-wrap { position: relative; }
+.hero-image-wrap { position: relative; background-image: url('/court-marriage-hero.png'); background-position: center; background-size: cover; }
+/* Direct local-image fallback for browsers that cannot load an optimized hero. */
 .hero-image-wrap img { object-position: center; }
 
 .nav-dropdown { position: relative; }
