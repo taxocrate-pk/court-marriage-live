@@ -298,7 +298,7 @@ export default function Page() {
           <div><h3>Explore</h3><a href="#court-marriage">Court Marriage</a><a href={serviceLinks.onlineNikah}>Online Nikah</a><a href={serviceLinks.nikahServices}>Nikah Services</a><a href={serviceLinks.about}>About Us</a><a href={serviceLinks.blogs}>Blogs</a></div>
           <div><h3>City contacts</h3><a href="tel:+923331127830">Karachi · {cityContacts.Karachi}</a><a href="tel:+923331127835">Lahore · {cityContacts.Lahore}</a><a href="tel:+923331127836">Islamabad · {cityContacts.Islamabad}</a><a href="tel:+923331127831">Rawalpindi · {cityContacts.Rawalpindi}</a></div>
         </div>
-        <div className="container footer-bottom"><span>© {new Date().getFullYear()} CourtMarriage.live. All rights reserved.</span><span>Legal information is general and requirements may vary by case and jurisdiction.</span></div>
+        <div className="container footer-bottom"><span>© {site.copyrightYear} CourtMarriage.live. All rights reserved.</span><span>Legal information is general and requirements may vary by case and jurisdiction.</span></div>
       </footer>
     </main>
   )
