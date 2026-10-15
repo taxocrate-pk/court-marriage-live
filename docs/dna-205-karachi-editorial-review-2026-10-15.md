@@ -22,3 +22,11 @@ Date: 15 October 2026
 ## Official references
 - https://prosecution.sindh.gov.pk/rules-regulations
 - https://pakistancode.gov.pk/pdffiles/administratordf5df7bd70945d88e28f6a85c1a9ef6b.pdf
+
+## Owner QA feedback and second staged correction — 15 Oct 2026
+- Owner observed keyword under-coverage in first editorial draft. Revised 10 content sections now contain **912 prose words** with **9 exact instances of “court marriage in Karachi”** and **20 broad “court marriage” occurrences**, while 20 FAQs contain **3 exact city phrases** and **5 broad phrase occurrences**. Together, prose and FAQs contain **25 broad occurrences / 1,486 words ≈ 1.68%**. These are counts of body + FAQs only, not the entire header/footer HTML, and are not a ranking guarantee. Page H1 and unique H2 headings remain unchanged.
+- Existing artist-commissioned logo **IS in the repository and header**: `public/court-marriage-live-services-logo.png`, 120×120 square. Prior note saying the original logo was missing is superseded. CSS `app/audit.css` uses this same logo already. No logo artwork modified.
+- Existing generic favicon declarations were replaced with metadata for the **original, square branded PNG** in `app/layout.js`; live favicon and SERP appearance remain to be checked after production release and Google recrawl.
+- Prior Karachi hero used a low-contrast `/images/court-marriage-karachi.svg`. Staged Karachi hero now uses repository's **existing photographic asset** `/court-marriage-hero.png`; the homepage hero now requests that asset directly, bypassing potential Next Image optimization errors. `.hero-image-wrap` has a direct-image CSS fallback. This is an **interim image correction**, not yet compliant with the unique-WebP-per-page policy.
+- A **new 1672×941 WebP professional consultation hero** has also been created as `/mnt/data/court-marriage-karachi-hero.webp` (not committed to this PR; it must not be claimed deployed). It should replace the interim shared PNG after verified asset upload and responsive QA.
+- Pre-merge tests pending: direct photo URL 200 and visual visibility, branded favicon HTTP/HTML link, image crop desktop + 390px/360px, font/contrast, unique source WebP placement, title/meta and rendered FAQ schema, preservation of indexed Lahore page.
