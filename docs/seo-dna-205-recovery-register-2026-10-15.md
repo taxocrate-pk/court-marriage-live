@@ -9,7 +9,7 @@ Source of truth: GSC Wizard (property `sc-domain:courtmarriage.live`), owner-sup
 - Highest-performing Nikah Nama Lahore URL: `/nikah-nama-english-urdu-lahore/` (4 clicks, 269 impressions last 28 days), indexed and canonical verified. Preserve successful page content, URL and canonical.
 - Indexable 200 service pages already retain original migrated permalinks. The crawler observes a 308 from trailing-slash form to no-slash presentation, but canonical remains slash-form; Google inspection of sampled indexed URLs confirmed the intended canonical. Do not broadly modify slash behavior without a full migration review.
 
-## 15-page on-page audit: actionable outcomes
+## 14-page on-page audit: actionable outcomes
 1. Homepage `/`: 200/indexable, one H1, 2 images with ALT, LegalService/FAQ/Breadcrumb schema. **LocalBusiness JSON-LD missing address**; addressed in staging based on the site's own visible Karachi Johar office.
 2. `/court-marriage-in-karachipakistan/`: **404**, but GSC records 1 click, 27 impressions in last 28 days. Staged 308 legacy redirect to live `/court-marriage-in-karachi/`, pending owner merge approval.
 3. `/nikah-nama-services-in-karachi/`: **404** and owner GSC "Crawled — currently not indexed". Staged 308 legacy redirect to live `/nikah-nama-english-urdu-karachi/`, pending owner merge approval.
@@ -24,7 +24,7 @@ Source of truth: GSC Wizard (property `sc-domain:courtmarriage.live`), owner-sup
 12. `/online-nikah-has-gained-popularity/`: 200/indexable; 1 image.
 13. `/nadra-marriage-certificate-in-pakistan/`: 200/indexable; 1 image; title length 66.
 14. `/nikah-khawan-services-and-fees/`: 200/indexable; 1 image.
-15. All other legacy pages are NOT declared audited or passed.
+15. All other legacy pages are NOT declared audited or passed (this is a scope note, not an audited page).
 
 ## Indexing triage from owner GSC
 - Crawled, not indexed: 36 (17 actual content/service URLs, 12 RSS/feed URLs, 6 category archives, 1 JS asset).
