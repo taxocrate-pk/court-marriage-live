@@ -172,7 +172,7 @@ export default async function LegacyPage({ params }) {
           <section className="longform-intro section">
             <div className="container content-shell">
               <div className="section-kicker">Complete legal and practical guide</div>
-              <h2>{headingCase(page.title)}: <span>What You Should Know Before Proceeding.</span></h2>
+              <h2>{slug === 'court-marriage-in-karachi' ? 'Karachi Nikah and Registration: Essential Legal Checklist' : <>{headingCase(page.title)}: <span>What You Should Know Before Proceeding.</span></>}</h2>
               <p>This page is intentionally detailed so a client can understand the major legal, documentation and registration issues before booking a service. Individual facts can change the answer, so general information should not be treated as a substitute for review of a specific file.</p>
               <nav className="content-toc" aria-label="On this page"><strong>On this page</strong><ol>{sections.map((section, index) => <li key={section.heading}><a href={`#${anchorFromHeading(section.heading, index)}`}>{section.heading}</a></li>)}</ol></nav>
             </div>
@@ -192,10 +192,22 @@ export default async function LegacyPage({ params }) {
         </>
       )}
 
+      {slug === 'court-marriage-in-karachi' && (
+        <section className="section" aria-label="Official legal references">
+          <div className="container content-shell">
+            <div className="section-kicker">Official Legal Sources</div>
+            <h2>Current Law and Registration Framework</h2>
+            <p>Karachi marriages are assessed under the applicable Sindh age legislation and Muslim marriage registration law. Case-specific advice must also account for local registrar jurisdiction and the couple's individual circumstances.</p>
+            <p><a className="text-link" href="https://prosecution.sindh.gov.pk/rules-regulations" target="_blank" rel="noopener noreferrer">Sindh Government — Child Marriages Restraint Act, 2013 ↗</a></p>
+            <p><a className="text-link" href="https://pakistancode.gov.pk/pdffiles/administratordf5df7bd70945d88e28f6a85c1a9ef6b.pdf" target="_blank" rel="noopener noreferrer">Pakistan Code — Muslim Family Laws Ordinance, 1961 (section 5) ↗</a></p>
+          </div>
+        </section>
+      )}
+
       {faqs.length > 0 && (
         <section className="section-muted longform-faq">
           <div className="container faq-grid">
-            <div><div className="section-kicker">Frequently asked questions</div><h2>{headingCase(page.title)} <span>FAQs.</span></h2><p>These answers explain common issues in general terms. Documents, nationality, previous marital status and the relevant authority can change the advice for an individual case.</p><a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a></div>
+            <div><div className="section-kicker">Frequently asked questions</div><h2>{slug === 'court-marriage-in-karachi' ? 'Common Questions About Free-Will Marriage in Sindh' : <>{headingCase(page.title)} <span>FAQs.</span></>}</h2><p>These answers explain common issues in general terms. Documents, nationality, previous marital status and the relevant authority can change the advice for an individual case.</p><a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a></div>
             <div className="faq-list">{faqs.map(([question, answer]) => <details className="faq-item" key={question}><summary><span>{question}</span><b>+</b></summary><p>{answer}</p></details>)}</div>
           </div>
         </section>
