@@ -34,6 +34,13 @@ export default function Page() {
     name: 'CourtMarriage.live',
     url: site.url,
     telephone: site.primaryPhoneDisplay,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '2nd Floor, Supreme Corner, Johar Chowrangi, Gulistan-e-Johar',
+      addressLocality: 'Karachi',
+      addressRegion: 'Sindh',
+      addressCountry: 'PK',
+    },
     areaServed: ['Pakistan', 'Karachi', 'Lahore', 'Islamabad', 'Rawalpindi', 'Faisalabad', 'Multan'],
     serviceType: ['Court Marriage Assistance', 'Nikah Services', 'Marriage Registration Assistance', 'Online Nikah Assistance'],
   }
@@ -42,7 +49,7 @@ export default function Page() {
     '@context':'https://schema.org',
     '@graph':[
       {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:'Court Marriage In Pakistan',about:{'@id':`${site.url}/#legalservice`}},
-      {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Multan']},
+      {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,address:{'@type':'PostalAddress',streetAddress:'2nd Floor, Supreme Corner, Johar Chowrangi, Gulistan-e-Johar',addressLocality:'Karachi',addressRegion:'Sindh',addressCountry:'PK'},areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Multan']},
       {'@type':'BreadcrumbList','@id':`${site.url}/#breadcrumb`,itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${site.url}/`}]}
     ]
   }
