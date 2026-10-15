@@ -37,7 +37,8 @@ Source of truth: GSC Wizard (property `sc-domain:courtmarriage.live`), owner-sup
 - Several Nikah Nama titles are 84–88 characters; test concise titles **one low-risk page at a time** and track CTR/position before touching Lahore.
 - Dynamic city templates have only one image per page. Audit image uniqueness, relevant professional WebP assets, ALT/title/caption and mobile rendering at 390px/360px before adding a second/third image.
 - Dynamic service pages show BreadcrumbList/FAQPage but do not expose a separate LegalService/LocalBusiness JSON-LD on sampled pages; scope schema to actual verified office/service locations without inventing local offices.
-- Owner branding policy: use **original domain registration year**, NOT current clock year. Footer source uses `new Date().getFullYear()`. **Do not guess or change CourtMarriage.live copyright year** until registrar-created date is provided.
+- **Owner-provided registration record (15 Oct 2026):** courtmarriage.live registered **2022-10-25**, expires **2026-10-25**, registry updated **2026-08-12**. This proves original copyright year is **© 2022** under owner policy. Both Next.js footer templates are updated on this branch to use `site.copyrightYear` (2022).
+- **Renewal caution:** registrar interface previously displayed **“Renews on 2026-10-26”**, one day later than the supplied domain registry **“Expires On 2026-10-25”**. Treat **25 Oct** as the earliest safety deadline pending registrar confirmation. No renewal or payment has been performed by this PR.
 - Review internal linking, verified lawyer EEAT, jurisdiction-specific legal ages, office details, menus and mobile usability in the next batches. No auto-index requests, automated rewrites or ranking claims.
 
 ## Implementation boundary / verification gates
