@@ -926,8 +926,51 @@
     }
   ],
   "errors": [],
-  "desktop_visual": "PENDING",
+  "desktop_visual": {
+    "status": "PASS",
+    "viewport": "1363px",
+    "pages": [
+      "/",
+      "/court-marriage-in-lahore/",
+      "/category/marriage-services/"
+    ],
+    "observations": [
+      "Shared chrome and typography verified",
+      "No horizontal overflow",
+      "Photographic heroes loaded",
+      "FAQ opened and answer visible",
+      "Sidebar FAQ navigation reached section"
+    ],
+    "commit": "680a163b47aee42b61c59642230e57951cb89761"
+  },
   "mobile_390_visual": "BLOCKED: browser viewport control unavailable; unsupported data protocol rejected by browser URL policy",
   "mobile_360_visual": "BLOCKED: browser viewport control unavailable; unsupported data protocol rejected by browser URL policy",
-  "lighthouse": "PENDING"
+  "lighthouse": {
+    "status": "MEASURED",
+    "strategy": "mobile",
+    "url": "https://courtmarriage.live/",
+    "commit": "680a163b47aee42b61c59642230e57951cb89761",
+    "performance": 99,
+    "accessibility": 96,
+    "best_practices": 100,
+    "seo": 100,
+    "lcp_seconds": 1.6,
+    "cls": 0,
+    "tbt_ms": 30,
+    "field_data": "unavailable",
+    "remaining_findings": [
+      "53 KiB unused JavaScript estimate"
+    ],
+    "followup": "Contrast corrections applied after audit; no repeated Lighthouse run or implied new score."
+  },
+  "tablet_visual": "NOT VERIFIED: viewport resizing unavailable",
+  "live_routes": {
+    "tested": 34,
+    "http_200": 34,
+    "sidebars": 34,
+    "unique_heroes": 34,
+    "preserved_indexed_slugs": 32,
+    "new_asset_byte_matches": 30
+  },
+  "internal_route_errors": 0
 }
