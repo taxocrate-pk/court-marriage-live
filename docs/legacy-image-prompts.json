@@ -1,0 +1,207 @@
+{
+  "method": "Built-in image generation",
+  "base": "Use case: photorealistic-natural. Asset: one unique 3:2 landscape editorial photograph for CourtMarriage.live legal guidance. High quality natural photographic texture. No readable text, logos, watermark, official emblems or real certificates. Any visible papers are blank illustrative props.",
+  "assets": [
+    [
+      "civil-hero",
+      "A Pakistani Muslim couple with a female legal adviser discussing the distinction between a Nikah ceremony and civil registration, airy contemporary Pakistani office, three people, documents and two mugs, wide candid composition, subtle sage and cream palette."
+    ],
+    [
+      "online-requirements-hero",
+      "Overhead editorial photograph of a carefully arranged remote marriage preparation checklist: blank cream checklist, unbranded passport covers, a closed laptop, neutral document folders and a pen, pale stone desk, morning light, no people."
+    ],
+    [
+      "free-will-hero",
+      "Two adult Pakistani partners seated side by side in a quiet professional law office receiving respectful advice from a female advocate, confident calm body language, private appointment atmosphere, no wedding ceremony or courtroom, warm natural light."
+    ],
+    [
+      "benefits-hero",
+      "A modest elegant Pakistani Nikah preparation scene in a small consultation room, simple white flowers, two empty chairs, document folder and understated wedding rings, airy minimalist aesthetic suggesting a carefully planned affordable ceremony."
+    ],
+    [
+      "mrc-importance-hero",
+      "A close view of organized civil marriage records in a Pakistani office: blank cream certificate sheet beside closed register, labelled-free navy folder and pen, soft window light, neutral documentary photograph, no people or official seals."
+    ],
+    [
+      "divorce-hero",
+      "A thoughtful adult Pakistani woman consulting a female family lawyer across a desk in a calm private office, books and organized papers, empathetic professional mood, restrained warm neutral colours, dignified scene, no crying or conflict."
+    ],
+    [
+      "online-guide-hero",
+      "An adult Pakistani couple and an advocate coordinating a remote Nikah appointment on a laptop in a bright professional office, laptop screen angled away with no visible faces or text, organized file, realistic natural photograph, wide framing."
+    ],
+    [
+      "khawan-directory-hero",
+      "A respectful Pakistani Nikah officiant in simple traditional clothing explaining ceremony arrangements to two adult clients at a modest office table, no religious text or ceremony depiction, natural light, thoughtful professional atmosphere."
+    ],
+    [
+      "online-directory-hero",
+      "A sunlit contemporary document coordination workspace in Islamabad, laptop viewed from behind, closed passport covers, blank appointment planner and headphones, distant hills outside window, distinct cool sage and cream composition."
+    ],
+    [
+      "planning-directory-hero",
+      "A Pakistani couple planning a small wedding at a light oak table with blank calendar cards, simple flowers, rings box and closed legal document folder, overhead angled view, practical elegant planning mood, warm daylight."
+    ],
+    [
+      "rawalpindi-directory-hero",
+      "A realistic contemporary law office desk in Rawalpindi with distant Pothwar cityscape outside window, organized appointment folders and a blank route-planning sheet, no real office signage or claims, bright understated documentary photography."
+    ],
+    [
+      "nikahnama-records",
+      "Close top-down photograph of hands carefully comparing two blank marriage-record sheets with a pen and a discreet file tab, cream paper on pale wooden desk in a Pakistani legal office, no readable content, no stamps, different composition from a register hero."
+    ],
+    [
+      "civil-records",
+      "A wedding ring case beside a closed green marriage register and separate blank civil-record folder, wide side-on still-life photograph on a cream stone desk, soft afternoon light, concept of separate ceremony and registration records."
+    ],
+    [
+      "online-requirements-records",
+      "Close editorial photograph of a legal adviser verifying blank identity-document copies against a closed unbranded passport cover and a simple consent checklist, hands only, neutral clean desk, no identifying data or readable text."
+    ],
+    [
+      "free-will-records",
+      "Private legal file preparation in a quiet Pakistani consultation room, a female advocate's hands organizing two plain document folders beside a phone placed face down, warm sunlight, peaceful careful handling, no documents with personal information."
+    ],
+    [
+      "benefits-records",
+      "A simple Nikah planning budget arrangement: blank cost comparison sheets, fountain pen, two understated wedding bands and a plain calculator on a light linen desk, realistic overhead still-life, no currency or readable text."
+    ],
+    [
+      "mrc-importance-records",
+      "A well organized marriage-record archive shelf in a Pakistani law office with plain unlabelled cream and sage folders, one open blank record copy on the foreground desk, soft natural light, visual distinction from a certificate hero."
+    ],
+    [
+      "divorce-records",
+      "A dignified still-life for a guide to divorce ethics and Pakistani legal procedure: a closed unmarked Islamic studies book, separate legal file and blank mediation notes on a dark wooden desk beside a sunlit window, no sacred text, no symbols of hostility."
+    ],
+    [
+      "online-guide-records",
+      "Overhead photograph of time-zone coordination for an overseas Nikah: two plain analog clocks, closed passport covers, blank appointment planner, a pen and headset on a warm cream desk, no maps or readable text, organized documentary aesthetic."
+    ]
+  ],
+  "varied_scene_assets": [
+    [
+      "online-home-hero",
+      "Wide candid photograph in a bright lived-in Pakistani home: an adult Pakistani woman wearing modest teal shalwar kameez uses a laptop for a private legal consultation, small houseplant, daylight through balcony, ordinary home sofa, screen angled away. Relaxed professional mood. No office, no desk piled with legal files, no wedding ceremony."
+    ],
+    [
+      "rawalpindi-outdoor-hero",
+      "Wide editorial photograph of two adult Pakistani partners walking on a sunlit Rawalpindi urban pavement on their way to a confirmed appointment, characteristic Pothwar brick architecture softly blurred, modest everyday attire, one slim document envelope, natural documentary style. No claimed law office, no courthouse signage, no text."
+    ],
+    [
+      "witness-preparation-hero",
+      "Natural candid photograph of four adult Pakistani friends in a bright modest sitting room discussing their roles as witnesses before a small Nikah appointment, respectful relaxed conversation, mixed genders in modest clothing, wide composition. No ceremony, no judge, no desk or official papers, no readable text."
+    ],
+    [
+      "records-archive-hero",
+      "Documentary photograph of a Pakistani records clerk carefully taking a plain bound register from an orderly archive shelf in a sunlit records room, side view, clean cream walls, no identifying records, no logos or official seals, authentic human activity rather than desk still-life."
+    ],
+    [
+      "planning-outdoor-hero",
+      "A modern Pakistani couple talking quietly in a leafy shaded courtyard before a small family wedding, simple elegant clothing, understated white floral decorations in the distance, natural unposed photograph, realistic daylight and warm skin tones. Emphasis on thoughtful planning and mutual comfort; no legal desk or staged signing."
+    ]
+  ],
+  "initial_nikahnama_prompt": "An elegant Pakistani law office document desk, open blank cream marriage register, closed dark green file, two understated wedding bands, fountain pen, subtle warm daylight, bookcases softly blurred. Close three-quarter camera view, cream and deep sage palette. No readable text, stamps, emblems, logos, watermarks, real certificates or people.",
+  "selected_paths": [
+    {
+      "key": "nikahnama-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-0cccef17-a62e-4580-9159-ca4b3fd90945.png"
+    },
+    {
+      "key": "civil-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-d99c913d-8da1-4fda-a37c-4fa92b02739e.png"
+    },
+    {
+      "key": "online-requirements-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-3db21197-8f1b-4829-92c3-3ea0c2c14a96.png"
+    },
+    {
+      "key": "free-will-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-6c5db57c-9f4c-4c0a-8918-411ca8c82c16.png"
+    },
+    {
+      "key": "benefits-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-74705b19-6f81-4420-b477-3fb44ec6d86b.png"
+    },
+    {
+      "key": "mrc-importance-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-2a468fdc-6813-4f18-ba88-36657245163f.png"
+    },
+    {
+      "key": "divorce-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-2feadb96-a5f9-434e-8edb-d64ffa244be0.png"
+    },
+    {
+      "key": "online-guide-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-07345b09-3957-4bde-b38f-945fc0dc2c81.png"
+    },
+    {
+      "key": "khawan-directory-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-cfbdf838-3f40-4840-89c8-ca448710ae39.png"
+    },
+    {
+      "key": "online-directory-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-ee59ab23-7497-41d1-bc16-641ac731e5b7.png"
+    },
+    {
+      "key": "planning-directory-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-1611afae-d850-4b8e-9b00-6191650458f3.png"
+    },
+    {
+      "key": "rawalpindi-directory-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-f71a2081-9e3d-417e-a013-b33d566c690e.png"
+    },
+    {
+      "key": "nikahnama-records",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-e1518175-2dd6-498a-87cf-600c6c3b326f.png"
+    },
+    {
+      "key": "civil-records",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-a9993308-ee04-4e19-b279-7148e23a080f.png"
+    },
+    {
+      "key": "online-requirements-records",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-bb794d67-8543-47e3-8dfe-b164fc9c1b7d.png"
+    },
+    {
+      "key": "free-will-records",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-40880f63-470a-48f2-8544-e38a5486e882.png"
+    },
+    {
+      "key": "benefits-records",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-09788836-fc05-4f80-9c48-e66c96b256ac.png"
+    },
+    {
+      "key": "mrc-importance-records",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-64b2db83-f151-4205-b278-1e7c067fc60f.png"
+    },
+    {
+      "key": "divorce-records",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-b3aa5506-c88d-42e4-8fcc-d63dd94e307a.png"
+    },
+    {
+      "key": "online-guide-records",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-a99f10a3-f8a5-4790-888d-85582aae4430.png"
+    },
+    {
+      "key": "online-home-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-2968ec08-83c0-48fe-b417-e9402dd4f53f.png"
+    },
+    {
+      "key": "rawalpindi-outdoor-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-0fde8c05-9769-413f-b4c6-c45d2271212e.png"
+    },
+    {
+      "key": "witness-preparation-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-21e1adf3-ebb1-4214-96e9-3ff29847fd30.png"
+    },
+    {
+      "key": "records-archive-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-e70ccda3-9fae-4758-a74b-465b71e6367d.png"
+    },
+    {
+      "key": "planning-outdoor-hero",
+      "path": "/workspace/scratch/c52ae4cbc106/generated_images/exec-aa114ea7-610c-45de-803f-fb14017dadc9.png"
+    }
+  ]
+}

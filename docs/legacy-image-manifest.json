@@ -1,0 +1,206 @@
+{
+  "generated_count": 25,
+  "selected_assets": [
+    {
+      "asset": "images/legacy/nikahnama-hero.webp",
+      "source_key": "records-archive-hero",
+      "bytes": 72558,
+      "sha256": "aa105cd9d66a912dd472e79b92ed5bc9b6b48af09c98207b275ea89ccbdb9d1c",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/civil-hero.webp",
+      "source_key": "civil-hero",
+      "bytes": 70526,
+      "sha256": "e8bc25a447efdb29c7e94c4b84a8141fe71f7b16437369d09b46f86ad1ad6762",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/online-requirements-hero.webp",
+      "source_key": "witness-preparation-hero",
+      "bytes": 99394,
+      "sha256": "6c8a6502a4cf881af29eba76d48370a584aac9a7246052baaa7919c3be109ef7",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/free-will-hero.webp",
+      "source_key": "free-will-hero",
+      "bytes": 84872,
+      "sha256": "47a5e229063a17c31efa19d4ff72f9c24b207361229a2d661c1c0d9db84a0a38",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/benefits-hero.webp",
+      "source_key": "benefits-hero",
+      "bytes": 112126,
+      "sha256": "76f3bb3cd48e9a48118d7e1ed889ae7fc42807cf6b264b715a3c0dc5f342d2c4",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/mrc-importance-hero.webp",
+      "source_key": "mrc-importance-hero",
+      "bytes": 76468,
+      "sha256": "11f29e0c857127a0ca36b0046a19f9dc5c9ff5a3e0b5d5f1a9b4dffdbf55beb3",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/divorce-hero.webp",
+      "source_key": "divorce-hero",
+      "bytes": 74518,
+      "sha256": "d028b9b1022116526f989677b0a9ebbf3c3090e2006090a4f989fdc7ec1a0003",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/online-guide-hero.webp",
+      "source_key": "online-home-hero",
+      "bytes": 89648,
+      "sha256": "746d7dc69de54e9dbf8f6bc494461e54dcdc2bd436605a10fb1a11501fa28303",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/khawan-directory-hero.webp",
+      "source_key": "khawan-directory-hero",
+      "bytes": 68560,
+      "sha256": "13a333a1e9cac3f7aaa08365a33234591ccca15641ef88e09144baa07d29f520",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/online-directory-hero.webp",
+      "source_key": "online-directory-hero",
+      "bytes": 69614,
+      "sha256": "349b94d824884cde18747a0e7bfd148f950ffc6a7add376dddd7b9c900f94516",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/planning-directory-hero.webp",
+      "source_key": "planning-outdoor-hero",
+      "bytes": 105742,
+      "sha256": "238a6e9a2a53f206454511b61b470d6c1345088578a1303f6ae7f15004323052",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/rawalpindi-directory-hero.webp",
+      "source_key": "rawalpindi-outdoor-hero",
+      "bytes": 121436,
+      "sha256": "009c601c78c1bc97b9e6a7596fb7040a3ca4fae5746b7716737a1fec8305ba6d",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/nikahnama-records.webp",
+      "source_key": "nikahnama-records",
+      "bytes": 51644,
+      "sha256": "b27f0a7431989795aee863afd4acc118ebf0da2e0c80832d61b83a63c86782a7",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/civil-records.webp",
+      "source_key": "civil-records",
+      "bytes": 70254,
+      "sha256": "fd862b1c4b3dafe7790cfe26f0afdd340cb606980c7613ade72ea386ed68a3f6",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/online-requirements-records.webp",
+      "source_key": "online-requirements-records",
+      "bytes": 44372,
+      "sha256": "9e7b7b9b84e9894e6af2f9896440c4173d48364e995bfed79452a8dc3b874f90",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/free-will-records.webp",
+      "source_key": "free-will-records",
+      "bytes": 58796,
+      "sha256": "41f73c2f806d8f7aab96dfc92ba66249809bf7dfd3e72a004f0e214313548d9e",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/benefits-records.webp",
+      "source_key": "benefits-records",
+      "bytes": 108158,
+      "sha256": "5e6a6ac6e38e20169315e0fd3a2338c2a7928cf2a81e368812d1e59abaf18e18",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/mrc-importance-records.webp",
+      "source_key": "mrc-importance-records",
+      "bytes": 90142,
+      "sha256": "361da7d067db582195e02f5535cf94e93c1f9331fb4dfb740093e4d87f9103ff",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/divorce-records.webp",
+      "source_key": "divorce-records",
+      "bytes": 73768,
+      "sha256": "6fa29895a5a8179c4fda6233abd1014095470381cd0b95cd57a272b1a92ba755",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "asset": "images/legacy/online-guide-records.webp",
+      "source_key": "online-guide-records",
+      "bytes": 100764,
+      "sha256": "2109f71a2da4504eac013661f0ae0af7d978246f3a338065cb0848fe5763c4ee",
+      "dimensions": [
+        1200,
+        800
+      ]
+    }
+  ],
+  "note": "Generated 25 candidates; selected 20 distinct photographic WebPs for the restored guides and category heroes. Original PNGs retained."
+}
