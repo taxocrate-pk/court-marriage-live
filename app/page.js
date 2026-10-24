@@ -220,7 +220,7 @@ export default function Page() {
         ))}
       </div>
 
-      <section className="faq section-muted longform-faq">
+      <section className="faq section-muted longform-faq" id="frequently-asked-questions">
         <div className="container faq-grid">
           <div><div className="section-kicker">Court Marriage FAQs</div><h2>Answers to Common Marriage Questions.</h2><p>General information cannot replace a review of the couple’s documents and circumstances. For a case-specific answer, contact the relevant city team.</p><a className="text-link" href={serviceLinks.contact}>Ask about your case <span>→</span></a></div>
           <div className="faq-list">{homeFaqs.slice(0,10).map(([q,a]) => <details className="faq-item" key={q}><summary><span>{q}</span><b>+</b></summary><p>{a}</p></details>)}</div>
@@ -234,7 +234,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-24">24 October 2026</time></p></section></article><GuideSidebar sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
+      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-24">24 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
     </>
   )
 }
