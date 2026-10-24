@@ -951,8 +951,144 @@
     "commit": "ff881cc0010b83064ad8e28a94c562c65d9aa86d"
   },
   "lighthouse": {
-    "status": "NOT REPEATED AFTER CONTENT REVISION",
-    "previous_measurement": "See lighthouse_previous; do not represent its score as a new test"
+    "checked_at": "2026-10-24T23:20:10.793925+05:00",
+    "site_commit": "e4f59f161d72021eb54485b6a4b0c19120a0b255",
+    "deployment": "https://vercel.com/taxocrate-pks-projects/court-marriage-live/95FP5zP16pjEHrJEbTW2eaYJB31E",
+    "status": "FINAL LIGHTHOUSE SAMPLE PASS",
+    "source": "Google PageSpeed Insights live UI, Lighthouse 13.5.0, HeadlessChromium 153.0.8010.36",
+    "mobile_method": "Emulated Moto G Power, initial load, Slow 4G throttling",
+    "desktop_method": "Emulated Desktop, initial load, custom throttling",
+    "scope": "Homepage plus Karachi, Islamabad and Faisalabad, mobile and desktop: 8 reports. These results do not imply all 34 routes received individual Lighthouse runs.",
+    "field_data": "No Data: no CrUX real-user assessment available; these are laboratory measurements.",
+    "rows": [
+      {
+        "url": "https://courtmarriage.live/",
+        "device": "mobile",
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic_browsing": "2/2",
+        "fcp_seconds": 0.9,
+        "lcp_seconds": 1.4,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_seconds": 0.9,
+        "report_url": "https://pagespeed.web.dev/analysis/https-courtmarriage-live/1ka26hkjo9?form_factor=mobile"
+      },
+      {
+        "url": "https://courtmarriage.live/",
+        "device": "desktop",
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic_browsing": "2/2",
+        "fcp_seconds": 0.3,
+        "lcp_seconds": 0.4,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_seconds": 0.4,
+        "report_url": "https://pagespeed.web.dev/analysis/https-courtmarriage-live/1ka26hkjo9?form_factor=desktop"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+        "device": "mobile",
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic_browsing": "2/2",
+        "fcp_seconds": 1.2,
+        "lcp_seconds": 2.0,
+        "tbt_ms": 10,
+        "cls": 0,
+        "speed_index_seconds": 2.5,
+        "report_url": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-court-marriage-in-karachi/eucny2gq7b?form_factor=mobile"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+        "device": "desktop",
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic_browsing": "2/2",
+        "fcp_seconds": 0.3,
+        "lcp_seconds": 0.4,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_seconds": 0.3,
+        "report_url": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-court-marriage-in-karachi/eucny2gq7b?form_factor=desktop"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-islamabad/",
+        "device": "mobile",
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic_browsing": "2/2",
+        "fcp_seconds": 0.9,
+        "lcp_seconds": 1.9,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_seconds": 0.9,
+        "report_url": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-court-marriage-in-islamabad/la5dhdjxhq?form_factor=mobile"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-islamabad/",
+        "device": "desktop",
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic_browsing": "2/2",
+        "fcp_seconds": 0.3,
+        "lcp_seconds": 0.5,
+        "tbt_ms": 10,
+        "cls": 0,
+        "speed_index_seconds": 0.3,
+        "report_url": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-court-marriage-in-islamabad/la5dhdjxhq?form_factor=desktop"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+        "device": "mobile",
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic_browsing": "2/2",
+        "fcp_seconds": 0.9,
+        "lcp_seconds": 1.8,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_seconds": 0.9,
+        "report_url": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-court-marriage-services-in-faisalabad/0zjrqmg660?form_factor=mobile"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+        "device": "desktop",
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic_browsing": "2/2",
+        "fcp_seconds": 0.3,
+        "lcp_seconds": 0.4,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_seconds": 0.3,
+        "report_url": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-court-marriage-services-in-faisalabad/0zjrqmg660?form_factor=desktop"
+      }
+    ],
+    "sitemap": {
+      "url": "https://courtmarriage.live/sitemap.xml",
+      "http_status": 200,
+      "format": "Valid XML urlset",
+      "unique_urls": 34,
+      "matches_all_audited_routes": true
+    }
   },
   "tablet_visual": {
     "status": "RESPONSIVE BROWSER CHECKS COMPLETE",
@@ -1054,5 +1190,13 @@
       "This closes the mobile/tablet visual blocker; Lighthouse has not been rerun and full DNA certification is a separate check.",
       "All-route screenshots were captured during the width-fix deployment; final menu fix was additionally checked on the three representative routes above."
     ]
+  },
+  "final_qa_gate": {
+    "status": "PASS: scoped visual, route, header and Lighthouse checks",
+    "evidence": [
+      "docs/responsive-qa-2026-10-24.json",
+      "docs/lighthouse-final-2026-10-24.json"
+    ],
+    "site_commit": "e4f59f161d72021eb54485b6a4b0c19120a0b255"
   }
 }
