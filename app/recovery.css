@@ -20,3 +20,6 @@ body{font-family:var(--site-font-body)}h1,.hero h1,.recovery-hero h1{font-family
 :root{--gold:#80602f}.trust-row,.floating-card small,.city-card b,.brand small{color:#52615c}.final-cta{background:#785728}.final-cta p{color:#fff}.footer-bottom{color:#adC3b9}.hero-image-wrap{border-radius:6px}
 
 .final-cta .section-kicker.light{color:#fff}
+
+.topbar-whatsapp{text-decoration:underline;text-underline-offset:3px}.topbar-whatsapp:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+@media(max-width:800px){.topbar-inner>span{display:none}}
