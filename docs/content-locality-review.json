@@ -1,0 +1,785 @@
+{
+  "date": "2026-10-24",
+  "content_commit": "c0feb39b4f66908a0df75c6cbc6845b0633b4e5d",
+  "live_deployment_id": "dpl_3a5GhXQPQqXH4hL4ucX7XFuznCkh",
+  "build": "PASS",
+  "rewritten_pages": {
+    "court-marriage-in-karachi": {
+      "main_words": 889,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 7,
+      "phrase_unit_density": 0.79,
+      "phrase_word_density": 1.57,
+      "faqs": 12
+    },
+    "court-marriage-in-lahore": {
+      "main_words": 1034,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 7,
+      "phrase_unit_density": 0.68,
+      "phrase_word_density": 1.35,
+      "faqs": 12
+    },
+    "court-marriage-in-islamabad": {
+      "main_words": 978,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 7,
+      "phrase_unit_density": 0.72,
+      "phrase_word_density": 1.43,
+      "faqs": 12
+    },
+    "court-marriage-in-karachi-lahore-islamabad-rawalpindi": {
+      "main_words": 1004,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 7,
+      "phrase_unit_density": 0.7,
+      "phrase_word_density": 1.39,
+      "faqs": 12
+    },
+    "court-marriage-services-in-faisalabad": {
+      "main_words": 1004,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 7,
+      "phrase_unit_density": 0.7,
+      "phrase_word_density": 1.39,
+      "faqs": 12
+    },
+    "court-marriages-in-multan": {
+      "main_words": 1032,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 7,
+      "phrase_unit_density": 0.68,
+      "phrase_word_density": 1.36,
+      "faqs": 12
+    },
+    "nikah-nama-english-urdu-karachi": {
+      "main_words": 718,
+      "primary_phrase": "Nikah Nama",
+      "exact_matches": 3,
+      "phrase_unit_density": 0.42,
+      "phrase_word_density": 0.84,
+      "faqs": 12
+    },
+    "nikah-nama-english-urdu-lahore": {
+      "main_words": 726,
+      "primary_phrase": "Nikah Nama",
+      "exact_matches": 3,
+      "phrase_unit_density": 0.41,
+      "phrase_word_density": 0.83,
+      "faqs": 12
+    },
+    "nikah-nama-english-urdu-islamabad": {
+      "main_words": 717,
+      "primary_phrase": "Nikah Nama",
+      "exact_matches": 2,
+      "phrase_unit_density": 0.28,
+      "phrase_word_density": 0.56,
+      "faqs": 12
+    },
+    "nikah-nama-english-urdu-rawalpindi": {
+      "main_words": 706,
+      "primary_phrase": "Nikah Nama",
+      "exact_matches": 2,
+      "phrase_unit_density": 0.28,
+      "phrase_word_density": 0.57,
+      "faqs": 12
+    },
+    "online-nikah-has-gained-popularity": {
+      "main_words": 821,
+      "primary_phrase": "Online Nikah",
+      "exact_matches": 1,
+      "phrase_unit_density": 0.12,
+      "phrase_word_density": 0.24,
+      "faqs": 12
+    },
+    "online-nikah-for-foreigners": {
+      "main_words": 810,
+      "primary_phrase": "Online Nikah",
+      "exact_matches": 1,
+      "phrase_unit_density": 0.12,
+      "phrase_word_density": 0.25,
+      "faqs": 12
+    },
+    "nikah-services": {
+      "main_words": 809,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 0,
+      "phrase_unit_density": 0,
+      "phrase_word_density": 0,
+      "faqs": 12
+    },
+    "nikah-khawan-services-and-fees": {
+      "main_words": 824,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 0,
+      "phrase_unit_density": 0,
+      "phrase_word_density": 0,
+      "faqs": 12
+    },
+    "nadra-marriage-certificate-in-pakistan": {
+      "main_words": 807,
+      "primary_phrase": "Marriage Certificate",
+      "exact_matches": 1,
+      "phrase_unit_density": 0.12,
+      "phrase_word_density": 0.25,
+      "faqs": 12
+    },
+    "about-us": {
+      "main_words": 721,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 0,
+      "phrase_unit_density": 0,
+      "phrase_word_density": 0,
+      "faqs": 12
+    },
+    "contact-us": {
+      "main_words": 729,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 0,
+      "phrase_unit_density": 0,
+      "phrase_word_density": 0,
+      "faqs": 12
+    },
+    "blogs": {
+      "main_words": 710,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 1,
+      "phrase_unit_density": 0.14,
+      "phrase_word_density": 0.28,
+      "faqs": 12
+    }
+  },
+  "locality_coverage": {
+    "Karachi": [
+      "DHA",
+      "Clifton",
+      "Gulistan-e-Johar",
+      "Gulshan-e-Iqbal",
+      "PECHS",
+      "Bahadurabad",
+      "Korangi",
+      "Malir"
+    ],
+    "Lahore": [
+      "Gulberg",
+      "Model Town",
+      "Faisal Town",
+      "Garden Town",
+      "Johar Town",
+      "Iqbal Town",
+      "Township",
+      "Walled City"
+    ],
+    "Islamabad": [
+      "F-6",
+      "F-7",
+      "G-9",
+      "I-8",
+      "Bhara Kahu",
+      "Bani Gala",
+      "Chak Shahzad",
+      "Tarlai"
+    ],
+    "Rawalpindi": [
+      "Satellite Town",
+      "Saddar",
+      "Chaklala",
+      "Westridge",
+      "Adiala Road",
+      "Bahria Town",
+      "Murree Road",
+      "Peshawar Road"
+    ],
+    "Faisalabad": [
+      "Bhawana Bazar",
+      "Railway Bazar",
+      "D Ground",
+      "Peoples Colony",
+      "Madina Town",
+      "Ghulam Muhammadabad",
+      "Samanabad",
+      "Jinnah Colony"
+    ],
+    "Multan": [
+      "Gulgasht Colony",
+      "Bosan Road",
+      "Shah Rukn-e-Alam Colony",
+      "New Multan",
+      "Mumtazabad",
+      "Multan Cantonment",
+      "Shah Shams Colony",
+      "Shujabad Road"
+    ]
+  },
+  "locality_claim_scope": "Owner confirmed clients from across city areas. No invented majority claim or office at each locality.",
+  "similarity_method": "Share of unique matching 8-word paragraph sequences divided by the smaller set, after replacing city names. Includes shared sidebar and related-guide paragraphs. This is an editorial diagnostic, not a Google score.",
+  "previous_high_overlap_pairs": [
+    {
+      "a": "nikah-nama-english-urdu-lahore",
+      "b": "nikah-nama-english-urdu-islamabad",
+      "shared_8_word_sequences_percent": 93.8
+    },
+    {
+      "a": "nikah-nama-english-urdu-lahore",
+      "b": "nikah-nama-english-urdu-rawalpindi",
+      "shared_8_word_sequences_percent": 95.2
+    },
+    {
+      "a": "nikah-nama-english-urdu-lahore",
+      "b": "nikah-nama-english-urdu-karachi",
+      "shared_8_word_sequences_percent": 93.9
+    },
+    {
+      "a": "about-us",
+      "b": "blogs",
+      "shared_8_word_sequences_percent": 95.4
+    },
+    {
+      "a": "about-us",
+      "b": "contact-us",
+      "shared_8_word_sequences_percent": 95.4
+    },
+    {
+      "a": "nikah-khawan-services-and-fees",
+      "b": "nadra-marriage-certificate-in-pakistan",
+      "shared_8_word_sequences_percent": 87.8
+    },
+    {
+      "a": "nikah-khawan-services-and-fees",
+      "b": "online-nikah-has-gained-popularity",
+      "shared_8_word_sequences_percent": 88.7
+    },
+    {
+      "a": "nikah-khawan-services-and-fees",
+      "b": "nikah-services",
+      "shared_8_word_sequences_percent": 89.6
+    },
+    {
+      "a": "nikah-khawan-services-and-fees",
+      "b": "online-nikah-for-foreigners",
+      "shared_8_word_sequences_percent": 87.2
+    },
+    {
+      "a": "nadra-marriage-certificate-in-pakistan",
+      "b": "online-nikah-has-gained-popularity",
+      "shared_8_word_sequences_percent": 88.6
+    },
+    {
+      "a": "nadra-marriage-certificate-in-pakistan",
+      "b": "nikah-services",
+      "shared_8_word_sequences_percent": 88.4
+    },
+    {
+      "a": "nadra-marriage-certificate-in-pakistan",
+      "b": "online-nikah-for-foreigners",
+      "shared_8_word_sequences_percent": 87.2
+    },
+    {
+      "a": "nikah-nama-english-urdu-islamabad",
+      "b": "nikah-nama-english-urdu-rawalpindi",
+      "shared_8_word_sequences_percent": 93.8
+    },
+    {
+      "a": "nikah-nama-english-urdu-islamabad",
+      "b": "nikah-nama-english-urdu-karachi",
+      "shared_8_word_sequences_percent": 93.7
+    },
+    {
+      "a": "nikah-nama-english-urdu-rawalpindi",
+      "b": "nikah-nama-english-urdu-karachi",
+      "shared_8_word_sequences_percent": 93.9
+    },
+    {
+      "a": "online-nikah-has-gained-popularity",
+      "b": "nikah-services",
+      "shared_8_word_sequences_percent": 88.4
+    },
+    {
+      "a": "online-nikah-has-gained-popularity",
+      "b": "online-nikah-for-foreigners",
+      "shared_8_word_sequences_percent": 88.8
+    },
+    {
+      "a": "nikah-services",
+      "b": "online-nikah-for-foreigners",
+      "shared_8_word_sequences_percent": 87.2
+    },
+    {
+      "a": "blogs",
+      "b": "contact-us",
+      "shared_8_word_sequences_percent": 93.4
+    }
+  ],
+  "highest_current_overlap_pairs": [
+    {
+      "a": "blogs",
+      "b": "category/marriage-law",
+      "shared_8_word_sequences_percent": 21.1
+    },
+    {
+      "a": "nadra-marriage-certificate-service-in-karachi",
+      "b": "court-marriage-in-karachipakistan",
+      "shared_8_word_sequences_percent": 16.1
+    },
+    {
+      "a": "court-marriage-in-karachi",
+      "b": "nikah-nama-english-urdu-karachi",
+      "shared_8_word_sequences_percent": 14.3
+    },
+    {
+      "a": "about-us",
+      "b": "contact-us",
+      "shared_8_word_sequences_percent": 14.2
+    },
+    {
+      "a": "nikah-nama-english-urdu-islamabad",
+      "b": "court-marriage-in-islamabad",
+      "shared_8_word_sequences_percent": 13.9
+    },
+    {
+      "a": "nikah-nama-english-urdu-rawalpindi",
+      "b": "court-marriage-in-karachi-lahore-islamabad-rawalpindi",
+      "shared_8_word_sequences_percent": 13.6
+    },
+    {
+      "a": "nikah-nama-english-urdu-lahore",
+      "b": "court-marriage-in-lahore",
+      "shared_8_word_sequences_percent": 13.3
+    },
+    {
+      "a": "about-us",
+      "b": "online-nikah-for-foreigners",
+      "shared_8_word_sequences_percent": 13.1
+    },
+    {
+      "a": "about-us",
+      "b": "nadra-marriage-certificate-in-pakistan",
+      "shared_8_word_sequences_percent": 13.0
+    },
+    {
+      "a": "about-us",
+      "b": "online-nikah-has-gained-popularity",
+      "shared_8_word_sequences_percent": 13.0
+    }
+  ],
+  "live_checks": [
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-lahore/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Nikah Nama in Lahore | Marriage Terms & Registration Help",
+        "h1": "Nikah Nama in Lahore | Mahr Entries, Urdu Records and English Translation",
+        "paragraph_sha256": "1d430524fbee18c13a68f1feb23f4dc789ea407023feb5d729db6686c0be6d1c",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-certificates-guardian-of-union/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Nikah Certificates in Pakistan | Union Council Record Guide",
+        "h1": "Nikah Certificates in Pakistan | Union Council Records, Copies and Corrections",
+        "paragraph_sha256": "3403ae7fb230a69aa117c48e02b37eac4846b223efc168f370547c4659706554",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/about-us/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "About CourtMarriage.live | Marriage Lawyers & Legal Team",
+        "h1": "About CourtMarriage.live | Our Legal Team and Marriage Documentation Services",
+        "paragraph_sha256": "4aa13376e4c4e2c7465901e8ec03d586e96750204be69c1aafedbc3038dcc513",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-detailed-guide/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Pakistan | Nikah Nama Record Checklist",
+        "h1": "Court Marriage in Pakistan | Detailed Nikah Nama Entries and Record Checklist",
+        "paragraph_sha256": "e2cf9958ae0d8500b9289fddf951e68c0a84deb39474b785c46a003bd6d28b33",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-service-in-karachi/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "NADRA Marriage Certificate in Karachi | Copies & Corrections",
+        "h1": "NADRA Marriage Certificate Service in Karachi | Local MRC Application Assistance",
+        "paragraph_sha256": "414a257242a07722b5cf253cbe18ee92b1429bf6fbae925511d7521e6f52a4da",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-khawan-services-and-fees/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Nikah Khawan Services in Pakistan | Fees & Prompt Arrangements",
+        "h1": "Nikah Khawan Services in Pakistan | Fees, Witnesses and Solemnisation Support",
+        "paragraph_sha256": "7335be395a29b51e1b36db3acb9af1c41358ced1fc0fc73ad886cfe812a7e8b3",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/planning-your-court-marriage-in-pakistan/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Planning Court Marriage in Pakistan | Document Checklist",
+        "h1": "Planning Your Court Marriage in Pakistan | Documents, Witnesses and Appointment Checklist",
+        "paragraph_sha256": "523cff8d8b36770d1f97d2eec54f4026c77467f384f61de2f913be7f0f7d1965",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-lahore/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Lahore | Affordable Nikah & Legal Guidance",
+        "h1": "Court Marriage in Lahore | Nikah Appointments and Punjab Registration",
+        "paragraph_sha256": "9b43744575c3629874d9b7f37e1e3434b1413834de12527785ea7c8feb11812c",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-in-pakistan/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Marriage Registration Certificate in Pakistan | MRC Assistance",
+        "h1": "Marriage Registration Certificate in Pakistan | Accurate Records and Document Review",
+        "paragraph_sha256": "f6ff974e210fca53a6fa219538be4f2805ea5570a270d6f71556420fd88f0773",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachipakistan/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage Documents in Karachi | Nikah File Checklist",
+        "h1": "Court Marriage in Karachi, Pakistan | Documents, Witnesses and Nikah Preparation",
+        "paragraph_sha256": "3bc6dd4b119f2b7d309bcb3085210f5671f1ffbbfd6c34b80b626599bab1671a",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-registration-service-in-pakistan/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "NADRA Marriage Registration in Pakistan | Local Record Help",
+        "h1": "NADRA Marriage Registration Service in Pakistan | Registrar and Record Assistance",
+        "paragraph_sha256": "d2573f6a6265d4dddf5c57d867e637a652f6214743a561e5045e38ca5382dd56",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/the-best-court-marriage-services-in-pakistans-major-cities/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage Services in Pakistan | City Guides",
+        "h1": "Court Marriage Services in Pakistan’s Major Cities | Documents and Local Registration",
+        "paragraph_sha256": "a82b78371c8716912f97d4a4a59bd73a15b27907377e3fa10c89aac535b1a258",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriages-in-multan/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Multan | Prompt Help & Clear Service Costs",
+        "h1": "Court Marriage in Multan | Document Review and South Punjab Appointment Planning",
+        "paragraph_sha256": "87f17b11a0aad80e68e251c783078e68ae7844deaead6b63fd41d005914562ff",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-islamabad/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Nikah Nama in Islamabad | Passport Details & Translation",
+        "h1": "Nikah Nama in Islamabad | Accurate Identity Particulars and Overseas Document Use",
+        "paragraph_sha256": "7266dcd95691af1d071cd8512956fb38ba0a7777cde5b6aa258a36fbe6f47ff6",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-rawalpindi/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Nikah Nama in Rawalpindi | Registered Copies & Translation",
+        "h1": "Nikah Nama in Rawalpindi | Punjab Marriage Records, Copies and Translation",
+        "paragraph_sha256": "3e042bf6934e773d216d73f4443eb8a450e57c250e80a6dbb3643b14f06ebdc4",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-islamabad/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Islamabad | ICT & Overseas Document Review",
+        "h1": "Court Marriage in Islamabad | ICT Legal Advice for Local and Overseas Couples",
+        "paragraph_sha256": "781afd9f44d528b6c9a60d6b3436826f74ef95eb8ab2f7538a37f0e636ee3aee",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Pakistan | Step-by-step Process Guide",
+        "h1": "Court Marriage in Pakistan | Complete Process from Document Review to Registration",
+        "paragraph_sha256": "200a297159196ea8671553ddd9281048469ac4e2ad103f211f43c1c317b0a17b",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Faisalabad | Rana Shafqat Rasool, Advocate",
+        "h1": "Court Marriage Services in Faisalabad | District-court Chamber Assistance",
+        "paragraph_sha256": "d72945e99d1443980ba872a47353b7bca1233eddcfe259f5c890b2458ee5b490",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/clearing-the-path-court-marriage-in-pakistan/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Pakistan | Resolve Document Problems",
+        "h1": "Court Marriage in Pakistan | Resolving Identity, Marital Status and Document Problems",
+        "paragraph_sha256": "036a000ac1af9b2c1ae0dcb77075a55bef763ea5d144f1c54cddc95bcbb4aba6",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-pk-reg-to-reception-guide/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Pakistan | Registration to Reception Guide",
+        "h1": "Court Marriage in Pakistan | Planning Nikah, Registration and the Reception",
+        "paragraph_sha256": "9e16ed024857d0e65e77d67f6a8d1eeee426edb7a63c6f0347b6ea426f3eb91f",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/a-complete-guide-to-court-marriage-in-pakistan/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage Documents in Pakistan | Overseas Use Guide",
+        "h1": "Court Marriage Documents in Pakistan | Translation, Attestation and Overseas Use",
+        "paragraph_sha256": "c1a88f347d8304129fefc181e76359e46f76bd203efb0462c85053d0c936a196",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Pakistan | Legal Nikah & Secure Records",
+        "h1": "Court Marriage in Pakistan | Prompt, Affordable Legal Assistance",
+        "paragraph_sha256": "cb6f38e00d5d8928494f2f83a05c170d43aed66f9e7817a8d0708834e502850e",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-has-gained-popularity/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Online Nikah in Pakistan | Proxy & Overseas Marriage Help",
+        "h1": "Online Nikah in Pakistan | Secure Proxy Arrangements and Clear Costs",
+        "paragraph_sha256": "0a0ba0347aadfd014612cc5d0e08418219e8af13fbfba15174bd581b6eb21401",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-services/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Nikah Services in Pakistan | Mahr, Witnesses & Affordable Help",
+        "h1": "Nikah Services in Pakistan | Personal Arrangements and Proper Marriage Records",
+        "paragraph_sha256": "61c9fe51ad245f330b12ad1a971112b5852713e86b3fae5b40edd7b9d7424226",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Rawalpindi | Secure Nikah & Punjab Records",
+        "h1": "Court Marriage in Rawalpindi | Legal Support for Twin-city Marriage Files",
+        "paragraph_sha256": "f81428cb2a82b44253c4fd5a7ae934269914c1056cef87da831026dd8a293988",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-for-foreigners/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Online Nikah for Foreigners | Legal Review & Overseas Records",
+        "h1": "Online Nikah for Foreigners | Identity Checks and Marriage Documentation",
+        "paragraph_sha256": "d676b209185f4b2ecaf3cffcfc218289fef912e944aa179de4495e4043412c3b",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Karachi | Private Nikah at Johar & DHA",
+        "h1": "Court Marriage in Karachi | Confidential Nikah and Registration Assistance",
+        "paragraph_sha256": "3804d588ff3f3499f7983ce3f8f4636858c6c0cbebfdf026460d295d18d9c7a3",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/the-ins-outs-of-court-marriage-in-pakistan/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage in Pakistan | Eligibility & Legal Questions",
+        "h1": "Court Marriage in Pakistan | Eligibility, Consent and Common Legal Questions",
+        "paragraph_sha256": "037b9ba6083cf29563fbf40e2037e16fbe95d921765f291875491662a867d917",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-karachi/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Nikah Nama in Karachi | Urdu Records & English Translation",
+        "h1": "Nikah Nama in Karachi | Urdu Preparation, English Translation and Registered Copies",
+        "paragraph_sha256": "324ec901ac16ac73d2f2489c59a7e0c78a19f54b7f0db02d7b996893cd60e882",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/blogs/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage & Nikah Guides | Law & Documents",
+        "h1": "Court Marriage and Nikah Guides | Pakistani Law and Marriage Documents",
+        "paragraph_sha256": "74bb90dc445af252167c9eeeadc1d1e2a15f6e71e0bfb280f39b1e1fe51511b4",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-choice-for-a-recognized-bond/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Court Marriage: Free Consent, Mahr & Marriage Rights",
+        "h1": "Court Marriage by Free Choice | Consent, Mahr and Legal Recognition",
+        "paragraph_sha256": "6fc987f698b1fea5c5d08dea52b3676ffacf6d9cd88efcb9b9ada50213a24a9a",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/contact-us/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Contact CourtMarriage.live | Nikah & Document Review",
+        "h1": "Contact CourtMarriage.live | Nikah, Marriage Records and Legal Assistance",
+        "paragraph_sha256": "392e96dbf8484787462782eef140dd85c2f4cd5bef9f0147bd5768fdac21c5f0",
+        "faqs": 12,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-law/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Marriage Law in Pakistan | Consent, Mahr & Nikah Nama",
+        "h1": "Marriage Law in Pakistan | Consent, Mahr, Nikah Nama and Registration Guides",
+        "paragraph_sha256": "23a8b47ce440e5b0c5ef8ea7ba0ff3db61695de0e1f2b2034c1f1afa861ad640",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-services/",
+      "http_status": 200,
+      "matches_build": true,
+      "actual": {
+        "title": "Marriage Services in Pakistan | Nikah, Documents & MRC",
+        "h1": "Marriage Services in Pakistan | Nikah, Marriage Records and Registration Assistance",
+        "paragraph_sha256": "8bbc4424481ac133a5cc330236aa1938e89c090d3d27ed65df4fb9ca8ca5a9a2",
+        "faqs": 10,
+        "broken_anchors": []
+      }
+    }
+  ],
+  "mobile_390": "NOT VERIFIED: test browser installation failed",
+  "mobile_360": "NOT VERIFIED: test browser installation failed",
+  "tablet": "NOT VERIFIED",
+  "sources_checked": [
+    "https://www.sindhlaws.gov.pk/setup/publications_SindhCode/PUB-15-000083.pdf",
+    "https://pakistancode.gov.pk/pdffiles/administratordf5df7bd70945d88e28f6a85c1a9ef6b.pdf",
+    "https://pakistancode.gov.pk/pdffiles/administratorecc8e12e1de9dfa4925e655c9cd5a385.pdf",
+    "https://www.punjablaws.gov.pk/lawspdf/3009.pdf"
+  ],
+  "legal_verification_note": "Sindh, MFLO and ICT primary texts retrieved. Punjab Act and age-related provision found through official-site search; direct PDF retrieval timed out. No new universal processing time, fee or foreign recognition guarantee added."
+}
