@@ -1,0 +1,1482 @@
+{
+  "production_commit": "d0b1beccfbf91cd4036d72b6ee832796369403d2",
+  "deployment": "https://vercel.com/taxocrate-pks-projects/court-marriage-live/DMrosFar7UJW2m7XvTNkDDJs8r5o",
+  "checked_at": "2026-10-24T19:31:35.087511+00:00",
+  "scope": {
+    "restored": 12,
+    "permanent_redirects": 8,
+    "canonical_sitemap_pages": 46,
+    "new_distinct_webps": 20
+  },
+  "live": {
+    "sitemapCount": 46,
+    "pages": [
+      {
+        "path": "/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fhome-marriage-guidance.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fhome-registration-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Pakistan | Legal Nikah &amp; Secure Records"
+      },
+      {
+        "path": "/court-marriage-in-karachi/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-in-karachi/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-karachi.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-karachi-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Karachi | Private Nikah at Johar &amp; DHA"
+      },
+      {
+        "path": "/court-marriage-in-lahore/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-in-lahore/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-lahore.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-lahore-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Lahore | Affordable Nikah &amp; Legal Guidance"
+      },
+      {
+        "path": "/court-marriage-in-islamabad/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-in-islamabad/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-islamabad.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-islamabad-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Islamabad | ICT &amp; Overseas Document Review"
+      },
+      {
+        "path": "/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-rawalpindi.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-rawalpindi-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Rawalpindi | Secure Nikah &amp; Punjab Records"
+      },
+      {
+        "path": "/court-marriage-services-in-faisalabad/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-faisalabad.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-faisalabad-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Faisalabad | Rana Shafqat Rasool, Advocate"
+      },
+      {
+        "path": "/court-marriages-in-multan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriages-in-multan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-multan.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcourt-marriage-multan-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Multan | Prompt Help &amp; Clear Service Costs"
+      },
+      {
+        "path": "/online-nikah-has-gained-popularity/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/online-nikah-has-gained-popularity/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fonline-nikah-pakistan.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Online Nikah in Pakistan | Proxy &amp; Overseas Marriage Help"
+      },
+      {
+        "path": "/online-nikah-for-foreigners/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/online-nikah-for-foreigners/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fonline-nikah-foreigners.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Online Nikah for Foreigners | Legal Review &amp; Overseas Records"
+      },
+      {
+        "path": "/nikah-services/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nikah-services/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-services-pakistan.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikah Services in Pakistan | Mahr, Witnesses &amp; Affordable Help"
+      },
+      {
+        "path": "/nikah-khawan-services-and-fees/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nikah-khawan-services-and-fees/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-khawan-guidance.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikah Khawan Services in Pakistan | Fees &amp; Prompt Arrangements"
+      },
+      {
+        "path": "/nadra-marriage-certificate-in-pakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nadra-marriage-certificate-in-pakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fmarriage-certificate-pakistan.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Marriage Registration Certificate in Pakistan | MRC Assistance"
+      },
+      {
+        "path": "/nikah-nama-english-urdu-karachi/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nikah-nama-english-urdu-karachi/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-nama-karachi.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-nama-karachi-translation.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikah Nama in Karachi | Urdu Records &amp; English Translation"
+      },
+      {
+        "path": "/nikah-nama-english-urdu-lahore/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nikah-nama-english-urdu-lahore/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-nama-lahore.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-nama-lahore-translation.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikah Nama in Lahore | Marriage Terms &amp; Registration Help"
+      },
+      {
+        "path": "/nikah-nama-english-urdu-islamabad/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nikah-nama-english-urdu-islamabad/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-nama-islamabad.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-nama-islamabad-translation.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikah Nama in Islamabad | Passport Details &amp; Translation"
+      },
+      {
+        "path": "/nikah-nama-english-urdu-rawalpindi/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nikah-nama-english-urdu-rawalpindi/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-nama-rawalpindi.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Fsite%2Fnikah-nama-rawalpindi-translation.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikah Nama in Rawalpindi | Registered Copies &amp; Translation"
+      },
+      {
+        "path": "/about-us/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/about-us/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fabout-private-legal-practice.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "About CourtMarriage.live | Marriage Lawyers &amp; Legal Team"
+      },
+      {
+        "path": "/blogs/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/blogs/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fmarriage-guides-library.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage &amp; Nikah Guides | Law &amp; Documents"
+      },
+      {
+        "path": "/contact-us/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/contact-us/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Fsite%2Fcontact-legal-guidance.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Contact CourtMarriage.live | Nikah &amp; Document Review"
+      },
+      {
+        "path": "/nikah-certificates-guardian-of-union/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nikah-certificates-guardian-of-union/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fcertificate-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fcertificate-records-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikah Certificates in Pakistan | Union Council Record Guide"
+      },
+      {
+        "path": "/nadra-marriage-registration-service-in-pakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nadra-marriage-registration-service-in-pakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fregistration-pakistan.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fregistration-pakistan-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "NADRA Marriage Registration in Pakistan | Local Record Help"
+      },
+      {
+        "path": "/nadra-marriage-certificate-service-in-karachi/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nadra-marriage-certificate-service-in-karachi/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fkarachi-certificate.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fkarachi-certificate-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "NADRA Marriage Certificate in Karachi | Copies &amp; Corrections"
+      },
+      {
+        "path": "/court-marriage-choice-for-a-recognized-bond/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-choice-for-a-recognized-bond/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Frecognized-bond.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Frecognized-bond-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage: Free Consent, Mahr &amp; Marriage Rights"
+      },
+      {
+        "path": "/the-ins-outs-of-court-marriage-in-pakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/the-ins-outs-of-court-marriage-in-pakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fins-outs.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fins-outs-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Pakistan | Eligibility &amp; Legal Questions"
+      },
+      {
+        "path": "/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fcomplete-process.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fcomplete-process-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Pakistan | Step-by-step Process Guide"
+      },
+      {
+        "path": "/court-marriage-in-pakistan-detailed-guide/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-in-pakistan-detailed-guide/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fdetailed-record.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fdetailed-record-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Pakistan | Nikah Nama Record Checklist"
+      },
+      {
+        "path": "/court-marriage-in-karachipakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-in-karachipakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fkarachi-documents.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fkarachi-documents-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage Documents in Karachi | Nikah File Checklist"
+      },
+      {
+        "path": "/clearing-the-path-court-marriage-in-pakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/clearing-the-path-court-marriage-in-pakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fclearing-path.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fclearing-path-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Pakistan | Resolve Document Problems"
+      },
+      {
+        "path": "/planning-your-court-marriage-in-pakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/planning-your-court-marriage-in-pakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fplanning.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fplanning-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Planning Court Marriage in Pakistan | Document Checklist"
+      },
+      {
+        "path": "/court-marriage-pk-reg-to-reception-guide/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-pk-reg-to-reception-guide/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Freg-reception.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Freg-reception-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Pakistan | Registration to Reception Guide"
+      },
+      {
+        "path": "/a-complete-guide-to-court-marriage-in-pakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/a-complete-guide-to-court-marriage-in-pakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Foverseas-guide.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Foverseas-guide-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage Documents in Pakistan | Overseas Use Guide"
+      },
+      {
+        "path": "/the-best-court-marriage-services-in-pakistans-major-cities/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/the-best-court-marriage-services-in-pakistans-major-cities/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fcity-comparison.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fcity-comparison-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage Services in Pakistan | City Guides"
+      },
+      {
+        "path": "/category/marriage-services/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/category/marriage-services/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fservices-hub.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Fservices-hub-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Marriage Services in Pakistan | Nikah, Documents &amp; MRC"
+      },
+      {
+        "path": "/category/marriage-law/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/category/marriage-law/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Frecovery%2Flaw-hub.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Frecovery%2Flaw-hub-checklist.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Marriage Law in Pakistan | Consent, Mahr &amp; Nikah Nama"
+      },
+      {
+        "path": "/benefits-and-advantages-of-court-marriage/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/benefits-and-advantages-of-court-marriage/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fbenefits-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fbenefits-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage Benefits | Affordable, Private and Properly Recorded"
+      },
+      {
+        "path": "/category/nikah/nikah-khawan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/category/nikah/nikah-khawan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fkhawan-directory-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikah Khawan Guides | Ceremony Planning and Registration"
+      },
+      {
+        "path": "/category/nikah/online-marriage/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/category/nikah/online-marriage/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fonline-directory-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Online Marriage Guides | Remote Nikah and Overseas Documents"
+      },
+      {
+        "path": "/category/wedding-planning/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/category/wedding-planning/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fplanning-directory-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Wedding Planning Guides | Nikah, Documents and Practical Timelines"
+      },
+      {
+        "path": "/category/court-marriage-in-pakistan/court-marriage-in-rawalpindi/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/category/court-marriage-in-pakistan/court-marriage-in-rawalpindi/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Frawalpindi-directory-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage in Rawalpindi | Local Guide Directory"
+      },
+      {
+        "path": "/court-marriage-civil-marriage-in-pakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-civil-marriage-in-pakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fcivil-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fcivil-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage and Civil Marriage in Pakistan | Legal Differences"
+      },
+      {
+        "path": "/divorce-in-islam-quranic-guidelines/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/divorce-in-islam-quranic-guidelines/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fdivorce-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fdivorce-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Divorce in Islam | Quranic Guidance, Talaq and Khula"
+      },
+      {
+        "path": "/court-marriage-and-civil-marriage-love-and-freedom/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/court-marriage-and-civil-marriage-love-and-freedom/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Ffree-will-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Flegacy%2Ffree-will-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Court Marriage by Free Choice | Consent, Safety and Legal Planning"
+      },
+      {
+        "path": "/importance-of-nadra-marriage-registration-certificate-pakistan/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/importance-of-nadra-marriage-registration-certificate-pakistan/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fmrc-importance-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fmrc-importance-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "NADRA Marriage Certificate | Uses, Source Records and Verification"
+      },
+      {
+        "path": "/nikahnama-certificate/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/nikahnama-certificate/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fnikahnama-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fnikahnama-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Nikahnama Certificate | Proof, Copies and Record Corrections"
+      },
+      {
+        "path": "/online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fonline-guide-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fonline-guide-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Online Nikah in Pakistan | Four-city Coordination and Legal Records"
+      },
+      {
+        "path": "/requirements-for-an-online-nikah/",
+        "status": 200,
+        "canonical": "https://courtmarriage.live/requirements-for-an-online-nikah/",
+        "robots": "index, follow",
+        "h1": 1,
+        "images": [
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fonline-requirements-hero.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o",
+          "/_next/image/?url=%2Fimages%2Flegacy%2Fonline-requirements-records.webp&w=3840&q=75&dpl=dpl_DMrosFar7UJW2m7XvTNkDDJs8r5o"
+        ],
+        "title": "Online Nikah Requirements | Documents, Witnesses and Wakeel"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/nikah-nama-services-in-karachi/",
+        "status": 308,
+        "location": "/nikah-nama-english-urdu-karachi/",
+        "expected": "/nikah-nama-english-urdu-karachi/",
+        "targetStatus": 200
+      },
+      {
+        "source": "/nikah-nama-services-in-lahore/",
+        "status": 308,
+        "location": "/nikah-nama-english-urdu-lahore/",
+        "expected": "/nikah-nama-english-urdu-lahore/",
+        "targetStatus": 200
+      },
+      {
+        "source": "/nikah-nama-services-in-rawalpindi/",
+        "status": 308,
+        "location": "/nikah-nama-english-urdu-rawalpindi/",
+        "expected": "/nikah-nama-english-urdu-rawalpindi/",
+        "targetStatus": 200
+      },
+      {
+        "source": "/the-best-court-marriage-services-in-karachi/",
+        "status": 308,
+        "location": "/court-marriage-in-karachi/",
+        "expected": "/court-marriage-in-karachi/",
+        "targetStatus": 200
+      },
+      {
+        "source": "/court-marriage-and-civil-marriage-lawyers-rawalpindi/",
+        "status": 308,
+        "location": "/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+        "expected": "/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+        "targetStatus": 200
+      },
+      {
+        "source": "/court-marriage-procedure-pakistan-and-our-services/",
+        "status": 308,
+        "location": "/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+        "expected": "/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+        "targetStatus": 200
+      },
+      {
+        "source": "/step-by-step-guide-to-court-marriage-in-pakistan/",
+        "status": 308,
+        "location": "/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+        "expected": "/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+        "targetStatus": 200
+      },
+      {
+        "source": "/online-nikah-complete-guide-for-pakistanis/",
+        "status": 308,
+        "location": "/online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi/",
+        "expected": "/online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi/",
+        "targetStatus": 200
+      }
+    ],
+    "assets": [
+      {
+        "path": "benefits-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 112126
+      },
+      {
+        "path": "benefits-records.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 108158
+      },
+      {
+        "path": "civil-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 70526
+      },
+      {
+        "path": "civil-records.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 70254
+      },
+      {
+        "path": "divorce-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 74518
+      },
+      {
+        "path": "divorce-records.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 73768
+      },
+      {
+        "path": "free-will-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 84872
+      },
+      {
+        "path": "free-will-records.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 58796
+      },
+      {
+        "path": "khawan-directory-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 68560
+      },
+      {
+        "path": "mrc-importance-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 76468
+      },
+      {
+        "path": "mrc-importance-records.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 90142
+      },
+      {
+        "path": "nikahnama-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 72558
+      },
+      {
+        "path": "nikahnama-records.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 51644
+      },
+      {
+        "path": "online-directory-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 69614
+      },
+      {
+        "path": "online-guide-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 89648
+      },
+      {
+        "path": "online-guide-records.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 100764
+      },
+      {
+        "path": "online-requirements-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 99394
+      },
+      {
+        "path": "online-requirements-records.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 44372
+      },
+      {
+        "path": "planning-directory-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 105742
+      },
+      {
+        "path": "rawalpindi-directory-hero.webp",
+        "status": 200,
+        "webp": true,
+        "bytes": 121436
+      }
+    ]
+  },
+  "local_static": [
+    {
+      "slug": "category/nikah/online-marriage",
+      "kind": "category",
+      "words": 729,
+      "minimum": 700,
+      "faqs": 12,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/category/nikah/online-marriage/",
+      "tel_links": 3,
+      "images": 1,
+      "exact_phrase_count": 6
+    },
+    {
+      "slug": "benefits-and-advantages-of-court-marriage",
+      "kind": "article",
+      "words": 1550,
+      "minimum": 1500,
+      "faqs": 10,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/benefits-and-advantages-of-court-marriage/",
+      "tel_links": 0,
+      "images": 2,
+      "exact_phrase_count": 27
+    },
+    {
+      "slug": "court-marriage-and-civil-marriage-love-and-freedom",
+      "kind": "article",
+      "words": 1530,
+      "minimum": 1500,
+      "faqs": 10,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/court-marriage-and-civil-marriage-love-and-freedom/",
+      "tel_links": 0,
+      "images": 2,
+      "exact_phrase_count": 18
+    },
+    {
+      "slug": "category/wedding-planning",
+      "kind": "category",
+      "words": 759,
+      "minimum": 700,
+      "faqs": 12,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/category/wedding-planning/",
+      "tel_links": 3,
+      "images": 1,
+      "exact_phrase_count": 6
+    },
+    {
+      "slug": "requirements-for-an-online-nikah",
+      "kind": "article",
+      "words": 1566,
+      "minimum": 1500,
+      "faqs": 10,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/requirements-for-an-online-nikah/",
+      "tel_links": 0,
+      "images": 2,
+      "exact_phrase_count": 23
+    },
+    {
+      "slug": "importance-of-nadra-marriage-registration-certificate-pakistan",
+      "kind": "article",
+      "words": 1550,
+      "minimum": 1500,
+      "faqs": 10,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/importance-of-nadra-marriage-registration-certificate-pakistan/",
+      "tel_links": 3,
+      "images": 2,
+      "exact_phrase_count": 22
+    },
+    {
+      "slug": "online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi",
+      "kind": "article",
+      "words": 1553,
+      "minimum": 1500,
+      "faqs": 10,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi/",
+      "tel_links": 3,
+      "images": 2,
+      "exact_phrase_count": 19
+    },
+    {
+      "slug": "divorce-in-islam-quranic-guidelines",
+      "kind": "article",
+      "words": 1551,
+      "minimum": 1500,
+      "faqs": 10,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/divorce-in-islam-quranic-guidelines/",
+      "tel_links": 0,
+      "images": 2,
+      "exact_phrase_count": 8
+    },
+    {
+      "slug": "court-marriage-civil-marriage-in-pakistan",
+      "kind": "article",
+      "words": 1580,
+      "minimum": 1500,
+      "faqs": 10,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/court-marriage-civil-marriage-in-pakistan/",
+      "tel_links": 0,
+      "images": 2,
+      "exact_phrase_count": 19
+    },
+    {
+      "slug": "category/court-marriage-in-pakistan/court-marriage-in-rawalpindi",
+      "kind": "category",
+      "words": 716,
+      "minimum": 700,
+      "faqs": 12,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/category/court-marriage-in-pakistan/court-marriage-in-rawalpindi/",
+      "tel_links": 3,
+      "images": 1,
+      "exact_phrase_count": 6
+    },
+    {
+      "slug": "category/nikah/nikah-khawan",
+      "kind": "category",
+      "words": 712,
+      "minimum": 700,
+      "faqs": 12,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/category/nikah/nikah-khawan/",
+      "tel_links": 3,
+      "images": 1,
+      "exact_phrase_count": 7
+    },
+    {
+      "slug": "nikahnama-certificate",
+      "kind": "article",
+      "words": 1576,
+      "minimum": 1500,
+      "faqs": 10,
+      "h1": 1,
+      "canonical": "https://courtmarriage.live/nikahnama-certificate/",
+      "tel_links": 0,
+      "images": 2,
+      "exact_phrase_count": 24
+    }
+  ],
+  "live_browser": {
+    "redirects": [],
+    "pages": [
+      {
+        "slug": "benefits-and-advantages-of-court-marriage",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Court Marriage Benefits | Affordable Planning, Privacy and Clear Marriage Records",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "benefits-and-advantages-of-court-marriage",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Court Marriage Benefits | Affordable Planning, Privacy and Clear Marriage Records",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "benefits-and-advantages-of-court-marriage",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Court Marriage Benefits | Affordable Planning, Privacy and Clear Marriage Records",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "benefits-and-advantages-of-court-marriage",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Court Marriage Benefits | Affordable Planning, Privacy and Clear Marriage Records",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/nikah/nikah-khawan",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Nikah Khawan Guides | Ceremony Arrangements, Fees and Registration Roles",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/nikah/nikah-khawan",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Nikah Khawan Guides | Ceremony Arrangements, Fees and Registration Roles",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/nikah/nikah-khawan",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Nikah Khawan Guides | Ceremony Arrangements, Fees and Registration Roles",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/nikah/nikah-khawan",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Nikah Khawan Guides | Ceremony Arrangements, Fees and Registration Roles",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/nikah/online-marriage",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Online Marriage Guides | Remote Nikah, Wakeel Authority and Overseas Records",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/nikah/online-marriage",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Online Marriage Guides | Remote Nikah, Wakeel Authority and Overseas Records",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/nikah/online-marriage",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Online Marriage Guides | Remote Nikah, Wakeel Authority and Overseas Records",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/nikah/online-marriage",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Online Marriage Guides | Remote Nikah, Wakeel Authority and Overseas Records",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/wedding-planning",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Wedding Planning Guides | Nikah Preparation, Budget and Registration Follow-up",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/wedding-planning",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Wedding Planning Guides | Nikah Preparation, Budget and Registration Follow-up",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/wedding-planning",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Wedding Planning Guides | Nikah Preparation, Budget and Registration Follow-up",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/wedding-planning",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Wedding Planning Guides | Nikah Preparation, Budget and Registration Follow-up",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/court-marriage-in-pakistan/court-marriage-in-rawalpindi",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Court Marriage in Rawalpindi | Local Guides, Punjab Records and Appointment Planning",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/court-marriage-in-pakistan/court-marriage-in-rawalpindi",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Court Marriage in Rawalpindi | Local Guides, Punjab Records and Appointment Planning",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/court-marriage-in-pakistan/court-marriage-in-rawalpindi",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Court Marriage in Rawalpindi | Local Guides, Punjab Records and Appointment Planning",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "category/court-marriage-in-pakistan/court-marriage-in-rawalpindi",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Court Marriage in Rawalpindi | Local Guides, Punjab Records and Appointment Planning",
+        "images": true,
+        "faqCount": 12,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "court-marriage-civil-marriage-in-pakistan",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Court Marriage and Civil Marriage in Pakistan | Nikah, Registration and Legal Recognition",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "court-marriage-civil-marriage-in-pakistan",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Court Marriage and Civil Marriage in Pakistan | Nikah, Registration and Legal Recognition",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "court-marriage-civil-marriage-in-pakistan",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Court Marriage and Civil Marriage in Pakistan | Nikah, Registration and Legal Recognition",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "court-marriage-civil-marriage-in-pakistan",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Court Marriage and Civil Marriage in Pakistan | Nikah, Registration and Legal Recognition",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "divorce-in-islam-quranic-guidelines",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Divorce in Islam | Quranic Guidance, Talaq, Khula and Pakistani Legal Procedure",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "divorce-in-islam-quranic-guidelines",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Divorce in Islam | Quranic Guidance, Talaq, Khula and Pakistani Legal Procedure",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "divorce-in-islam-quranic-guidelines",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Divorce in Islam | Quranic Guidance, Talaq, Khula and Pakistani Legal Procedure",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "divorce-in-islam-quranic-guidelines",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Divorce in Islam | Quranic Guidance, Talaq, Khula and Pakistani Legal Procedure",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "court-marriage-and-civil-marriage-love-and-freedom",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Court Marriage by Free Choice | Consent, Family Concerns and Safe Legal Planning",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "court-marriage-and-civil-marriage-love-and-freedom",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Court Marriage by Free Choice | Consent, Family Concerns and Safe Legal Planning",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "court-marriage-and-civil-marriage-love-and-freedom",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Court Marriage by Free Choice | Consent, Family Concerns and Safe Legal Planning",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "court-marriage-and-civil-marriage-love-and-freedom",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Court Marriage by Free Choice | Consent, Family Concerns and Safe Legal Planning",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "importance-of-nadra-marriage-registration-certificate-pakistan",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "NADRA Marriage Certificate | Why the Registered Civil Record Matters",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "importance-of-nadra-marriage-registration-certificate-pakistan",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "NADRA Marriage Certificate | Why the Registered Civil Record Matters",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "importance-of-nadra-marriage-registration-certificate-pakistan",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "NADRA Marriage Certificate | Why the Registered Civil Record Matters",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "importance-of-nadra-marriage-registration-certificate-pakistan",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "NADRA Marriage Certificate | Why the Registered Civil Record Matters",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "nikahnama-certificate",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Nikahnama Certificate | Marriage Evidence, Registered Copies and Corrections",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "nikahnama-certificate",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Nikahnama Certificate | Marriage Evidence, Registered Copies and Corrections",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "nikahnama-certificate",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Nikahnama Certificate | Marriage Evidence, Registered Copies and Corrections",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "nikahnama-certificate",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Nikahnama Certificate | Marriage Evidence, Registered Copies and Corrections",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Online Nikah in Pakistan | Coordinating Karachi, Lahore, Islamabad and Rawalpindi Files",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Online Nikah in Pakistan | Coordinating Karachi, Lahore, Islamabad and Rawalpindi Files",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Online Nikah in Pakistan | Coordinating Karachi, Lahore, Islamabad and Rawalpindi Files",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Online Nikah in Pakistan | Coordinating Karachi, Lahore, Islamabad and Rawalpindi Files",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 3,
+        "faqWorks": true
+      },
+      {
+        "slug": "requirements-for-an-online-nikah",
+        "status": 200,
+        "width": 390,
+        "documentWidth": 390,
+        "h1": "Online Nikah Requirements | Identity, Consent, Wakeel and Registration Checklist",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "requirements-for-an-online-nikah",
+        "status": 200,
+        "width": 360,
+        "documentWidth": 360,
+        "h1": "Online Nikah Requirements | Identity, Consent, Wakeel and Registration Checklist",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "requirements-for-an-online-nikah",
+        "status": 200,
+        "width": 768,
+        "documentWidth": 768,
+        "h1": "Online Nikah Requirements | Identity, Consent, Wakeel and Registration Checklist",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      },
+      {
+        "slug": "requirements-for-an-online-nikah",
+        "status": 200,
+        "width": 1365,
+        "documentWidth": 1365,
+        "h1": "Online Nikah Requirements | Identity, Consent, Wakeel and Registration Checklist",
+        "images": true,
+        "faqCount": 10,
+        "phoneLinks": 0,
+        "faqWorks": true
+      }
+    ]
+  },
+  "browser_method": "Certificate-validated live HTML/CSS/image responses served through local test transport; Chromium exact viewports 360,390,768,1365. Layout and interactions only; performance measured separately by Google PSI.",
+  "screenshots_reviewed": "All 12 hero/layout overviews at all four viewports; full-page representative sections inspected.",
+  "sitemap_submission": {
+    "accepted": true,
+    "pending_google_download": true,
+    "submitted": "2026-10-24T19:29:48.686Z"
+  },
+  "lighthouse": [
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-nikahnama-certificate/kl8qax2gnx?form_factor=mobile",
+      "device": "mobile",
+      "performance": 100,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100,
+      "LCP_seconds": 1.7,
+      "FCP_seconds": 0.9,
+      "CLS": 0,
+      "TBT_ms": 0,
+      "version": "13.5.0"
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-nikahnama-certificate/kl8qax2gnx?form_factor=desktop",
+      "device": "desktop",
+      "performance": 100,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100,
+      "LCP_seconds": 0.4,
+      "FCP_seconds": 0.3,
+      "CLS": 0,
+      "TBT_ms": 0,
+      "version": "13.5.0"
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-category-nikah-nikah-khawan/fp0tejn3uq?form_factor=mobile",
+      "device": "mobile",
+      "performance": 100,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100,
+      "LCP_seconds": 1.4,
+      "FCP_seconds": 0.9,
+      "CLS": 0,
+      "TBT_ms": 0,
+      "version": "13.5.0"
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-category-nikah-nikah-khawan/fp0tejn3uq?form_factor=desktop",
+      "device": "desktop",
+      "performance": 100,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100,
+      "LCP_seconds": 0.4,
+      "FCP_seconds": 0.3,
+      "CLS": 0,
+      "TBT_ms": 0,
+      "version": "13.5.0"
+    }
+  ],
+  "limitations": [
+    "Search Console historical crawls are stale; sitemap submission does not guarantee indexing.",
+    "Keyword targets prioritize natural flow; exact phrase density below 2% on several articles and utility directories; counts reported separately rather than claiming a numerical pass.",
+    "Category hubs are utility directories using 700-word minimum; informational articles use 1500.",
+    "Lighthouse covers two new representative pages, not all 46; no CrUX field data."
+  ]
+}

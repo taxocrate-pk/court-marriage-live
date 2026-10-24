@@ -1,6 +1,6 @@
 {
-  "pages": 34,
-  "unique_heroes": 34,
+  "pages": 46,
+  "unique_heroes": 46,
   "header_variants": 4,
   "footer_variants": 2,
   "rows": [
@@ -919,6 +919,260 @@
       "issues": [],
       "meta_title": "Marriage Law in Pakistan | Consent, Mahr & Nikah Nama",
       "content_live_verified": true
+    },
+    {
+      "url": "https://courtmarriage.live/category/nikah/online-marriage/",
+      "main_words": 729,
+      "primary_phrase": "Online Marriage",
+      "exact_matches": 6,
+      "phrase_unit_density": 0.82,
+      "phrase_word_density": 1.65,
+      "constituent_counts": {
+        "Online": 7,
+        "Marriage": 14
+      },
+      "faqs": 12,
+      "h1": [
+        "Online Marriage Guides | Remote Nikah, Wakeel Authority and Overseas Records"
+      ],
+      "meta_title": "Online Marriage Guides | Remote Nikah and Overseas Documents",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/benefits-and-advantages-of-court-marriage/",
+      "main_words": 1550,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 27,
+      "phrase_unit_density": 1.74,
+      "phrase_word_density": 3.48,
+      "constituent_counts": {
+        "Court": 28,
+        "Marriage": 35
+      },
+      "faqs": 10,
+      "h1": [
+        "Court Marriage Benefits | Affordable Planning, Privacy and Clear Marriage Records"
+      ],
+      "meta_title": "Court Marriage Benefits | Affordable, Private and Properly Recorded",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-and-civil-marriage-love-and-freedom/",
+      "main_words": 1530,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 18,
+      "phrase_unit_density": 1.18,
+      "phrase_word_density": 2.35,
+      "constituent_counts": {
+        "Court": 19,
+        "Marriage": 27
+      },
+      "faqs": 10,
+      "h1": [
+        "Court Marriage by Free Choice | Consent, Family Concerns and Safe Legal Planning"
+      ],
+      "meta_title": "Court Marriage by Free Choice | Consent, Safety and Legal Planning",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/category/wedding-planning/",
+      "main_words": 759,
+      "primary_phrase": "Wedding Planning",
+      "exact_matches": 6,
+      "phrase_unit_density": 0.79,
+      "phrase_word_density": 1.58,
+      "constituent_counts": {
+        "Wedding": 6,
+        "Planning": 6
+      },
+      "faqs": 12,
+      "h1": [
+        "Wedding Planning Guides | Nikah Preparation, Budget and Registration Follow-Up"
+      ],
+      "meta_title": "Wedding Planning Guides | Nikah, Documents and Practical Timelines",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/requirements-for-an-online-nikah/",
+      "main_words": 1566,
+      "primary_phrase": "Online Nikah",
+      "exact_matches": 23,
+      "phrase_unit_density": 1.47,
+      "phrase_word_density": 2.94,
+      "constituent_counts": {
+        "Online": 23,
+        "Nikah": 26
+      },
+      "faqs": 10,
+      "h1": [
+        "Online Nikah Requirements | Identity, Consent, Wakeel and Registration Checklist"
+      ],
+      "meta_title": "Online Nikah Requirements | Documents, Witnesses and Wakeel",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/importance-of-nadra-marriage-registration-certificate-pakistan/",
+      "main_words": 1550,
+      "primary_phrase": "NADRA Marriage Certificate",
+      "exact_matches": 22,
+      "phrase_unit_density": 1.42,
+      "phrase_word_density": 4.26,
+      "constituent_counts": {
+        "NADRA": 25,
+        "Marriage": 43,
+        "Certificate": 34
+      },
+      "faqs": 10,
+      "h1": [
+        "NADRA Marriage Certificate | Why the Registered Civil Record Matters"
+      ],
+      "meta_title": "NADRA Marriage Certificate | Uses, Source Records and Verification",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-a-comprehensive-guide-to-online-nikah-services-in-karachi-lahore-islamabad-and-rawalpindi/",
+      "main_words": 1553,
+      "primary_phrase": "Online Nikah",
+      "exact_matches": 19,
+      "phrase_unit_density": 1.22,
+      "phrase_word_density": 2.45,
+      "constituent_counts": {
+        "Online": 20,
+        "Nikah": 20
+      },
+      "faqs": 10,
+      "h1": [
+        "Online Nikah in Pakistan | Coordinating Karachi, Lahore, Islamabad and Rawalpindi Files"
+      ],
+      "meta_title": "Online Nikah in Pakistan | Four-City Coordination and Legal Records",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/divorce-in-islam-quranic-guidelines/",
+      "main_words": 1551,
+      "primary_phrase": "Divorce",
+      "exact_matches": 18,
+      "phrase_unit_density": 1.16,
+      "phrase_word_density": 1.16,
+      "constituent_counts": {
+        "Divorce": 18
+      },
+      "faqs": 10,
+      "h1": [
+        "Divorce in Islam | Quranic Guidance, Talaq, Khula and Pakistani Legal Procedure"
+      ],
+      "meta_title": "Divorce in Islam | Quranic Guidance, Talaq and Khula",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-civil-marriage-in-pakistan/",
+      "main_words": 1580,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 19,
+      "phrase_unit_density": 1.2,
+      "phrase_word_density": 2.41,
+      "constituent_counts": {
+        "Court": 27,
+        "Marriage": 42
+      },
+      "faqs": 10,
+      "h1": [
+        "Court Marriage and Civil Marriage in Pakistan | Nikah, Registration and Legal Recognition"
+      ],
+      "meta_title": "Court Marriage and Civil Marriage in Pakistan | Legal Differences",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/category/court-marriage-in-pakistan/court-marriage-in-rawalpindi/",
+      "main_words": 716,
+      "primary_phrase": "Court Marriage in Rawalpindi",
+      "exact_matches": 6,
+      "phrase_unit_density": 0.84,
+      "phrase_word_density": 3.35,
+      "constituent_counts": {
+        "Court": 7,
+        "Marriage": 14,
+        "in": 11,
+        "Rawalpindi": 9
+      },
+      "faqs": 12,
+      "h1": [
+        "Court Marriage in Rawalpindi | Local Guides, Punjab Records and Appointment Planning"
+      ],
+      "meta_title": "Court Marriage in Rawalpindi | Local Guide Directory",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/category/nikah/nikah-khawan/",
+      "main_words": 712,
+      "primary_phrase": "Nikah Khawan",
+      "exact_matches": 7,
+      "phrase_unit_density": 0.98,
+      "phrase_word_density": 1.97,
+      "constituent_counts": {
+        "Nikah": 12,
+        "Khawan": 7
+      },
+      "faqs": 12,
+      "h1": [
+        "Nikah Khawan Guides | Ceremony Arrangements, Fees and Registration Roles"
+      ],
+      "meta_title": "Nikah Khawan Guides | Ceremony Planning and Registration",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
+    },
+    {
+      "url": "https://courtmarriage.live/nikahnama-certificate/",
+      "main_words": 1576,
+      "primary_phrase": "Nikahnama Certificate",
+      "exact_matches": 24,
+      "phrase_unit_density": 1.52,
+      "phrase_word_density": 3.05,
+      "constituent_counts": {
+        "Nikahnama": 24,
+        "Certificate": 29
+      },
+      "faqs": 10,
+      "h1": [
+        "Nikahnama Certificate | Marriage Evidence, Registered Copies and Corrections"
+      ],
+      "meta_title": "Nikahnama Certificate | Proof, Copies and Record Corrections",
+      "content_live_verified": true,
+      "issues": [
+        "Exact-phrase numerical density below target; natural flow prioritized."
+      ]
     }
   ],
   "errors": [],
@@ -1198,5 +1452,7 @@
       "docs/lighthouse-final-2026-10-24.json"
     ],
     "site_commit": "e4f59f161d72021eb54485b6a4b0c19120a0b255"
-  }
+  },
+  "legacy_recovery_report": "docs/legacy-recovery-final-2026-10-25.json",
+  "prior_34_rows": "Historical pre-recovery audit rows retained; new 12 rows below verified against restored production."
 }
