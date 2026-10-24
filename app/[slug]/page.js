@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import { cityContacts, cityServices, nikahNamaServices, serviceLinks, site } from '@/lib/site-config'
 import { getLongFormContent } from '@/lib/long-form-content'
 import { getNikahNamaContent } from '@/lib/nikah-nama-content'
+import RecoveryPage from '@/app/recovery-page'
+import { recoveryPages, recoveryPage, recoveryMetadata } from '@/lib/recovery'
 
 const heroImages = {
   'court-marriage-in-karachi': '/images/court-marriage-karachi.svg',
@@ -47,11 +49,13 @@ const pages = {
 export const dynamicParams = false
 
 export function generateStaticParams() {
-  return Object.keys(pages).map((slug) => ({ slug }))
+  return [...Object.keys(pages), ...recoveryPages.filter((page) => !page.slug.includes('/')).map((page) => page.slug)].map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params
+  const recovered = recoveryPage(slug)
+  if (recovered) return recoveryMetadata(recovered)
   const page = pages[slug]
   if (!page) return {}
   return {
@@ -84,6 +88,8 @@ function anchorFromHeading(heading, index) {
 
 export default async function LegacyPage({ params }) {
   const { slug } = await params
+  const recovered = recoveryPage(slug)
+  if (recovered) return <RecoveryPage page={recovered} />
   const page = pages[slug]
   if (!page) notFound()
 
@@ -162,6 +168,15 @@ export default async function LegacyPage({ params }) {
           </div>
         </div>
       </section>
+
+      {slug === 'blogs' && (
+        <section className="section recovery-blog-index">
+          <div className="container">
+            <div className="section-heading"><div><div className="section-kicker">Marriage Guides and Practical Resources</div><h2>Explore Our <span>Court Marriage Guides.</span></h2></div><p>Choose a guide for preparation, legal questions, records or document use. You can also browse <a href="/category/marriage-services/">Marriage Services</a> and <a href="/category/marriage-law/">Marriage Law</a>.</p></div>
+            <div className="service-grid">{recoveryPages.filter((item) => item.kind !== 'category').map((item) => <article className="service-card" key={item.slug}><h3><a href={`/${item.slug}/`}>{item.title}</a></h3><p>{item.description}</p><a className="text-link" href={`/${item.slug}/`}>Read the Guide →</a></article>)}</div>
+          </div>
+        </section>
+      )}
 
       {slug === 'contact-us' && (
         <section className="section contact-strip"><div className="container"><div className="section-heading"><div><div className="section-kicker">City contact numbers</div><h2>Contact the <span>relevant city team.</span></h2></div></div><div className="city-grid">{Object.entries(cityContacts).map(([city, number]) => <a className="city-card" key={city} href={`tel:${telNumber(number)}`}><strong>{city}</strong><b>{number}</b></a>)}</div></div></section>

@@ -288,7 +288,7 @@ export default function Page() {
       <footer className="footer">
         <div className="container footer-grid">
           <div><a className="brand footer-brand" href="/"><Mark /><span><strong>CourtMarriage</strong><b>.live</b><small>Marriage Legal Services</small></span></a><p>Private legal-service assistance for Court Marriage, Nikah and marriage documentation in Pakistan. CourtMarriage.live is not NADRA, a Union Council, a court, MOFA or an embassy.</p></div>
-          <div><h3>Explore</h3><a href="#court-marriage">Court Marriage</a><a href={serviceLinks.onlineNikah}>Online Nikah</a><a href={serviceLinks.nikahServices}>Nikah Services</a><a href={serviceLinks.about}>About Us</a><a href={serviceLinks.blogs}>Blogs</a></div>
+          <div><h3>Explore</h3><a href="#court-marriage">Court Marriage</a><a href={serviceLinks.onlineNikah}>Online Nikah</a><a href={serviceLinks.nikahServices}>Nikah Services</a><a href={serviceLinks.about}>About Us</a><a href={serviceLinks.blogs}>Blogs</a><a href="/category/marriage-services/">Marriage Services Directory</a><a href="/category/marriage-law/">Marriage Law Guides</a></div>
           <div><h3>City contacts</h3><a href="tel:+923331127830">Karachi · {cityContacts.Karachi}</a><a href="tel:+923331127835">Lahore · {cityContacts.Lahore}</a><a href="tel:+923331127836">Islamabad · {cityContacts.Islamabad}</a><a href="tel:+923331127831">Rawalpindi · {cityContacts.Rawalpindi}</a></div>
         </div>
         <div className="container footer-bottom"><span>© {new Date().getFullYear()} CourtMarriage.live. All rights reserved.</span><span>Legal information is general and requirements may vary by case and jurisdiction.</span></div>
