@@ -5,6 +5,7 @@ import { SiteHeader, SiteFooter, ContactActions, callHours } from '@/components/
 import { GuideSidebar } from '@/app/recovery-page'
 import { titleCase } from '@/lib/editorial'
 import { pageAssets, assetUrl } from '@/lib/site-pages'
+import { pageHeadings } from '@/lib/page-headings'
 
 const services = [
   ['01', 'Court Marriage in Pakistan', 'Free-will Nikah, document review and registration assistance for eligible couples.', '#court-marriage'],
@@ -42,7 +43,7 @@ export default function Page() {
   const pageSchema = {
     '@context':'https://schema.org',
     '@graph':[
-      {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:'Court Marriage in Pakistan',dateModified:'2026-10-24',about:{'@id':`${site.url}/#legalservice`}},
+      {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:pageHeadings['/'].h1,dateModified:'2026-10-24',about:{'@id':`${site.url}/#legalservice`}},
       {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Multan']},
       {'@type':'BreadcrumbList','@id':`${site.url}/#breadcrumb`,itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${site.url}/`}]}
     ]
@@ -73,7 +74,7 @@ export default function Page() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-line" /> Court marriage and Nikah services in Pakistan</div>
-            <h1>Court Marriage in Pakistan</h1><h2 className="hero-subtitle">Legal Guidance for Nikah, Documents and Registration</h2><div className="recovery-byline">Mohsin Ali Shah · Chairman, Qanoon Group · 40+ Years of Experience in Legal Practice and Network Management</div>
+            <h1>{pageHeadings['/'].h1}</h1><h2 className="hero-subtitle">Legal Guidance for Nikah, Documents and Registration</h2><div className="recovery-byline">Mohsin Ali Shah · Chairman, Qanoon Group · 40+ Years of Experience in Legal Practice and Network Management</div>
             <p className="hero-lead">Court Marriage in Pakistan assistance helps adults complete a lawful Nikah, prepare the relevant marriage documents and follow the applicable registration process with clear, confidential guidance.</p>
             <ContactActions/>
             <div className="trust-row"><span>✓ Confidential handling</span><span>✓ City-based support</span><span>✓ Clear document review</span></div>

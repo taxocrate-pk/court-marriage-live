@@ -224,7 +224,7 @@
       ],
       "title_width_px": 490,
       "h1": [
-        "Nikah Nama in Karachi \u2013 Urdu, English Translation & Registration"
+        "Nikah Nama in Karachi – Urdu, English Translation & Registration"
       ],
       "issues": []
     },
@@ -252,7 +252,7 @@
       ],
       "title_width_px": 484,
       "h1": [
-        "Nikah Nama in Lahore \u2013 Urdu, English Translation & Registration"
+        "Nikah Nama in Lahore – Urdu, English Translation & Registration"
       ],
       "issues": []
     },
@@ -280,7 +280,7 @@
       ],
       "title_width_px": 516,
       "h1": [
-        "Nikah Nama in Islamabad \u2013 Urdu, English Translation & Registration"
+        "Nikah Nama in Islamabad – Urdu, English Translation & Registration"
       ],
       "issues": []
     },
@@ -308,7 +308,7 @@
       ],
       "title_width_px": 521,
       "h1": [
-        "Nikah Nama in Rawalpindi \u2013 Urdu, English Translation & Registration"
+        "Nikah Nama in Rawalpindi – Urdu, English Translation & Registration"
       ],
       "issues": []
     },
@@ -547,7 +547,7 @@
       "images": [
         {
           "src": "/images/recovery/registration-pakistan.webp",
-          "alt": "NADRA Marriage Registration Service in Pakistan \u2014 illustrative document preparation photograph"
+          "alt": "NADRA Marriage Registration Service in Pakistan — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/registration-pakistan-checklist.webp",
@@ -631,7 +631,7 @@
       "images": [
         {
           "src": "/images/recovery/ins-outs.webp",
-          "alt": "The Ins and Outs of Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
+          "alt": "The Ins and Outs of Court Marriage in Pakistan — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/ins-outs-checklist.webp",
@@ -659,7 +659,7 @@
       "images": [
         {
           "src": "/images/recovery/complete-process.webp",
-          "alt": "Court Marriage in Pakistan: Complete Process Guide \u2014 illustrative document preparation photograph"
+          "alt": "Court Marriage in Pakistan: Complete Process Guide — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/complete-process-checklist.webp",
@@ -687,7 +687,7 @@
       "images": [
         {
           "src": "/images/recovery/detailed-record.webp",
-          "alt": "Court Marriage in Pakistan: Detailed Nikah Nama Guide \u2014 illustrative document preparation photograph"
+          "alt": "Court Marriage in Pakistan: Detailed Nikah Nama Guide — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/detailed-record-checklist.webp",
@@ -743,7 +743,7 @@
       "images": [
         {
           "src": "/images/recovery/clearing-path.webp",
-          "alt": "Clearing the Path to Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
+          "alt": "Clearing the Path to Court Marriage in Pakistan — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/clearing-path-checklist.webp",
@@ -771,7 +771,7 @@
       "images": [
         {
           "src": "/images/recovery/planning.webp",
-          "alt": "Planning Your Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
+          "alt": "Planning Your Court Marriage in Pakistan — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/planning-checklist.webp",
@@ -799,7 +799,7 @@
       "images": [
         {
           "src": "/images/recovery/reg-reception.webp",
-          "alt": "Court Marriage in Pakistan: Registration to Reception \u2014 illustrative document preparation photograph"
+          "alt": "Court Marriage in Pakistan: Registration to Reception — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/reg-reception-checklist.webp",
@@ -827,7 +827,7 @@
       "images": [
         {
           "src": "/images/recovery/overseas-guide.webp",
-          "alt": "Court Marriage in Pakistan: Complete Document-Use Guide \u2014 illustrative document preparation photograph"
+          "alt": "Court Marriage in Pakistan: Complete Document-Use Guide — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/overseas-guide-checklist.webp",
@@ -855,7 +855,7 @@
       "images": [
         {
           "src": "/images/recovery/city-comparison.webp",
-          "alt": "Court Marriage Services in Pakistan\u2019s Major Cities \u2014 illustrative document preparation photograph"
+          "alt": "Court Marriage Services in Pakistan’s Major Cities — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/city-comparison-checklist.webp",
@@ -864,7 +864,7 @@
       ],
       "title_width_px": 446,
       "h1": [
-        "Court Marriage Services in Pakistan\u2019s Major Cities"
+        "Court Marriage Services in Pakistan’s Major Cities"
       ],
       "issues": []
     },
@@ -883,7 +883,7 @@
       "images": [
         {
           "src": "/images/recovery/services-hub.webp",
-          "alt": "Marriage Services in Pakistan \u2014 illustrative document preparation photograph"
+          "alt": "Marriage Services in Pakistan — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/services-hub-checklist.webp",
@@ -911,7 +911,7 @@
       "images": [
         {
           "src": "/images/recovery/law-hub.webp",
-          "alt": "Marriage Law in Pakistan: Guides and Legal Questions \u2014 illustrative document preparation photograph"
+          "alt": "Marriage Law in Pakistan: Guides and Legal Questions — illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/law-hub-checklist.webp",
@@ -972,5 +972,10 @@
     "preserved_indexed_slugs": 32,
     "new_asset_byte_matches": 30
   },
-  "internal_route_errors": 0
+  "internal_route_errors": 0,
+  "heading_revision": {
+    "date": "2026-10-24",
+    "record": "docs/title-h1-review.json",
+    "note": "Earlier row H1/title-width values predate the owner-requested title and H1 revision. Consult the revision record; existing mobile/tablet limitations remain."
+  }
 }

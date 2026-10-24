@@ -1,23 +1,24 @@
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import './audit.css'
+import { pageHeadings } from '@/lib/page-headings'
 
 export const metadata = {
   metadataBase: new URL('https://courtmarriage.live'),
-  title: 'Court Marriage in Pakistan | CourtMarriage.live',
+  title: pageHeadings['/'].seo,
   description: 'Court marriage, Nikah and marriage registration assistance in Pakistan. Document guidance for Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad and Multan.',
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     url: 'https://courtmarriage.live/',
     siteName: 'CourtMarriage.live',
-    title: 'Court Marriage in Pakistan | CourtMarriage.live',
+    title: pageHeadings['/'].seo,
     description: 'Professional assistance with lawful Nikah, marriage documentation and registration in Pakistan.',
     images: [{ url: '/court-marriage-hero.png', width: 1200, height: 1350, alt: 'Court marriage and Nikah documentation in Pakistan' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Court Marriage in Pakistan | CourtMarriage.live',
+    title: pageHeadings['/'].seo,
     description: 'Professional assistance with lawful Nikah, marriage documentation and registration in Pakistan.',
     images: ['/court-marriage-hero.png'],
   },

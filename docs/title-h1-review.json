@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-24",
+  "scope": "Owner-requested descriptive titles and H1s, including Secure, Legal, Low-Cost and Quick Service on service pages",
+  "build": "PASS",
+  "pages_checked": 34,
+  "changed_heading_pairs": 34,
+  "service_pages_with_all_four_qualities": 18,
+  "title_width_method": "Estimated using 20px Arial via canvas; Google rendering can differ",
+  "width_override": "Owner explicitly requested the service qualities even if search titles are truncated; the 580px target does not veto these approved phrases.",
+  "mobile_390": "NOT VERIFIED",
+  "mobile_360": "NOT VERIFIED",
+  "tablet": "NOT VERIFIED",
+  "rows": [
+    {
+      "route": "/a-complete-guide-to-court-marriage-in-pakistan/",
+      "title": "Court Marriage Documents in Pakistan | Overseas Use Guide",
+      "title_width_px": 577,
+      "h1": [
+        "Court Marriage Documents in Pakistan | Translation, Attestation and Overseas Use"
+      ],
+      "canonical": "https://courtmarriage.live/a-complete-guide-to-court-marriage-in-pakistan/"
+    },
+    {
+      "route": "/about-us/",
+      "title": "About CourtMarriage.live | Marriage Lawyers & Legal Team",
+      "title_width_px": 570,
+      "h1": [
+        "About CourtMarriage.live | Our Legal Team and Marriage Documentation Services"
+      ],
+      "canonical": "https://courtmarriage.live/about-us/"
+    },
+    {
+      "route": "/blogs/",
+      "title": "Court Marriage & Nikah Guides | Law & Documents",
+      "title_width_px": 495,
+      "h1": [
+        "Court Marriage and Nikah Guides | Pakistani Law and Marriage Documents"
+      ],
+      "canonical": "https://courtmarriage.live/blogs/"
+    },
+    {
+      "route": "/category/marriage-law/",
+      "title": "Marriage Law in Pakistan | Consent, Mahr & Nikah Nama",
+      "title_width_px": 553,
+      "h1": [
+        "Marriage Law in Pakistan | Consent, Mahr, Nikah Nama and Registration Guides"
+      ],
+      "canonical": "https://courtmarriage.live/category/marriage-law/"
+    },
+    {
+      "route": "/category/marriage-services/",
+      "title": "Marriage Services in Pakistan | Nikah, Documents & MRC",
+      "title_width_px": 552,
+      "h1": [
+        "Marriage Services in Pakistan | Nikah, Marriage Records and Registration Assistance"
+      ],
+      "canonical": "https://courtmarriage.live/category/marriage-services/"
+    },
+    {
+      "route": "/clearing-the-path-court-marriage-in-pakistan/",
+      "title": "Court Marriage in Pakistan | Resolve Document Problems",
+      "title_width_px": 544,
+      "h1": [
+        "Court Marriage in Pakistan | Resolving Identity, Marital Status and Document Problems"
+      ],
+      "canonical": "https://courtmarriage.live/clearing-the-path-court-marriage-in-pakistan/"
+    },
+    {
+      "route": "/contact-us/",
+      "title": "Contact CourtMarriage.live | Nikah & Document Review",
+      "title_width_px": 531,
+      "h1": [
+        "Contact CourtMarriage.live | Nikah, Marriage Records and Legal Assistance"
+      ],
+      "canonical": "https://courtmarriage.live/contact-us/"
+    },
+    {
+      "route": "/court-marriage-choice-for-a-recognized-bond/",
+      "title": "Court Marriage: Free Consent, Mahr & Marriage Rights",
+      "title_width_px": 521,
+      "h1": [
+        "Court Marriage by Free Choice | Consent, Mahr and Legal Recognition"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-choice-for-a-recognized-bond/"
+    },
+    {
+      "route": "/court-marriage-in-islamabad/",
+      "title": "Court Marriage in Islamabad | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 668,
+      "h1": [
+        "Court Marriage in Islamabad | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-in-islamabad/"
+    },
+    {
+      "route": "/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+      "title": "Court Marriage in Rawalpindi | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 677,
+      "h1": [
+        "Court Marriage in Rawalpindi | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-in-karachi-lahore-islamabad-rawalpindi/"
+    },
+    {
+      "route": "/court-marriage-in-karachi/",
+      "title": "Court Marriage in Karachi | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 645,
+      "h1": [
+        "Court Marriage in Karachi | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-in-karachi/"
+    },
+    {
+      "route": "/court-marriage-in-karachipakistan/",
+      "title": "Court Marriage Documents in Karachi | Nikah File Checklist",
+      "title_width_px": 573,
+      "h1": [
+        "Court Marriage in Karachi, Pakistan | Documents, Witnesses and Nikah Preparation"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-in-karachipakistan/"
+    },
+    {
+      "route": "/court-marriage-in-lahore/",
+      "title": "Court Marriage in Lahore | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 636,
+      "h1": [
+        "Court Marriage in Lahore | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-in-lahore/"
+    },
+    {
+      "route": "/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+      "title": "Court Marriage in Pakistan | Step-by-step Process Guide",
+      "title_width_px": 533,
+      "h1": [
+        "Court Marriage in Pakistan | Complete Process from Document Review to Registration"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/"
+    },
+    {
+      "route": "/court-marriage-in-pakistan-detailed-guide/",
+      "title": "Court Marriage in Pakistan | Nikah Nama Record Checklist",
+      "title_width_px": 562,
+      "h1": [
+        "Court Marriage in Pakistan | Detailed Nikah Nama Entries and Record Checklist"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-in-pakistan-detailed-guide/"
+    },
+    {
+      "route": "/court-marriage-pk-reg-to-reception-guide/",
+      "title": "Court Marriage in Pakistan | Registration to Reception Guide",
+      "title_width_px": 577,
+      "h1": [
+        "Court Marriage in Pakistan | Planning Nikah, Registration and the Reception"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-pk-reg-to-reception-guide/"
+    },
+    {
+      "route": "/court-marriage-services-in-faisalabad/",
+      "title": "Court Marriage Services in Faisalabad | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 755,
+      "h1": [
+        "Court Marriage Services in Faisalabad | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriage-services-in-faisalabad/"
+    },
+    {
+      "route": "/court-marriages-in-multan/",
+      "title": "Court Marriage in Multan | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 639,
+      "h1": [
+        "Court Marriage in Multan | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/court-marriages-in-multan/"
+    },
+    {
+      "route": "/",
+      "title": "Court Marriage in Pakistan | Secure, Legal, Low-Cost & Quick Service",
+      "title_width_px": 659,
+      "h1": [
+        "Court Marriage in Pakistan | Secure, Legal, Low-Cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/"
+    },
+    {
+      "route": "/nadra-marriage-certificate-in-pakistan/",
+      "title": "Marriage Registration Certificate in Pakistan | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 819,
+      "h1": [
+        "Marriage Registration Certificate in Pakistan | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nadra-marriage-certificate-in-pakistan/"
+    },
+    {
+      "route": "/nadra-marriage-certificate-service-in-karachi/",
+      "title": "NADRA Marriage Certificate Service in Karachi | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 843,
+      "h1": [
+        "NADRA Marriage Certificate Service in Karachi | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nadra-marriage-certificate-service-in-karachi/"
+    },
+    {
+      "route": "/nadra-marriage-registration-service-in-pakistan/",
+      "title": "NADRA Marriage Registration Service in Pakistan | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 869,
+      "h1": [
+        "NADRA Marriage Registration Service in Pakistan | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nadra-marriage-registration-service-in-pakistan/"
+    },
+    {
+      "route": "/nikah-certificates-guardian-of-union/",
+      "title": "Nikah Certificates in Pakistan | Union Council Record Guide",
+      "title_width_px": 570,
+      "h1": [
+        "Nikah Certificates in Pakistan | Union Council Records, Copies and Corrections"
+      ],
+      "canonical": "https://courtmarriage.live/nikah-certificates-guardian-of-union/"
+    },
+    {
+      "route": "/nikah-khawan-services-and-fees/",
+      "title": "Nikah Khawan Services in Pakistan | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 732,
+      "h1": [
+        "Nikah Khawan Services in Pakistan | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nikah-khawan-services-and-fees/"
+    },
+    {
+      "route": "/nikah-nama-english-urdu-islamabad/",
+      "title": "Nikah Nama in Islamabad | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 643,
+      "h1": [
+        "Nikah Nama in Islamabad | Urdu and English Records — Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nikah-nama-english-urdu-islamabad/"
+    },
+    {
+      "route": "/nikah-nama-english-urdu-karachi/",
+      "title": "Nikah Nama in Karachi | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 620,
+      "h1": [
+        "Nikah Nama in Karachi | Urdu and English Records — Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nikah-nama-english-urdu-karachi/"
+    },
+    {
+      "route": "/nikah-nama-english-urdu-lahore/",
+      "title": "Nikah Nama in Lahore | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 611,
+      "h1": [
+        "Nikah Nama in Lahore | Urdu and English Records — Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nikah-nama-english-urdu-lahore/"
+    },
+    {
+      "route": "/nikah-nama-english-urdu-rawalpindi/",
+      "title": "Nikah Nama in Rawalpindi | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 652,
+      "h1": [
+        "Nikah Nama in Rawalpindi | Urdu and English Records — Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nikah-nama-english-urdu-rawalpindi/"
+    },
+    {
+      "route": "/nikah-services/",
+      "title": "Nikah Services in Pakistan | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 649,
+      "h1": [
+        "Nikah Services in Pakistan | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/nikah-services/"
+    },
+    {
+      "route": "/online-nikah-for-foreigners/",
+      "title": "Online Nikah for Foreigners | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 658,
+      "h1": [
+        "Online Nikah for Foreigners | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/online-nikah-for-foreigners/"
+    },
+    {
+      "route": "/online-nikah-has-gained-popularity/",
+      "title": "Online Nikah in Pakistan | Secure, Legal, Low-cost & Quick Service",
+      "title_width_px": 635,
+      "h1": [
+        "Online Nikah in Pakistan | Secure, Legal, Low-cost and Quick Service"
+      ],
+      "canonical": "https://courtmarriage.live/online-nikah-has-gained-popularity/"
+    },
+    {
+      "route": "/planning-your-court-marriage-in-pakistan/",
+      "title": "Planning Court Marriage in Pakistan | Document Checklist",
+      "title_width_px": 558,
+      "h1": [
+        "Planning Your Court Marriage in Pakistan | Documents, Witnesses and Appointment Checklist"
+      ],
+      "canonical": "https://courtmarriage.live/planning-your-court-marriage-in-pakistan/"
+    },
+    {
+      "route": "/the-best-court-marriage-services-in-pakistans-major-cities/",
+      "title": "Court Marriage Services in Pakistan | City Guides",
+      "title_width_px": 473,
+      "h1": [
+        "Court Marriage Services in Pakistan’s Major Cities | Documents and Local Registration"
+      ],
+      "canonical": "https://courtmarriage.live/the-best-court-marriage-services-in-pakistans-major-cities/"
+    },
+    {
+      "route": "/the-ins-outs-of-court-marriage-in-pakistan/",
+      "title": "Court Marriage in Pakistan | Eligibility & Legal Questions",
+      "title_width_px": 550,
+      "h1": [
+        "Court Marriage in Pakistan | Eligibility, Consent and Common Legal Questions"
+      ],
+      "canonical": "https://courtmarriage.live/the-ins-outs-of-court-marriage-in-pakistan/"
+    }
+  ]
+}
