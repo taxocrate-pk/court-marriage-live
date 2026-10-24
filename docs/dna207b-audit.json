@@ -1,0 +1,933 @@
+{
+  "pages": 34,
+  "unique_heroes": 34,
+  "header_variants": 4,
+  "footer_variants": 2,
+  "rows": [
+    {
+      "url": "https://courtmarriage.live/",
+      "main_words": 3569,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 36,
+      "phrase_unit_density": 1.01,
+      "phrase_word_density": 2.02,
+      "constituent_counts": {
+        "Court": 42,
+        "Marriage": 83
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/home-marriage-guidance.webp",
+          "alt": "Couple completing Nikah documentation in Pakistan"
+        },
+        {
+          "src": "/images/site/home-registration-records.webp",
+          "alt": "Illustrative marriage documents and wedding rings prepared for registration"
+        }
+      ],
+      "title_width_px": 422,
+      "h1": [
+        "Court Marriage in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "main_words": 2794,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 26,
+      "phrase_unit_density": 0.93,
+      "phrase_word_density": 1.86,
+      "constituent_counts": {
+        "Court": 29,
+        "Marriage": 59
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/court-marriage-karachi.webp",
+          "alt": "Court Marriage in Karachi: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/court-marriage-karachi-records.webp",
+          "alt": "Court Marriage: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 414,
+      "h1": [
+        "Court Marriage in Karachi"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-lahore/",
+      "main_words": 2827,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 26,
+      "phrase_unit_density": 0.92,
+      "phrase_word_density": 1.84,
+      "constituent_counts": {
+        "Court": 29,
+        "Marriage": 59
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/court-marriage-lahore.webp",
+          "alt": "Court Marriage in Lahore: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/court-marriage-lahore-records.webp",
+          "alt": "Court Marriage: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 408,
+      "h1": [
+        "Court Marriage in Lahore"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-islamabad/",
+      "main_words": 2806,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 26,
+      "phrase_unit_density": 0.93,
+      "phrase_word_density": 1.85,
+      "constituent_counts": {
+        "Court": 29,
+        "Marriage": 57
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/court-marriage-islamabad.webp",
+          "alt": "Court Marriage in Islamabad: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/court-marriage-islamabad-records.webp",
+          "alt": "Court Marriage: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 440,
+      "h1": [
+        "Court Marriage in Islamabad"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+      "main_words": 2800,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 26,
+      "phrase_unit_density": 0.93,
+      "phrase_word_density": 1.86,
+      "constituent_counts": {
+        "Court": 29,
+        "Marriage": 60
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/court-marriage-rawalpindi.webp",
+          "alt": "Court Marriage in Rawalpindi: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/court-marriage-rawalpindi-records.webp",
+          "alt": "Court Marriage: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 445,
+      "h1": [
+        "Court Marriage in Rawalpindi"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "main_words": 2808,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 26,
+      "phrase_unit_density": 0.93,
+      "phrase_word_density": 1.85,
+      "constituent_counts": {
+        "Court": 30,
+        "Marriage": 59
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/court-marriage-faisalabad.webp",
+          "alt": "Court Marriage in Faisalabad: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/court-marriage-faisalabad-records.webp",
+          "alt": "Court Marriage: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 523,
+      "h1": [
+        "Court Marriage Services in Faisalabad"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriages-in-multan/",
+      "main_words": 2793,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 26,
+      "phrase_unit_density": 0.93,
+      "phrase_word_density": 1.86,
+      "constituent_counts": {
+        "Court": 29,
+        "Marriage": 58
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/court-marriage-multan.webp",
+          "alt": "Court Marriage in Multan: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/court-marriage-multan-records.webp",
+          "alt": "Court Marriage: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 408,
+      "h1": [
+        "Court Marriage in Multan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-karachi/",
+      "main_words": 2687,
+      "primary_phrase": "Nikah Nama",
+      "exact_matches": 34,
+      "phrase_unit_density": 1.27,
+      "phrase_word_density": 2.53,
+      "constituent_counts": {
+        "Nikah": 57,
+        "Nama": 34
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/nikah-nama-karachi.webp",
+          "alt": "Nikah Nama in Karachi: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/nikah-nama-karachi-translation.webp",
+          "alt": "Nikah Nama: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 490,
+      "h1": [
+        "Nikah Nama in Karachi \u2013 Urdu, English Translation & Registration"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-lahore/",
+      "main_words": 2680,
+      "primary_phrase": "Nikah Nama",
+      "exact_matches": 34,
+      "phrase_unit_density": 1.27,
+      "phrase_word_density": 2.54,
+      "constituent_counts": {
+        "Nikah": 58,
+        "Nama": 34
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/nikah-nama-lahore.webp",
+          "alt": "Nikah Nama in Lahore: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/nikah-nama-lahore-translation.webp",
+          "alt": "Nikah Nama: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 484,
+      "h1": [
+        "Nikah Nama in Lahore \u2013 Urdu, English Translation & Registration"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-islamabad/",
+      "main_words": 2678,
+      "primary_phrase": "Nikah Nama",
+      "exact_matches": 34,
+      "phrase_unit_density": 1.27,
+      "phrase_word_density": 2.54,
+      "constituent_counts": {
+        "Nikah": 57,
+        "Nama": 34
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/nikah-nama-islamabad.webp",
+          "alt": "Nikah Nama in Islamabad: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/nikah-nama-islamabad-translation.webp",
+          "alt": "Nikah Nama: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 516,
+      "h1": [
+        "Nikah Nama in Islamabad \u2013 Urdu, English Translation & Registration"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-rawalpindi/",
+      "main_words": 2677,
+      "primary_phrase": "Nikah Nama",
+      "exact_matches": 34,
+      "phrase_unit_density": 1.27,
+      "phrase_word_density": 2.54,
+      "constituent_counts": {
+        "Nikah": 57,
+        "Nama": 34
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/nikah-nama-rawalpindi.webp",
+          "alt": "Nikah Nama in Rawalpindi: illustrative marriage document preparation"
+        },
+        {
+          "src": "/images/site/nikah-nama-rawalpindi-translation.webp",
+          "alt": "Nikah Nama: a separate illustration of document review and record preparation"
+        }
+      ],
+      "title_width_px": 521,
+      "h1": [
+        "Nikah Nama in Rawalpindi \u2013 Urdu, English Translation & Registration"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-has-gained-popularity/",
+      "main_words": 2584,
+      "primary_phrase": "Online Nikah",
+      "exact_matches": 20,
+      "phrase_unit_density": 0.77,
+      "phrase_word_density": 1.55,
+      "constituent_counts": {
+        "Online": 23,
+        "Nikah": 55
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/online-nikah-pakistan.webp",
+          "alt": "Online Nikah: illustrative marriage document preparation"
+        }
+      ],
+      "title_width_px": 402,
+      "h1": [
+        "Online Nikah in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-for-foreigners/",
+      "main_words": 2594,
+      "primary_phrase": "Online Nikah",
+      "exact_matches": 20,
+      "phrase_unit_density": 0.77,
+      "phrase_word_density": 1.54,
+      "constituent_counts": {
+        "Online": 22,
+        "Nikah": 49
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/online-nikah-foreigners.webp",
+          "alt": "Online Nikah: illustrative marriage document preparation"
+        }
+      ],
+      "title_width_px": 430,
+      "h1": [
+        "Online Nikah for Foreigners"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-services/",
+      "main_words": 2578,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 0,
+      "phrase_unit_density": 0.0,
+      "phrase_word_density": 0.0,
+      "constituent_counts": {
+        "Court": 2,
+        "Marriage": 30
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/nikah-services-pakistan.webp",
+          "alt": "Nikah Services: illustrative marriage document preparation"
+        }
+      ],
+      "title_width_px": 420,
+      "h1": [
+        "Nikah Services in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-khawan-services-and-fees/",
+      "main_words": 2617,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 0,
+      "phrase_unit_density": 0.0,
+      "phrase_word_density": 0.0,
+      "constituent_counts": {
+        "Court": 2,
+        "Marriage": 28
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/nikah-khawan-guidance.webp",
+          "alt": "Nikah Khawan Services: illustrative marriage document preparation"
+        }
+      ],
+      "title_width_px": 497,
+      "h1": [
+        "Nikah Khawan Services in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-in-pakistan/",
+      "main_words": 2619,
+      "primary_phrase": "Marriage Certificate",
+      "exact_matches": 3,
+      "phrase_unit_density": 0.11,
+      "phrase_word_density": 0.23,
+      "constituent_counts": {
+        "Marriage": 51,
+        "Certificate": 34
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/marriage-certificate-pakistan.webp",
+          "alt": "Marriage Registration Certificate: illustrative marriage document preparation"
+        }
+      ],
+      "title_width_px": 396,
+      "h1": [
+        "Marriage Registration Certificate in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/about-us/",
+      "main_words": 2086,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 7,
+      "phrase_unit_density": 0.34,
+      "phrase_word_density": 0.67,
+      "constituent_counts": {
+        "Court": 10,
+        "Marriage": 26
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/about-private-legal-practice.webp",
+          "alt": "CourtMarriage.live: illustrative marriage document preparation"
+        }
+      ],
+      "title_width_px": 409,
+      "h1": [
+        "About CourtMarriage.live"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/blogs/",
+      "main_words": 2333,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 19,
+      "phrase_unit_density": 0.81,
+      "phrase_word_density": 1.63,
+      "constituent_counts": {
+        "Court": 22,
+        "Marriage": 44
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/marriage-guides-library.webp",
+          "alt": "Court Marriage Guides: illustrative marriage document preparation"
+        }
+      ],
+      "title_width_px": 441,
+      "h1": [
+        "Court Marriage & Nikah Blog"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/contact-us/",
+      "main_words": 2160,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 6,
+      "phrase_unit_density": 0.28,
+      "phrase_word_density": 0.56,
+      "constituent_counts": {
+        "Court": 10,
+        "Marriage": 25
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/site/contact-legal-guidance.webp",
+          "alt": "CourtMarriage.live: illustrative marriage document preparation"
+        }
+      ],
+      "title_width_px": 426,
+      "h1": [
+        "Contact CourtMarriage.live"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-certificates-guardian-of-union/",
+      "main_words": 1592,
+      "primary_phrase": "Marriage Certificate",
+      "exact_matches": 3,
+      "phrase_unit_density": 0.19,
+      "phrase_word_density": 0.38,
+      "constituent_counts": {
+        "Marriage": 23,
+        "Certificate": 12
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/certificate-records.webp",
+          "alt": "Marriage registration ledger, cream document folder and wedding rings on a green desk"
+        },
+        {
+          "src": "/images/recovery/certificate-records-checklist.webp",
+          "alt": "Nikah Certificates file checklist covering Registered Nikah Nama, Computerized MRC, NADRA FRC, Certified Translation"
+        }
+      ],
+      "title_width_px": 499,
+      "h1": [
+        "Nikah Certificates and Union Council Records in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-registration-service-in-pakistan/",
+      "main_words": 831,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 0,
+      "phrase_unit_density": 0.0,
+      "phrase_word_density": 0.0,
+      "constituent_counts": {
+        "Court": 0,
+        "Marriage": 15
+      },
+      "faqs": 12,
+      "images": [
+        {
+          "src": "/images/recovery/registration-pakistan.webp",
+          "alt": "NADRA Marriage Registration Service in Pakistan \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/registration-pakistan-checklist.webp",
+          "alt": "Marriage Registration file checklist covering Document Review, Local Application, Collection Check, Overseas Preparation"
+        }
+      ],
+      "title_width_px": 439,
+      "h1": [
+        "NADRA Marriage Registration Service in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-service-in-karachi/",
+      "main_words": 803,
+      "primary_phrase": "Marriage Certificate",
+      "exact_matches": 9,
+      "phrase_unit_density": 1.12,
+      "phrase_word_density": 2.24,
+      "constituent_counts": {
+        "Marriage": 14,
+        "Certificate": 12
+      },
+      "faqs": 12,
+      "images": [
+        {
+          "src": "/images/recovery/karachi-certificate.webp",
+          "alt": "Karachi consultation desk with folders prepared for a local marriage certificate application"
+        },
+        {
+          "src": "/images/recovery/karachi-certificate-checklist.webp",
+          "alt": "Marriage Certificate file checklist covering Registered Nikah, Lost Copy, Spelling Difference, Overseas Submission"
+        }
+      ],
+      "title_width_px": 416,
+      "h1": [
+        "NADRA Marriage Certificate Service in Karachi"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-choice-for-a-recognized-bond/",
+      "main_words": 1548,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 12,
+      "phrase_unit_density": 0.78,
+      "phrase_word_density": 1.55,
+      "constituent_counts": {
+        "Court": 16,
+        "Marriage": 26
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/recognized-bond.webp",
+          "alt": "Wedding bands and a marriage-document folder representing an informed commitment"
+        },
+        {
+          "src": "/images/recovery/recognized-bond-checklist.webp",
+          "alt": "Court Marriage file checklist covering Was the marriage recorded?, What terms were agreed?, What does an overseas office need?, Is protection advice required?"
+        }
+      ],
+      "title_width_px": 440,
+      "h1": [
+        "Court Marriage: a Choice for a Recognized Bond"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/the-ins-outs-of-court-marriage-in-pakistan/",
+      "main_words": 1524,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 12,
+      "phrase_unit_density": 0.79,
+      "phrase_word_density": 1.57,
+      "constituent_counts": {
+        "Court": 14,
+        "Marriage": 25
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/ins-outs.webp",
+          "alt": "The Ins and Outs of Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/ins-outs-checklist.webp",
+          "alt": "Court Marriage file checklist covering Scope, Eligibility, Jurisdiction, Handover"
+        }
+      ],
+      "title_width_px": 504,
+      "h1": [
+        "The Ins and Outs of Court Marriage in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+      "main_words": 1565,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 11,
+      "phrase_unit_density": 0.7,
+      "phrase_word_density": 1.41,
+      "constituent_counts": {
+        "Court": 11,
+        "Marriage": 21
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/complete-process.webp",
+          "alt": "Court Marriage in Pakistan: Complete Process Guide \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/complete-process-checklist.webp",
+          "alt": "Court Marriage file checklist covering Preparation, Nikah, Registration, Certificate and Handover"
+        }
+      ],
+      "title_width_px": 469,
+      "h1": [
+        "Court Marriage in Pakistan: Complete Process Guide"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-detailed-guide/",
+      "main_words": 1539,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 13,
+      "phrase_unit_density": 0.84,
+      "phrase_word_density": 1.69,
+      "constituent_counts": {
+        "Court": 13,
+        "Marriage": 21
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/detailed-record.webp",
+          "alt": "Court Marriage in Pakistan: Detailed Nikah Nama Guide \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/detailed-record-checklist.webp",
+          "alt": "Court Marriage file checklist covering Names and Identity Numbers, Mahr and Conditions, Registration Particulars, Translation and MRC"
+        }
+      ],
+      "title_width_px": 481,
+      "h1": [
+        "Court Marriage in Pakistan: Detailed Nikah Nama Guide"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachipakistan/",
+      "main_words": 771,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 9,
+      "phrase_unit_density": 1.17,
+      "phrase_word_density": 2.33,
+      "constituent_counts": {
+        "Court": 9,
+        "Marriage": 14
+      },
+      "faqs": 12,
+      "images": [
+        {
+          "src": "/images/recovery/karachi-documents.webp",
+          "alt": "Karachi office setting with an organized marriage-document file"
+        },
+        {
+          "src": "/images/recovery/karachi-documents-checklist.webp",
+          "alt": "Court Marriage file checklist covering Spouse Identities, Marital-Status Evidence, Agreed Terms, Registration Plan"
+        }
+      ],
+      "title_width_px": 474,
+      "h1": [
+        "Court Marriage in Karachi, Pakistan: Document Preparation"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/clearing-the-path-court-marriage-in-pakistan/",
+      "main_words": 1544,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 16,
+      "phrase_unit_density": 1.04,
+      "phrase_word_density": 2.07,
+      "constituent_counts": {
+        "Court": 18,
+        "Marriage": 26
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/clearing-path.webp",
+          "alt": "Clearing the Path to Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/clearing-path-checklist.webp",
+          "alt": "Court Marriage file checklist covering Name Discrepancy, Unclear Marital Status, Missing Marriage Copy, Overseas Participation"
+        }
+      ],
+      "title_width_px": 507,
+      "h1": [
+        "Clearing the Path to Court Marriage in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/planning-your-court-marriage-in-pakistan/",
+      "main_words": 1550,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 11,
+      "phrase_unit_density": 0.71,
+      "phrase_word_density": 1.42,
+      "constituent_counts": {
+        "Court": 11,
+        "Marriage": 16
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/planning.webp",
+          "alt": "Planning Your Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/planning-checklist.webp",
+          "alt": "Court Marriage file checklist covering Review identities and current marital status, Discuss location and participation, Agree scope and likely additional services, Raise genuine safety or document issues"
+        }
+      ],
+      "title_width_px": 465,
+      "h1": [
+        "Planning Your Court Marriage in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-pk-reg-to-reception-guide/",
+      "main_words": 1542,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 15,
+      "phrase_unit_density": 0.97,
+      "phrase_word_density": 1.95,
+      "constituent_counts": {
+        "Court": 15,
+        "Marriage": 29
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/reg-reception.webp",
+          "alt": "Court Marriage in Pakistan: Registration to Reception \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/reg-reception-checklist.webp",
+          "alt": "Court Marriage file checklist covering Nikah, Registration, Computerized Certificate, Reception"
+        }
+      ],
+      "title_width_px": 477,
+      "h1": [
+        "Court Marriage in Pakistan: Registration to Reception"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/a-complete-guide-to-court-marriage-in-pakistan/",
+      "main_words": 1556,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 12,
+      "phrase_unit_density": 0.77,
+      "phrase_word_density": 1.54,
+      "constituent_counts": {
+        "Court": 12,
+        "Marriage": 27
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/overseas-guide.webp",
+          "alt": "Court Marriage in Pakistan: Complete Document-Use Guide \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/overseas-guide-checklist.webp",
+          "alt": "Court Marriage file checklist covering Registered Nikah Nama, Computerized MRC, Certified Translation, Authentication or Apostille"
+        }
+      ],
+      "title_width_px": 472,
+      "h1": [
+        "Court Marriage in Pakistan: Complete Document-use Guide"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/the-best-court-marriage-services-in-pakistans-major-cities/",
+      "main_words": 1557,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 10,
+      "phrase_unit_density": 0.64,
+      "phrase_word_density": 1.28,
+      "constituent_counts": {
+        "Court": 11,
+        "Marriage": 19
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/city-comparison.webp",
+          "alt": "Court Marriage Services in Pakistan\u2019s Major Cities \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/city-comparison-checklist.webp",
+          "alt": "Court Marriage file checklist covering Karachi, Islamabad, Lahore and Rawalpindi, Faisalabad and Multan"
+        }
+      ],
+      "title_width_px": 446,
+      "h1": [
+        "Court Marriage Services in Pakistan\u2019s Major Cities"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-services/",
+      "main_words": 1628,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 4,
+      "phrase_unit_density": 0.25,
+      "phrase_word_density": 0.49,
+      "constituent_counts": {
+        "Court": 4,
+        "Marriage": 28
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/services-hub.webp",
+          "alt": "Marriage Services in Pakistan \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/services-hub-checklist.webp",
+          "alt": "Marriage Services file checklist covering New Marriage, Existing Marriage Record, Document Problem, Overseas Submission"
+        }
+      ],
+      "title_width_px": 448,
+      "h1": [
+        "Marriage Services in Pakistan"
+      ],
+      "issues": []
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-law/",
+      "main_words": 1721,
+      "primary_phrase": "Court Marriage",
+      "exact_matches": 10,
+      "phrase_unit_density": 0.58,
+      "phrase_word_density": 1.16,
+      "constituent_counts": {
+        "Court": 10,
+        "Marriage": 32
+      },
+      "faqs": 10,
+      "images": [
+        {
+          "src": "/images/recovery/law-hub.webp",
+          "alt": "Marriage Law in Pakistan: Guides and Legal Questions \u2014 illustrative document preparation photograph"
+        },
+        {
+          "src": "/images/recovery/law-hub-checklist.webp",
+          "alt": "Marriage Law file checklist covering Consent and Recognition, Eligibility and Service Scope, Material Marriage Terms, Missing or Incorrect Records"
+        }
+      ],
+      "title_width_px": 476,
+      "h1": [
+        "Marriage Law in Pakistan: Guides and Legal Questions"
+      ],
+      "issues": []
+    }
+  ],
+  "errors": [],
+  "desktop_visual": "PENDING",
+  "mobile_390_visual": "BLOCKED: browser viewport control unavailable; unsupported data protocol rejected by browser URL policy",
+  "mobile_360_visual": "BLOCKED: browser viewport control unavailable; unsupported data protocol rejected by browser URL policy",
+  "lighthouse": "PENDING"
+}

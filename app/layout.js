@@ -5,7 +5,7 @@ import './audit.css'
 export const metadata = {
   metadataBase: new URL('https://courtmarriage.live'),
   title: 'Court Marriage in Pakistan | CourtMarriage.live',
-  description: 'Court marriage, lawful Nikah, marriage registration and online Nikah assistance in Pakistan with city-based support in Karachi, Lahore, Islamabad and Rawalpindi.',
+  description: 'Court marriage, Nikah and marriage registration assistance in Pakistan. Document guidance for Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad and Multan.',
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',

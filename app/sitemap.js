@@ -19,7 +19,7 @@ export default function sitemap() {
 
   return [...new Set(routes)].map((route) => ({
     url: `${site.url}${route === '/' ? '/' : route}`,
-    lastModified: recoveryPages.some((page) => `/${page.slug}/` === route) ? new Date('2026-10-24T00:00:00+05:00') : undefined,
+    lastModified: new Date('2026-10-24T00:00:00+05:00'),
     changeFrequency: route === '/' ? 'weekly' : 'monthly',
     priority: route === '/' ? 1 : route.includes('court-marriage') ? 0.9 : 0.8,
   }))

@@ -94,6 +94,15 @@
             "label": "Discuss Your Case"
           }
         ]
+      },
+      {
+        "heading": "Building a Traceable Record-Search File",
+        "paragraphs": [
+          "A useful record-search request begins with the marriage particulars, not simply the couple’s current postal address. Prepare a chronology showing the solemnisation date, the registrar named on the available copy, the locality and any previous certificate application. Explain which details are known from an original and which are only recalled. That distinction helps an advisor avoid repeating an uncertain number as an established fact. Where a relative has a clearer copy, obtain it before asking several offices to search incomplete information.",
+          "Keep a small search log. Record the office approached, the date, the particulars supplied and the response received. If the answer is that no entry was found, ask whether that refers to the stated register, the stated period or the entire relevant record. Do not assume that every unsuccessful enquiry proves that the marriage was never registered. Equally, do not describe an entry as verified merely because somebody recognizes the registrar’s name.",
+          "A person acting for an overseas spouse should confirm the limits of their authority. Permission to make an enquiry is not necessarily the same as authority to collect an original or request a material correction. The competent office can explain its own requirements. Agree which originals are required, who will hold them and how they will be returned. Keep official receipts and the final result with the search log.",
+          "When the record is located, check that the copy obtained actually concerns the correct marriage. Similar names can occur, and a neat computerized printout should still be compared against reliable identity particulars. Preserve the registration reference and the issuing office’s details so that a future certified-copy request does not begin the same search again. This approach makes the documentation useful for later administrative needs without inventing a new marriage record or changing the original event."
+        ]
       }
     ],
     "faqs": [
@@ -301,6 +310,14 @@
       [
         "How do I begin?",
         "Contact the team with the city, marriage date, available Nikah Nama and intended document use. The initial ten-minute telephone consultation is free."
+      ],
+      [
+        "Should I send original documents for an initial enquiry?",
+        "Ask which limited copies are needed for the first review. Send originals only when a defined task requires them, and confirm who will hold them, provide a receipt and return them."
+      ],
+      [
+        "What should I ask before authorizing additional work?",
+        "Ask which new issue was identified, what evidence is needed, which authority decides the matter and what professional or official charges apply. Agree the revised scope before further work is undertaken."
       ]
     ],
     "related": [
@@ -351,7 +368,7 @@
     "focus": "Marriage Certificate",
     "kind": "service",
     "image": "karachi-certificate",
-    "intro": "A Marriage Certificate in Karachi should be obtained through the competent local authority connected with the registered marriage record. Our team helps couples identify that route, review the Nikah Nama and prepare for the required application. The popular term NADRA Marriage Certificate does not mean that a private firm or any NADRA counter can issue every local marriage record.",
+    "intro": "Marriage Certificate assistance in Karachi starts with the registered Nikah Nama and the competent local record holder. Review the available documents before preparing an application, correction or overseas submission.",
     "sections": [
       {
         "heading": "Marriage Certificate Assistance in Karachi",
@@ -466,6 +483,14 @@
       [
         "Can I discuss my case before visiting?",
         "Yes. Contact the central team for the initial ten-minute free telephone consultation and confirm the office appointment and document checklist."
+      ],
+      [
+        "Should I send original documents for an initial enquiry?",
+        "Ask which limited copies are needed for the first review. Send originals only when a defined task requires them, and confirm who will hold them, provide a receipt and return them."
+      ],
+      [
+        "What should I ask before authorizing additional work?",
+        "Ask which new issue was identified, what evidence is needed, which authority decides the matter and what professional or official charges apply. Agree the revised scope before further work is undertaken."
       ]
     ],
     "related": [
@@ -516,7 +541,7 @@
     "focus": "Court Marriage",
     "kind": "article",
     "image": "recognized-bond",
-    "intro": "Choosing Court Marriage is a serious personal decision with legal consequences beyond the ceremony. A recognized bond requires attention to eligibility, genuine consent, agreed marriage terms and reliable records. This guide focuses on the rights and responsibilities a couple should understand before proceeding, and on what official documentation can and cannot prove.",
+    "intro": "Court Marriage creates important personal and documentary responsibilities. Informed consent, accurate Nikah Nama terms and a traceable registration record support the couple’s recognized relationship.",
     "sections": [
       {
         "heading": "Court Marriage and a Freely Chosen Relationship",
@@ -602,6 +627,17 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Understanding a Commitment Before Recording It",
+        "paragraphs": [
+          "A couple can agree on the decision to marry while still needing advice about the terms being recorded. For example, both may use the word deferred Mahr but understand the payment differently. One may believe a property promise is a present transfer while the other understands it as a future obligation. These are questions to clarify before signing. A provider should record the actual agreement and identify where legal drafting or separate evidence is needed, rather than choose a standard entry for convenience.",
+          "Both parties should receive an explanation they understand. If an interpreter is needed, clarify who will interpret and how the instructions will be confirmed. A friend helping with logistics should not silently become the decision-maker for a spouse. Where a representative is authorized, the scope of that authority should correspond to the acts proposed. The purpose is informed participation, not simply collecting enough signatures to complete a file.",
+          "Keep a distinction between a marriage term and a later administrative request. An employer’s form may ask for a spouse’s name without requiring the full terms of the Nikah Nama. A family dispute may require the complete record and supporting evidence. Share the appropriate document for the legitimate purpose, while protecting information that the recipient does not need. A secure copy of the fuller registered record should remain available to the spouses.",
+          "An example illustrates the importance of early checking. Suppose a passport and Nikah Nama use different English spellings for the same spouse. That does not automatically decide whether the marriage exists, but it can create an avoidable question when an institution checks identity. Identify the source of the variation and seek the appropriate clarification or correction before obtaining several translations. Do not change the marriage facts in a new application merely to make two documents appear identical.",
+          "A sound service relationship also makes completion understandable. Ask what will be delivered, which official step remains pending and who will retain any original temporarily. Record changes to instructions if the couple moves cities or decides to use the documents abroad. The legal bond and its evidence should not depend on a provider’s informal promise that paperwork will arrive eventually. Clear instructions, accurate terms and a traceable official record give the couple a practical foundation for later family and administrative needs.",
+          "Both spouses should retain complete, legible copies of the finalized records and understand where the registered entry is held."
         ]
       }
     ],
@@ -695,7 +731,7 @@
     "focus": "Court Marriage",
     "kind": "article",
     "image": "ins-outs",
-    "intro": "A useful Court Marriage enquiry should identify the questions that can change the legal route before money, travel or a ceremony is arranged. This guide works through the less obvious checks: who is advising you, what the documents prove, which authority has jurisdiction and which promises deserve further explanation.",
+    "intro": "Court Marriage guidance explains the documents, responsible authority and practical next steps for this subject.",
     "sections": [
       {
         "heading": "Court Marriage: Start with the Actual Legal Service",
@@ -782,6 +818,16 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Testing a Provider’s Answers Against Your Own File",
+        "paragraphs": [
+          "A service description becomes useful when it can be applied to the actual couple. Give the provider the same short factual summary you would give a lawyer: identities, ages, present marital status, nationalities, locations and the intended outcome. Ask which parts of the proposed service depend on an official decision. An answer about a straightforward local first marriage may be unsuitable for a file involving an overseas participant or an unresolved previous-marriage record.",
+          "Request clarification when a document is described only by a popular name. Ask who issues it, what underlying record supports it and why the intended recipient needs it. A form printed by a private office, a registered Nikah Nama and a computerized local certificate are not interchangeable simply because each carries the couple’s names. A clear explanation should make the source and purpose of the document understandable.",
+          "Consider a hypothetical quotation that includes Nikah arrangements and document preparation but says nothing about later certificate collection. Before accepting it, ask whether registrar coordination, official charges and follow-up are included. The provider may offer a perfectly legitimate limited service, but the couple needs to know that limitation. Comparing the scope now is more useful than arguing later about a document that neither side clearly included.",
+          "The same care applies to originals. Ask which original is required for which task, whether a working copy is sufficient for initial review and what receipt will be provided if an original is retained. Decide who may receive updates or collect documents. Several relatives can assist with transport without each needing access to the complete identity and family file.",
+          "Where answers conflict, identify the point of disagreement rather than collecting more general assurances. One office may be discussing solemnisation, another local registration and another foreign recognition. They may be answering different questions. A focused consultation can separate the stages and identify the authority responsible for each. If a material legal issue remains uncertain, obtain a case-specific opinion before proceeding. Responsible preparation does not mean every file must become complicated; it means a straightforward file is recognized as straightforward on its evidence, while a genuinely different file receives the review it needs."
         ]
       }
     ],
@@ -963,6 +1009,16 @@
             "label": "Discuss Your Case"
           }
         ]
+      },
+      {
+        "heading": "Managing the Handover Between Each Stage",
+        "paragraphs": [
+          "Each stage should end with enough information to begin the next. After the first review, the couple should know which documents are ready and which require attention. After preparation, the agreed terms and participant arrangements should be clear. After solemnisation, the couple should understand the reporting or registration work remaining. After collection, the registered record and certificate should be checked before they are used elsewhere. Treating these as separate handovers makes an incomplete stage easier to identify.",
+          "Use a short status note rather than relying on scattered messages. It can identify the document, the person currently holding it, the office receiving it and the next action. Avoid placing sensitive identity numbers in a widely shared group merely for convenience. The people coordinating an appointment can be told the necessary logistics without receiving the entire file.",
+          "If an authority asks for further evidence, record the request accurately. Do not interpret every returned application as refusal, and do not promise success before understanding the issue. The advisor should identify whether the missing item concerns identity, marital status, jurisdiction, authority to act or a discrepancy in the source record. The response can then address that issue instead of resubmitting the same incomplete material.",
+          "An overseas timetable can make these handovers particularly important. A spouse leaving Pakistan soon after the ceremony may need to authorize a collection arrangement and agree on the return of originals. The correct authorization depends on the task and the competent authority’s requirements. Confirm it before departure where possible. A private service cannot assume that a relative will be permitted to collect every official document simply because the couple has requested it informally.",
+          "At the end of the assignment, compare the final file against the agreed scope. A signed copy, a registered copy, a computerized certificate, a translation and authentication evidence are different possible outputs. Not every file needs all of them. Record which were required, which were delivered and which remain outside the assignment. This makes the process useful beyond the ceremony itself and provides a reliable starting point if the couple later needs a certified copy, a correction or evidence for an institution."
+        ]
       }
     ],
     "faqs": [
@@ -1055,7 +1111,7 @@
     "focus": "Court Marriage",
     "kind": "article",
     "image": "detailed-record",
-    "intro": "The details recorded during Court Marriage can matter long after the appointment ends. This guide concentrates on reading and checking the Nikah Nama and related records. It helps couples identify questions about names, Mahr, agreed conditions, witness information and corrections before an error is repeated across official certificates and overseas submissions.",
+    "intro": "Court Marriage guidance explains the documents, responsible authority and practical next steps for this subject.",
     "sections": [
       {
         "heading": "Court Marriage Records: Read Before You Sign",
@@ -1141,6 +1197,17 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "A Practical Cross-Check of the Completed Record",
+        "paragraphs": [
+          "Review the completed documents in a calm setting, with the source identities and the parties’ instructions available. Start with the fields most likely to be copied into later records: names, parentage, identity numbers, marriage date and relevant place details. Then review the agreed terms, including Mahr and any conditions. A certificate can accurately repeat an error already present in the source, so agreement between two documents is useful but does not remove the need to check the underlying facts.",
+          "Where an entry uses an abbreviation, ask whether it is clear enough to identify the intended person or obligation. Avoid privately expanding an ambiguous entry on a later copy. The proper source or competent authority should clarify what the official record says. If a field is genuinely illegible, an advisor should say so rather than present an uncertain reading as a verified fact.",
+          "A practical comparison file can contain the source record, the computerized certificate and any translation, each labelled by its actual status. Keep drafts separate from issued documents. If a draft was corrected before registration, avoid sending that discarded draft to a recipient who expects the final record. A simple contents list helps prevent a messaging attachment from being mistaken for the authoritative version.",
+          "Terms concerning property deserve particular care. A reference to an amount, gold or an asset should reflect what the parties agreed and what the written entry actually establishes. Do not add a claim that ownership has transferred merely because a property is mentioned in a marriage document. The effect of an obligation, the evidence of payment and any separate transfer requirement may call for individual legal advice. The documentary record should not promise more than the facts and applicable law support.",
+          "For a correction enquiry, prepare a precise comparison: what the record currently says, what is claimed to be correct and which evidence supports that claim. Identify whether the issue is a typing error, a language variation or a disputed material fact. The competent authority or legal forum can then consider the appropriate route. Keeping the original and the correction trail together makes the result easier to explain later. This is more reliable than circulating a silently edited scan, even where the intended change appears minor.",
+          "Keep drafts clearly separate from issued documents in a secure digital folder. A recipient should not receive an obsolete attachment merely because it was the first file saved. Where a correction is completed, retain the supporting explanation and identify the final authoritative copy. This simple version record helps a future advisor understand the document history without changing any official particulars."
         ]
       }
     ],
@@ -1300,6 +1367,13 @@
             "label": "Discuss Your Case"
           }
         ]
+      },
+      {
+        "heading": "Karachi Localities and the Correct Document Route",
+        "paragraphs": [
+          "Karachi enquiries may come from DHA, Clifton, Gulistan-e-Johar, Gulshan-e-Iqbal, PECHS or another locality. State the actual residence and proposed solemnisation location rather than assuming that a central consultation office determines registration jurisdiction. The appropriate registrar and local record holder should be identified from the relevant facts.",
+          "Before travelling to Johar or DHA, confirm the appointment, participant arrangements and original documents required. If one spouse is visiting from another city or country, explain the travel date early. The team can distinguish what can be arranged privately from any official verification or record collection that remains dependent on the competent authority."
+        ]
       }
     ],
     "faqs": [
@@ -1342,6 +1416,14 @@
       [
         "Is the first call free?",
         "Yes. The initial ten-minute telephone consultation is free. Further professional assistance and any official or additional charges are explained according to the assignment."
+      ],
+      [
+        "Should I send original documents for an initial enquiry?",
+        "Ask which limited copies are needed for the first review. Send originals only when a defined task requires them, and confirm who will hold them, provide a receipt and return them."
+      ],
+      [
+        "What should I ask before authorizing additional work?",
+        "Ask which new issue was identified, what evidence is needed, which authority decides the matter and what professional or official charges apply. Agree the revised scope before further work is undertaken."
       ]
     ],
     "related": [
@@ -1392,7 +1474,7 @@
     "focus": "Court Marriage",
     "kind": "article",
     "image": "clearing-path",
-    "intro": "A Court Marriage file can encounter an obstacle without being hopeless. The useful response is to identify the actual issue, the evidence needed and the person or authority able to address it. This guide explains a practical approach to document gaps and legal questions so that couples can move forward without false particulars or unsuitable shortcuts.",
+    "intro": "Court Marriage document problems should be resolved through the correct source and authority. Identify the missing record or discrepancy, preserve the evidence and agree a lawful next step.",
     "sections": [
       {
         "heading": "Court Marriage Obstacles: Identify the Real Problem",
@@ -1479,6 +1561,16 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Organizing a Discrepancy Without Altering Evidence",
+        "paragraphs": [
+          "Create a brief discrepancy note before seeking a correction. List the affected document, the field in question, the version currently held and the source relied on for the proposed change. If several documents differ, describe each difference separately. An advisor can then identify whether one source error is being repeated or whether the records concern different events. This avoids treating a certificate’s later issue date as if it must equal the date of solemnisation.",
+          "Preserve clear copies of the evidence as it was received. Do not write a proposed correction over the only surviving scan. Keep notes and annotations on a separate working copy or in a separate explanation. An office reviewing the request should be able to see the original problem and the evidence offered to resolve it. Transparent preparation is particularly important when the record may later be examined by a court or foreign authority.",
+          "If an application has already been submitted, record its reference, date and receiving office before making another one. Ask whether an additional document can be linked to that application or whether a fresh procedure is required. A second submission with different particulars can create confusion if nobody explains its relationship to the first. The next action should address the actual request from the competent authority.",
+          "Where the issue involves a previous marriage, organize the sequence of notices, orders and certificates carefully. Do not reduce the legal question to whether one paper has the word divorce on it. The applicable process, dates and current position need review. Similarly, an overseas document may need to be understood in its own jurisdiction before advice is given about its use in Pakistan. A careful opinion can identify the issue without promising a result before the relevant evidence has been examined.",
+          "For any further work, agree a defined task: obtaining a clearer copy, searching an identified record, preparing a correction application or advising on a disputed question. Ask what output will show that task is complete and what happens if the authority requires more evidence. This makes the assignment reviewable and prevents a broad promise to fix everything from replacing a lawful, traceable plan."
         ]
       }
     ],
@@ -1572,7 +1664,7 @@
     "focus": "Court Marriage",
     "kind": "article",
     "image": "planning",
-    "intro": "Planning a Court Marriage involves decisions that should be settled before the ceremony day: documents, consent, agreed terms, participants, registration responsibilities and the records needed afterwards. This guide helps a couple organize those decisions into a realistic plan, with enough room for official processing and any issue that requires further advice.",
+    "intro": "Court Marriage planning starts with identity, age, consent, current marital status and agreed marriage terms. Confirm the participants, registrar route and final document requirements before booking.",
     "sections": [
       {
         "heading": "Court Marriage Planning: Decide the Purpose and Location",
@@ -1659,6 +1751,17 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Preparing a Shared Appointment and Document Plan",
+        "paragraphs": [
+          "A shared plan can be concise without omitting important responsibilities. Record the proposed date, the location, the participants, the documents each person will bring and the questions still requiring advice. Keep the couple’s instructions separate from ordinary travel arrangements. A relative arranging transport can help with timing without deciding marriage terms on behalf of either spouse.",
+          "Check the plan again if the facts change. A participant moving overseas, a different ceremony location or a newly discovered divorce document can affect the checklist. Tell the advisor what changed and ask for confirmation of the revised next step. Do not rely on an earlier approval message that concerned a different arrangement. The final confirmation should reflect the file that will actually be presented on the appointment day.",
+          "Prepare for an understandable signing process. Both parties should have time to read or hear an explanation of the material entries and ask questions. If an interpreter is required, identify that need before the meeting. Discuss Mahr and any condition in advance so that the prescribed form records an agreement already understood, rather than becoming the first occasion on which one person hears the proposed terms.",
+          "Plan collection as carefully as attendance. Ask what will be available immediately, what depends on official registration and whether a later computerized certificate is part of the assignment. If the couple will leave the city, confirm any authorized collection and delivery arrangement through the competent process. Keep receipts for retained originals and agree how they will be returned. A clear handover plan avoids an unnecessary journey and protects important records.",
+          "Finally, distinguish a useful deadline from a guaranteed result. A preferred travel date or institutional submission date should be disclosed, but it does not give a private service control over official verification. Identify which steps can be scheduled and which remain dependent on another authority. If the available time is unsuitable, consider a revised sequence rather than changing facts or submitting incomplete records. Practical planning gives the couple enough information to make those choices before a ceremony, journey or overseas application is committed to an unreliable timetable.",
+          "For participants in different countries, confirm the appointment date and time in each relevant local time zone. Check who will interpret if needed and how instructions will be communicated. These practical arrangements support participation but do not replace the legal review of authority, witnesses or registration. If a participant cannot attend as agreed, tell the team before the appointment so that the proposed arrangement can be reviewed rather than improvised during the meeting."
         ]
       }
     ],
@@ -1752,7 +1855,7 @@
     "focus": "Court Marriage",
     "kind": "article",
     "image": "reg-reception",
-    "intro": "A Court Marriage appointment, official registration and a reception are different events. They can form part of one family plan, but completing one does not automatically complete the others. This guide explains how to coordinate the legal-document sequence with practical celebration arrangements while preserving a clear record and realistic expectations.",
+    "intro": "Court Marriage guidance explains the documents, responsible authority and practical next steps for this subject.",
     "sections": [
       {
         "heading": "Court Marriage, Registration and Reception Are Separate",
@@ -1839,6 +1942,17 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Coordinating Documents Without Confusing the Events",
+        "paragraphs": [
+          "A combined family plan should identify the actual Nikah date, the reception date and any later document-collection date separately. An invitation may describe a celebration, while the prescribed marriage record must accurately describe the legally relevant event. If a reception is moved, that change does not by itself change the date already recorded for the Nikah. Keep the evidence and social arrangements distinct.",
+          "Tell each service provider what they need to know. The event organizer may need arrival times and seating arrangements without needing copies of identity documents. The document advisor needs the actual participants, locations and instructions without needing the entire guest list. A reliable family contact can coordinate practical details, while both spouses retain the opportunity to give their own legal instructions.",
+          "A couple planning to travel soon after the celebration should ask which registered records will be ready and how any remaining work will be followed. Confirm the competent authority’s collection requirements and the handling of originals. A relative who can receive a package is not automatically authorized to make a material correction or sign a new declaration. Define the task and any required authority before departure.",
+          "Consider a hypothetical situation in which the ceremony is completed but the certificate application requires clarification of an English spelling. The reception can still be a separate social event, but an overseas submission should wait for an accurate document set rather than rely on an edited scan. The advisor should explain which source needs attention and how the proper correction can be requested. This keeps an administrative issue from being hidden by an approaching celebration date.",
+          "Afterwards, store the marriage record independently of the wedding photographs and invitations. Those social records may have personal importance but do not perform the same function as the registered Nikah Nama or the certificate requested by an institution. Keep a list of issued documents, translations and any outstanding application. A later family or administrative enquiry can then be answered from an organized record, without reconstructing official particulars from a ceremony album or old messages.",
+          "Ask each provider to confirm its own completion responsibilities in writing, especially where a relative coordinates the celebration and another representative handles records."
         ]
       }
     ],
@@ -1932,7 +2046,7 @@
     "focus": "Court Marriage",
     "kind": "article",
     "image": "overseas-guide",
-    "intro": "The documents produced through Court Marriage may later be needed by several institutions. A spouse’s identity record, an employer, a foreign civil register and an immigration office can ask different questions. This guide focuses on that aftercare: choosing the right record, checking its details and preparing it for its intended use without assuming universal acceptance.",
+    "intro": "Court Marriage documents may be needed for local family records, employment, foreign civil registration or immigration. Identify the receiving institution’s requirements before arranging translations or authentication.",
     "sections": [
       {
         "heading": "Court Marriage Documents: Start with the Intended Recipient",
@@ -2020,6 +2134,17 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Preparing a Recipient-Specific Submission File",
+        "paragraphs": [
+          "Prepare a separate checklist for each institution that will receive the marriage documents. An employer, a foreign civil register and an immigration authority may use different terminology and require different evidence. Record the precise document requested, whether an original or certified copy is needed, and any language or authentication requirement. Where the instruction is unclear, seek clarification from the recipient rather than purchasing every possible service.",
+          "Keep the authoritative source documents separate from drafts and working translations. A translator should be able to identify the record being translated and reproduce its material particulars accurately. If a source is unclear, obtain a better copy or clarification. A translation should not silently choose a different date or marital-status description because a form appears to expect one. That approach can create inconsistent records across institutions.",
+          "For a spouse abroad, agree who will handle each local task and what authorization is needed. The person permitted to enquire about a record may not have authority to collect an original or request a correction. Confirm those limits with the competent authority. Keep receipts for original documents and establish how they will be returned after the particular step is complete.",
+          "When an institution raises a question, preserve the actual request and respond to that question. It may concern identity, the form of certification, the participation method or another substantive issue. These are not all solved by obtaining another stamp. A case-specific review can distinguish an authentication requirement from a recognition or eligibility question that only the receiving authority can decide.",
+          "Retain a submission history showing which versions were sent, when they were issued and whether originals were returned. If a later correction produces a replacement record, keep the proper explanation and supporting trail available. This helps avoid unknowingly using both an earlier incorrect version and a corrected version in different applications. Accurate document use is a continuing responsibility after local registration, particularly where several countries or institutions will rely on the same marriage evidence.",
+          "If a recipient asks for a newer certified copy, clarify whether the request concerns the age of the copy, a missing authentication or an actual change in particulars. These are different questions. Obtain the required record through the proper source without changing the marriage facts simply to produce a more recent-looking document."
         ]
       }
     ],
@@ -2113,7 +2238,7 @@
     "focus": "Court Marriage",
     "kind": "article",
     "image": "city-comparison",
-    "intro": "Choosing Court Marriage services across cities should be based on a suitable legal and registration route, rather than an unverified ranking or a promise that every city works identically. This guide compares practical considerations in Karachi, Islamabad, Lahore, Rawalpindi, Faisalabad and Multan and links to the relevant local pages.",
+    "intro": "Court Marriage services in Karachi, Islamabad, Lahore, Rawalpindi, Faisalabad and Multan should be compared by the lawful route, responsible participants and document handover appropriate to the couple.",
     "sections": [
       {
         "heading": "Court Marriage Services: What Makes a Suitable Choice",
@@ -2200,6 +2325,17 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Comparing Local Coordination on a Like-for-Like Basis",
+        "paragraphs": [
+          "Write one factual summary before comparing providers in different cities. Include the parties’ identities, ages, current marital status, locations, proposed solemnisation arrangements and final documents required. Ask each provider to respond to that same summary. Otherwise one quotation may assume a straightforward local first marriage while another allows for an overseas participant, record search or correction. The figures are not comparable until the scope is clear.",
+          "Ask how the proposed location connects to the competent registration process. A convenient consultation office can help organize a file without becoming the official record holder. If the couple lives in one city and plans the Nikah in another, explain that openly. The answer should identify the relevant registrar and authority from the actual facts rather than use an invented address to make the application seem simpler.",
+          "Confirm practical availability before travelling. A service guide does not mean every appointment can be arranged at short notice or that a particular local branch exists. Ask where the meeting will occur, who is responsible for the proposed task and which originals are needed. Use the confirmed office and central coordination details rather than an individual advocate’s personal number supplied informally by an unrelated intermediary.",
+          "An inter-city couple should also plan the later document handover. Identify who follows the registration, where the certificate application belongs and how the spouses receive the issued records. If a representative will act, establish the authority required for the specific task. Keep the receipt and collection information with the marriage particulars. This prevents the couple’s return journey from becoming dependent on an assumption about an uncompleted official step.",
+          "A meaningful comparison ends with responsibilities and evidence. Ask what completion looks like, what remains outside the quotation and how a genuine discrepancy will be handled. A provider can explain efficient private coordination without guaranteeing government timings or foreign acceptance. The appropriate service is the one that fits the couple’s real circumstances, explains the lawful route and leaves a traceable record. Unsupported rankings and dramatic speed claims do not answer those practical questions.",
+          "A locality can help explain an appointment or travel plan without deciding registration jurisdiction. For example, a Faisalabad enquiry may refer to the Clock Tower bazaars, while a Rawalpindi enquiry may mention Satellite Town or Murree Road. Give the real location and the relevant marriage particulars. The team should then identify the competent route rather than assume that proximity to a consultation office establishes where every record belongs."
         ]
       }
     ],
@@ -2293,7 +2429,7 @@
     "focus": "Marriage Services",
     "kind": "category",
     "image": "services-hub",
-    "intro": "Our Marriage Services directory helps you choose the right next step for a ceremony, registration, certificate or document problem. Start with the service that matches the actual task, then use the relevant city guide. The linked resources explain what to prepare, which authority is involved and which work requires a separate review.",
+    "intro": "Marriage Services should match the actual task: Nikah, document preparation, registration, a certificate or a record problem. Use the relevant service and city guide to prepare a focused enquiry.",
     "sections": [
       {
         "heading": "Marriage Services: Choose the Task Before the Package",
@@ -2369,6 +2505,19 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Using the Directory Throughout the Assignment",
+        "paragraphs": [
+          "Use the directory at the stage that matches the actual need. A new couple can begin with planning and document preparation. A couple already married can begin with the registration or certificate route. An overseas applicant should add the intended recipient’s checklist. These paths overlap, but they should not be collapsed into a single package before the advisor knows which work has already been completed.",
+          "For a first conversation, prepare a concise factual summary rather than forwarding unrelated family records. State the city connected with the marriage, the documents available and the precise service requested. Explain any missing page, previous marriage, spelling variation or overseas participation. The team can then identify the likely next action and whether a more detailed review is required before a reliable quotation can be given.",
+          "The local guides help distinguish the consultation location from the competent registration authority. Do not assume that every branch can issue a certificate or that the nearest office holds the marriage entry. The ceremony, registrar and registered particulars need to be identified. Where a search is required, agree the information to be searched and the output expected, rather than treating an unverified record as already located.",
+          "If the assignment changes, return to the relevant guide and confirm the revised scope. A simple certificate application may reveal a source discrepancy; a planned in-person ceremony may change to an overseas representative arrangement. Those changes can require different evidence or authority. Earlier instructions should not be treated as approval of a materially different file without clarification.",
+          "After collection, compare what was promised with what was handed over. Registered records, computerized certificates, translations and authentication evidence have different functions. Keep originals safely and retain receipts and relevant correspondence. Record any pending application and the person responsible for the next step. A complete directory should help the client understand the entire document route, rather than stop being useful once a consultation has been booked.",
+          "These resources also support a focused legal discussion where something goes wrong. The record guide identifies what evidence exists; the detailed Nikah Nama guide explains material entries; the obstacle guide explains how to organize a discrepancy. Reading the relevant subject can make the next professional instruction clearer without pretending that general information determines a disputed case.",
+          "Consider the difference between a certificate enquiry and a document-use enquiry. In the first, the applicant needs an official record issued from the competent local entry. In the second, the applicant may already hold that record but needs to understand a particular recipient’s checklist. A translation or authentication service can be unnecessary if the recipient has not requested it; equally, a local certificate may not be the complete document set required abroad. Explain the intended outcome before authorizing additional work.",
+          "A useful initial message can state the city, marriage date, available record, location of each spouse and the document requested. Avoid sending identity numbers into an unrelated public channel. The team can identify a suitable review method and ask for the limited evidence needed. This keeps the first enquiry focused while preserving room for a detailed professional assessment if the facts require one."
         ]
       }
     ],
@@ -2462,7 +2611,7 @@
     "focus": "Marriage Law",
     "kind": "category",
     "image": "law-hub",
-    "intro": "This Marriage Law directory brings together guides to consent, eligibility, Nikah Nama terms, registration and the practical use of marriage documents. Choose the question closest to your situation, then read the linked detailed guide. The information concerns adult Muslim marriage and related records; a disputed or unusual file may require an individual legal opinion.",
+    "intro": "Marriage Law questions about consent, eligibility, Nikah Nama terms, registration and document recognition require different evidence. Use these guides to identify the subject and prepare appropriate instructions.",
     "sections": [
       {
         "heading": "Marriage Law: Understand the Question First",
@@ -2544,6 +2693,18 @@
             "href": "/contact-us/",
             "label": "Discuss Your Case"
           }
+        ]
+      },
+      {
+        "heading": "Preparing the Evidence for a Focused Legal Question",
+        "paragraphs": [
+          "A useful legal enquiry separates the facts from the conclusion a person hopes to reach. Write what happened, when it happened, which records exist and what question requires advice. A person may want a certificate urgently, but the underlying issue could concern an incomplete registration or disputed identity entry. Giving the advisor a clear chronology helps identify the correct legal or administrative route before another application is prepared.",
+          "Keep each document’s status clear. An unsigned draft, a signed copy, a registered copy and a computerized certificate are different records. A photograph of a document may be enough for an initial discussion but may not satisfy the authority deciding the application. Explain which original is available and which version has already been submitted elsewhere. Do not improve the evidence by privately altering the scan.",
+          "Where consent or a material term is disputed, preserve the actual communications and records relevant to that issue. A general webpage cannot decide a contested fact. The appropriate forum may need evidence, and the advisor needs to understand any proceedings already pending. Tell the team about notices, orders and deadlines so that an administrative checklist is not mistaken for a response to a judicial direction.",
+          "The same distinction matters for foreign documents. An authentication question concerns the relevant document procedure, while recognition and immigration eligibility may depend on the receiving jurisdiction’s substantive rules. Obtain the institution’s actual request and identify what it is asking to verify. Another stamp or translation cannot be assumed to answer every type of objection.",
+          "Use the linked resources to identify the relevant subject and prepare better instructions. The recognized-bond guide explains consent and evidence, the detailed-record guide concerns Nikah Nama entries, and the obstacle guide concerns missing or inconsistent records. The process and planning guides show how those questions fit into an ordinary assignment. Together they help a person preserve useful records and seek advice from the right source, while leaving disputed legal conclusions to an individual review of the evidence and applicable law.",
+          "When several institutions are involved, identify which question belongs to each. The local record holder can explain an entry or its correction procedure; a receiving institution can explain its required document format; a legal advisor can assess the rights or dispute presented by the evidence. Do not assume that one institution’s administrative acceptance resolves every other legal issue.",
+          "Keep advice and instructions linked to the actual facts reviewed. If a new order, document or previous-marriage record appears, tell the advisor rather than continuing to rely on an earlier answer to a different question. This is particularly important where an appointment or overseas deadline creates pressure to proceed quickly. A focused update allows the advice to address the changed file without inventing a conclusion or ignoring a material fact."
         ]
       }
     ],
