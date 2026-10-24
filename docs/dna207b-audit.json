@@ -515,7 +515,7 @@
       "images": [
         {
           "src": "/images/recovery/registration-pakistan.webp",
-          "alt": "NADRA Marriage Registration Service in Pakistan — illustrative document preparation photograph"
+          "alt": "NADRA Marriage Registration Service in Pakistan \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/registration-pakistan-checklist.webp",
@@ -605,7 +605,7 @@
       "images": [
         {
           "src": "/images/recovery/ins-outs.webp",
-          "alt": "The Ins and Outs of Court Marriage in Pakistan — illustrative document preparation photograph"
+          "alt": "The Ins and Outs of Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/ins-outs-checklist.webp",
@@ -635,7 +635,7 @@
       "images": [
         {
           "src": "/images/recovery/complete-process.webp",
-          "alt": "Court Marriage in Pakistan: Complete Process Guide — illustrative document preparation photograph"
+          "alt": "Court Marriage in Pakistan: Complete Process Guide \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/complete-process-checklist.webp",
@@ -665,7 +665,7 @@
       "images": [
         {
           "src": "/images/recovery/detailed-record.webp",
-          "alt": "Court Marriage in Pakistan: Detailed Nikah Nama Guide — illustrative document preparation photograph"
+          "alt": "Court Marriage in Pakistan: Detailed Nikah Nama Guide \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/detailed-record-checklist.webp",
@@ -725,7 +725,7 @@
       "images": [
         {
           "src": "/images/recovery/clearing-path.webp",
-          "alt": "Clearing the Path to Court Marriage in Pakistan — illustrative document preparation photograph"
+          "alt": "Clearing the Path to Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/clearing-path-checklist.webp",
@@ -755,7 +755,7 @@
       "images": [
         {
           "src": "/images/recovery/planning.webp",
-          "alt": "Planning Your Court Marriage in Pakistan — illustrative document preparation photograph"
+          "alt": "Planning Your Court Marriage in Pakistan \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/planning-checklist.webp",
@@ -785,7 +785,7 @@
       "images": [
         {
           "src": "/images/recovery/reg-reception.webp",
-          "alt": "Court Marriage in Pakistan: Registration to Reception — illustrative document preparation photograph"
+          "alt": "Court Marriage in Pakistan: Registration to Reception \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/reg-reception-checklist.webp",
@@ -815,7 +815,7 @@
       "images": [
         {
           "src": "/images/recovery/overseas-guide.webp",
-          "alt": "Court Marriage in Pakistan: Complete Document-Use Guide — illustrative document preparation photograph"
+          "alt": "Court Marriage in Pakistan: Complete Document-Use Guide \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/overseas-guide-checklist.webp",
@@ -845,7 +845,7 @@
       "images": [
         {
           "src": "/images/recovery/city-comparison.webp",
-          "alt": "Court Marriage Services in Pakistan’s Major Cities — illustrative document preparation photograph"
+          "alt": "Court Marriage Services in Pakistan\u2019s Major Cities \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/city-comparison-checklist.webp",
@@ -854,7 +854,7 @@
       ],
       "title_width_px": 446,
       "h1": [
-        "Court Marriage Services in Pakistan’s Major Cities | Documents and Local Registration"
+        "Court Marriage Services in Pakistan\u2019s Major Cities | Documents and Local Registration"
       ],
       "issues": [],
       "meta_title": "Court Marriage Services in Pakistan | City Guides",
@@ -875,7 +875,7 @@
       "images": [
         {
           "src": "/images/recovery/services-hub.webp",
-          "alt": "Marriage Services in Pakistan — illustrative document preparation photograph"
+          "alt": "Marriage Services in Pakistan \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/services-hub-checklist.webp",
@@ -905,7 +905,7 @@
       "images": [
         {
           "src": "/images/recovery/law-hub.webp",
-          "alt": "Marriage Law in Pakistan: Guides and Legal Questions — illustrative document preparation photograph"
+          "alt": "Marriage Law in Pakistan: Guides and Legal Questions \u2014 illustrative document preparation photograph"
         },
         {
           "src": "/images/recovery/law-hub-checklist.webp",
@@ -932,13 +932,37 @@
     "horizontal_overflow": false,
     "mobile_or_tablet_pass_implied": false
   },
-  "mobile_390_visual": "BLOCKED: browser viewport control unavailable; unsupported data protocol rejected by browser URL policy",
-  "mobile_360_visual": "BLOCKED: browser viewport control unavailable; unsupported data protocol rejected by browser URL policy",
+  "mobile_390_visual": {
+    "status": "RESPONSIVE BROWSER CHECKS COMPLETE",
+    "viewport": 390,
+    "routes": 34,
+    "horizontal_overflow": false,
+    "visual_review": "Top/middle/footer screenshot strips across all 34 routes, plus detailed representative screenshots.",
+    "evidence": "docs/responsive-qa-2026-10-24.json",
+    "commit": "ff881cc0010b83064ad8e28a94c562c65d9aa86d"
+  },
+  "mobile_360_visual": {
+    "status": "RESPONSIVE BROWSER CHECKS COMPLETE",
+    "viewport": 360,
+    "routes": 34,
+    "horizontal_overflow": false,
+    "visual_review": "Top/middle/footer screenshot strips across all 34 routes, plus detailed representative screenshots.",
+    "evidence": "docs/responsive-qa-2026-10-24.json",
+    "commit": "ff881cc0010b83064ad8e28a94c562c65d9aa86d"
+  },
   "lighthouse": {
     "status": "NOT REPEATED AFTER CONTENT REVISION",
     "previous_measurement": "See lighthouse_previous; do not represent its score as a new test"
   },
-  "tablet_visual": "NOT VERIFIED: viewport resizing unavailable",
+  "tablet_visual": {
+    "status": "RESPONSIVE BROWSER CHECKS COMPLETE",
+    "viewport": 768,
+    "routes": 34,
+    "horizontal_overflow": false,
+    "visual_review": "Top/middle/footer screenshot strips across all 34 routes, plus detailed representative screenshots.",
+    "evidence": "docs/responsive-qa-2026-10-24.json",
+    "commit": "ff881cc0010b83064ad8e28a94c562c65d9aa86d"
+  },
   "live_routes": {
     "tested": 34,
     "http_200": 34,
@@ -994,5 +1018,41 @@
       "53 KiB unused JavaScript estimate"
     ],
     "followup": "Contrast corrections applied after audit; no repeated Lighthouse run or implied new score."
+  },
+  "responsive_revision": {
+    "checked_at": "2026-10-24T22:45:43.815135+05:00",
+    "content_width_fix_commit": "07ecb611ce1ccbafd240583eb6c9eab69a3b0677",
+    "mobile_menu_fix_commit": "ff881cc0010b83064ad8e28a94c562c65d9aa86d",
+    "latest_deployment": "https://vercel.com/taxocrate-pks-projects/court-marriage-live/CSkcUrrpWk5oB7xpbjog5KcYCL8S",
+    "coverage": {
+      "routes": 34,
+      "all_route_viewports": [
+        360,
+        390,
+        768
+      ],
+      "layout_checks": 102,
+      "horizontal_overflow_failures": 0,
+      "fresh_image_rechecks": 26,
+      "fresh_image_recheck_failures": 0,
+      "functional_viewports": [
+        360,
+        390,
+        768,
+        1024
+      ],
+      "functional_routes": [
+        "/",
+        "/court-marriage-in-karachi/",
+        "/court-marriage-services-in-faisalabad/"
+      ],
+      "functional_checks": 12,
+      "build": "PASS"
+    },
+    "limitations": [
+      "Responsive Chromium browser checks; physical iOS/Android devices and Safari were not tested.",
+      "This closes the mobile/tablet visual blocker; Lighthouse has not been rerun and full DNA certification is a separate check.",
+      "All-route screenshots were captured during the width-fix deployment; final menu fix was additionally checked on the three representative routes above."
+    ]
   }
 }

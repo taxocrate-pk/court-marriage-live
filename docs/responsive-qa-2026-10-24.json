@@ -1,0 +1,1128 @@
+{
+  "site": "https://courtmarriage.live/",
+  "checked_at": "2026-10-24T22:45:43.815135+05:00",
+  "status": "RESPONSIVE BROWSER CHECKS COMPLETE",
+  "content_width_fix_commit": "07ecb611ce1ccbafd240583eb6c9eab69a3b0677",
+  "mobile_menu_fix_commit": "ff881cc0010b83064ad8e28a94c562c65d9aa86d",
+  "latest_deployment": "https://vercel.com/taxocrate-pks-projects/court-marriage-live/CSkcUrrpWk5oB7xpbjog5KcYCL8S",
+  "method": "Chromium 153 with Playwright at explicit viewport sizes; live HTML, CSS, scripts and images fetched over certificate-verified HTTPS through a local response bridge. Browser received original live response bodies; no layout injection in final checks. Bridge resolves local Chromium proxy certificate trust limitation. Initial resize-only image flags were rechecked in fresh exact-size pages.",
+  "visual_review": "102 full-page screenshots captured; top, middle and footer strips reviewed in six contact sheets covering 34 routes at 360/390/768px. Detailed hero/CTA/sidebar reviews on homepage, About, Karachi and Faisalabad. Expanded mobile-menu screenshots reviewed at 360/390/768px. Faisalabad 1024px landscape header/hero inspected.",
+  "fixes": [
+    {
+      "problem": "Mobile flex article used its intrinsic table width and widened the document to 538px.",
+      "change": "Constrain article width and maximum width to 100% below 801px.",
+      "before_document_width": 538,
+      "after_360_document_width": 360,
+      "after_390_document_width": 390
+    },
+    {
+      "problem": "Nested city and service links remained inline and were clipped in mobile navigation.",
+      "change": "Display nested mobile menu anchors as separate block rows."
+    }
+  ],
+  "coverage": {
+    "routes": 34,
+    "all_route_viewports": [
+      360,
+      390,
+      768
+    ],
+    "layout_checks": 102,
+    "horizontal_overflow_failures": 0,
+    "fresh_image_rechecks": 26,
+    "fresh_image_recheck_failures": 0,
+    "functional_viewports": [
+      360,
+      390,
+      768,
+      1024
+    ],
+    "functional_routes": [
+      "/",
+      "/court-marriage-in-karachi/",
+      "/court-marriage-services-in-faisalabad/"
+    ],
+    "functional_checks": 12,
+    "build": "PASS"
+  },
+  "evidence": "qa/mobile-tablet-navigation.webp",
+  "limitations": [
+    "Responsive Chromium browser checks; physical iOS/Android devices and Safari were not tested.",
+    "This closes the mobile/tablet visual blocker; Lighthouse has not been rerun and full DNA certification is a separate check.",
+    "All-route screenshots were captured during the width-fix deployment; final menu fix was additionally checked on the three representative routes above."
+  ],
+  "checks": [
+    {
+      "url": "https://courtmarriage.live/about-us/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "about-us-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/about-us/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "about-us-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/about-us/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "about-us-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-lahore/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-lahore-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-certificates-guardian-of-union/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-certificates-guardian-of-union-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-detailed-guide/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-pakistan-detailed-guide-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-certificates-guardian-of-union/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-certificates-guardian-of-union-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-lahore/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-lahore-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-detailed-guide/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-pakistan-detailed-guide-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-lahore/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-lahore-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-certificates-guardian-of-union/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-certificates-guardian-of-union-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-detailed-guide/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-pakistan-detailed-guide-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-service-in-karachi/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nadra-marriage-certificate-service-in-karachi-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-service-in-karachi/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "nadra-marriage-certificate-service-in-karachi-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-service-in-karachi/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nadra-marriage-certificate-service-in-karachi-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-khawan-services-and-fees/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-khawan-services-and-fees-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-khawan-services-and-fees/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-khawan-services-and-fees-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/planning-your-court-marriage-in-pakistan/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "planning-your-court-marriage-in-pakistan-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-lahore/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-lahore-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-lahore/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "court-marriage-in-lahore-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/planning-your-court-marriage-in-pakistan/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "planning-your-court-marriage-in-pakistan-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-lahore/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-lahore-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/planning-your-court-marriage-in-pakistan/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "planning-your-court-marriage-in-pakistan-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-khawan-services-and-fees/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-khawan-services-and-fees-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-in-pakistan/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nadra-marriage-certificate-in-pakistan-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-in-pakistan/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "nadra-marriage-certificate-in-pakistan-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-certificate-in-pakistan/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nadra-marriage-certificate-in-pakistan-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/the-best-court-marriage-services-in-pakistans-major-cities/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "the-best-court-marriage-services-in-pakistans-major-cities-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-registration-service-in-pakistan/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nadra-marriage-registration-service-in-pakistan-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/the-best-court-marriage-services-in-pakistans-major-cities/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "the-best-court-marriage-services-in-pakistans-major-cities-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-registration-service-in-pakistan/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "nadra-marriage-registration-service-in-pakistan-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachipakistan/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-karachipakistan-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachipakistan/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-karachipakistan-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nadra-marriage-registration-service-in-pakistan/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nadra-marriage-registration-service-in-pakistan-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/the-best-court-marriage-services-in-pakistans-major-cities/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "the-best-court-marriage-services-in-pakistans-major-cities-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachipakistan/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "court-marriage-in-karachipakistan-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriages-in-multan/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriages-in-multan-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriages-in-multan/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "court-marriages-in-multan-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriages-in-multan/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriages-in-multan-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-islamabad/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-islamabad-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-islamabad/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-islamabad-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-rawalpindi/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-rawalpindi-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-rawalpindi/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "nikah-nama-english-urdu-rawalpindi-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-islamabad/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "nikah-nama-english-urdu-islamabad-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-islamabad/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-islamabad-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-islamabad/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-islamabad-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-pakistan-complete-guide-by-court-marriage-live-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-rawalpindi/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-rawalpindi-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "court-marriage-in-pakistan-complete-guide-by-court-marriage-live-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-islamabad/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "court-marriage-in-islamabad-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-pakistan-complete-guide-by-court-marriage-live/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-pakistan-complete-guide-by-court-marriage-live-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/clearing-the-path-court-marriage-in-pakistan/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "clearing-the-path-court-marriage-in-pakistan-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-pk-reg-to-reception-guide/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-pk-reg-to-reception-guide-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-services-in-faisalabad-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "court-marriage-services-in-faisalabad-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-pk-reg-to-reception-guide/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "court-marriage-pk-reg-to-reception-guide-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/clearing-the-path-court-marriage-in-pakistan/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "clearing-the-path-court-marriage-in-pakistan-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/clearing-the-path-court-marriage-in-pakistan/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "clearing-the-path-court-marriage-in-pakistan-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-pk-reg-to-reception-guide/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-pk-reg-to-reception-guide-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-services-in-faisalabad-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/a-complete-guide-to-court-marriage-in-pakistan/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "a-complete-guide-to-court-marriage-in-pakistan-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/a-complete-guide-to-court-marriage-in-pakistan/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "a-complete-guide-to-court-marriage-in-pakistan-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/a-complete-guide-to-court-marriage-in-pakistan/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "a-complete-guide-to-court-marriage-in-pakistan-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-has-gained-popularity/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "online-nikah-has-gained-popularity-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-services/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-services-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-services/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "nikah-services-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-has-gained-popularity/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "online-nikah-has-gained-popularity-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-services/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-services-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-has-gained-popularity/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "online-nikah-has-gained-popularity-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "home-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-karachi-lahore-islamabad-rawalpindi-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "home-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-karachi-lahore-islamabad-rawalpindi-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "court-marriage-in-karachi-lahore-islamabad-rawalpindi-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-for-foreigners/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "online-nikah-for-foreigners-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "home-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-for-foreigners/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "online-nikah-for-foreigners-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-for-foreigners/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "online-nikah-for-foreigners-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-karachi-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-karachi-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-in-karachi-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-karachi/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-karachi-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/the-ins-outs-of-court-marriage-in-pakistan/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "the-ins-outs-of-court-marriage-in-pakistan-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/the-ins-outs-of-court-marriage-in-pakistan/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "the-ins-outs-of-court-marriage-in-pakistan-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-karachi/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "nikah-nama-english-urdu-karachi-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/blogs/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "blogs-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/blogs/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "blogs-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/the-ins-outs-of-court-marriage-in-pakistan/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "the-ins-outs-of-court-marriage-in-pakistan-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/blogs/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "blogs-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/nikah-nama-english-urdu-karachi/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "nikah-nama-english-urdu-karachi-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-choice-for-a-recognized-bond/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-choice-for-a-recognized-bond-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/contact-us/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "contact-us-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/contact-us/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "contact-us-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-choice-for-a-recognized-bond/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-choice-for-a-recognized-bond-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/contact-us/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "contact-us-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-services/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "categorymarriage-services-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-law/",
+      "viewport": 360,
+      "document_width": 360,
+      "article_width": 328,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "categorymarriage-law-360.png"
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-law/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": true,
+      "screenshot": "categorymarriage-law-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-law/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "categorymarriage-law-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-choice-for-a-recognized-bond/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "court-marriage-choice-for-a-recognized-bond-768.png"
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-services/",
+      "viewport": 390,
+      "document_width": 390,
+      "article_width": 358,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "categorymarriage-services-390.png"
+    },
+    {
+      "url": "https://courtmarriage.live/category/marriage-services/",
+      "viewport": 768,
+      "document_width": 768,
+      "article_width": 600,
+      "images_loaded": true,
+      "fresh_load_recheck": false,
+      "screenshot": "categorymarriage-services-768.png"
+    }
+  ],
+  "functional_checks": [
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "viewport": 1024,
+      "document_width": 1024,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": "Desktop Navigation",
+      "city_links_checked": 0,
+      "table": {
+        "width": 618,
+        "scrollWidth": 618,
+        "overflow": "auto"
+      },
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "viewport": 390,
+      "document_width": 390,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": {
+        "width": 356,
+        "scrollWidth": 520,
+        "overflow": "auto"
+      },
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "viewport": 768,
+      "document_width": 768,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": {
+        "width": 598,
+        "scrollWidth": 598,
+        "overflow": "auto"
+      },
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+      "viewport": 360,
+      "document_width": 360,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": {
+        "width": 326,
+        "scrollWidth": 520,
+        "overflow": "auto"
+      },
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/",
+      "viewport": 1024,
+      "document_width": 1024,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": "Desktop Navigation",
+      "city_links_checked": 0,
+      "table": null,
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/",
+      "viewport": 390,
+      "document_width": 390,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": null,
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/",
+      "viewport": 768,
+      "document_width": 768,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": null,
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/",
+      "viewport": 360,
+      "document_width": 360,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": null,
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "viewport": 768,
+      "document_width": 768,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": {
+        "width": 598,
+        "scrollWidth": 598,
+        "overflow": "auto"
+      },
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "viewport": 1024,
+      "document_width": 1024,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": "Desktop Navigation",
+      "city_links_checked": 0,
+      "table": {
+        "width": 618,
+        "scrollWidth": 618,
+        "overflow": "auto"
+      },
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "viewport": 360,
+      "document_width": 360,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": {
+        "width": 326,
+        "scrollWidth": 520,
+        "overflow": "auto"
+      },
+      "images_loaded": true
+    },
+    {
+      "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+      "viewport": 390,
+      "document_width": 390,
+      "faq_opens": true,
+      "city_links_visible_and_within_menu": true,
+      "city_links_checked": 6,
+      "table": {
+        "width": 356,
+        "scrollWidth": 520,
+        "overflow": "auto"
+      },
+      "images_loaded": true
+    }
+  ]
+}
