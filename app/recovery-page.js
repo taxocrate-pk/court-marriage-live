@@ -24,7 +24,16 @@ const sources = [
   ['Ministry of Foreign Affairs: Attestable Documents', 'https://apostille.mofa.gov.pk/list-of-public-documents'],
 ]
 
+function sourcesForCity(city) {
+  if (!city) return sources
+  const shared = sources.filter(([label]) => label.startsWith('Muslim Family') || label.startsWith('Ministry of Foreign'))
+  if (city === 'Karachi') return [...shared, sources[2]]
+  if (city === 'Islamabad') return [...shared, ['Islamabad Capital Territory Child Marriage Restraint Act, 2025', 'https://pakistancode.gov.pk/pdffiles/administratorecc8e12e1de9dfa4925e655c9cd5a385.pdf']]
+  return [...shared, sources[1], sources[3]]
+}
+
 export default function RecoveryPage({ page }) {
+  const pageSources = sourcesForCity(page.city)
   const url = `${site.url}${recoveryHref(page)}`
   const display = page.phone || site.primaryPhoneDisplay
   const phone = '+' + display.replace(/[^0-9]/g, '')
@@ -57,7 +66,7 @@ export default function RecoveryPage({ page }) {
           </section>)}
           <section className="recovery-section" id="frequently-asked-questions"><h2>{page.focus} FAQs</h2><div className="faq-list">{page.faqs.map(([question, answer]) => <details className="faq-item" key={question}><summary><span>{question}</span><b aria-hidden="true">+</b></summary><p>{answer}</p></details>)}</div></section>
           <section className="recovery-section recovery-related" id="related-guides"><h2>Related {page.focus} Guidance</h2>{related.map((item) => <p key={item.slug}><a href={recoveryHref(item)}>{item.title}</a></p>)}<p>For wider family-law matters, explore <a href="https://www.advocates.com.pk/">Advocates of Pakistan</a>. For Karachi legal representation, visit <a href="https://karachilawyers.com.pk/">Karachi Lawyers</a>.</p></section>
-          <section className="recovery-section recovery-sources" id="official-references"><h2>Official Legal and Registration References</h2><ul>{sources.map(([label, href]) => <li key={href}><a href={href} target="_blank" rel="noopener noreferrer">{label}</a></li>)}</ul><p>These guides concern adult Muslim marriage and related documentation. Special circumstances require review under the applicable law and the competent authority's current procedure.</p><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime={recoveryDate}>{recoveryDateLabel}</time></p></section>
+          <section className="recovery-section recovery-sources" id="official-references"><h2>Official Legal and Registration References</h2><ul>{pageSources.map(([label, href]) => <li key={href}><a href={href} target="_blank" rel="noopener noreferrer">{label}</a></li>)}</ul><p>These guides concern adult Muslim marriage and related documentation. Special circumstances require review under the applicable law and the competent authority's current procedure.</p><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime={recoveryDate}>{recoveryDateLabel}</time></p></section>
         </article>
         <GuideSidebar sections={page.sections} related={related} phone={phone} display={display} directory={archive.length > 0} profile={page.profile}/>
       </div>
