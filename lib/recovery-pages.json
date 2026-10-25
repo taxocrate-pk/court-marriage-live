@@ -312,12 +312,12 @@
         "Contact the team with the city, marriage date, available Nikah Nama and intended document use. The initial ten-minute telephone consultation is free."
       ],
       [
-        "Should I send original documents for an initial enquiry?",
-        "Ask which limited copies are needed for the first review. Send originals only when a defined task requires them, and confirm who will hold them, provide a receipt and return them."
+        "How can I explain whether I need registration or a certificate?",
+        "Describe whether a Nikah has already taken place, which marriage papers you hold and whether a registration entry can be identified. Readable copies can help the team distinguish a registration enquiry from a certificate, copy or correction request before agreeing the work."
       ],
       [
-        "What should I ask before authorizing additional work?",
-        "Ask which new issue was identified, what evidence is needed, which authority decides the matter and what professional or official charges apply. Agree the revised scope before further work is undertaken."
+        "What should the service scope say if my marriage record cannot be located?",
+        "Ask the team to identify the record-search task separately from any later registration or certificate assistance. Agree what information you must supply, which work is included, and the charges and next decision before authorizing a further stage."
       ]
     ],
     "related": [
@@ -355,7 +355,7 @@
         ]
       ]
     },
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "imageAlt": "NADRA Marriage Registration Service in Pakistan — illustrative document preparation photograph",
     "diagramAlt": "Marriage Registration file checklist covering Document Review, Local Application, Collection Check, Overseas Preparation",
     "diagramCaption": "Marriage Registration Service Stages — A Visual Checklist"
@@ -485,12 +485,12 @@
         "Yes. Contact the central team for the initial ten-minute free telephone consultation and confirm the office appointment and document checklist."
       ],
       [
-        "Should I send original documents for an initial enquiry?",
-        "Ask which limited copies are needed for the first review. Send originals only when a defined task requires them, and confirm who will hold them, provide a receipt and return them."
+        "Which details help start a Karachi marriage-certificate record search?",
+        "Provide the marriage date and place, the parties’ names, any registrar or registration reference, and readable copies of the Nikah Nama or an earlier certificate if available. A Karachi address alone does not identify the authority holding the source record."
       ],
       [
-        "What should I ask before authorizing additional work?",
-        "Ask which new issue was identified, what evidence is needed, which authority decides the matter and what professional or official charges apply. Agree the revised scope before further work is undertaken."
+        "What should I clarify if a Karachi certificate request reveals a record discrepancy?",
+        "Ask which particulars differ and whether the issue is in the source marriage entry or the certificate. Have the team explain the proposed review or correction work, the responsible authority and the separate charges before expanding the original certificate request."
       ]
     ],
     "related": [
@@ -528,7 +528,7 @@
         ]
       ]
     },
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "imageAlt": "Karachi consultation desk with folders prepared for a local marriage certificate application",
     "diagramAlt": "Marriage Certificate file checklist covering Registered Nikah, Lost Copy, Spelling Difference, Overseas Submission",
     "diagramCaption": "Karachi Marriage Certificate Enquiry Checklist — A Visual Checklist"
@@ -1418,12 +1418,12 @@
         "Yes. The initial ten-minute telephone consultation is free. Further professional assistance and any official or additional charges are explained according to the assignment."
       ],
       [
-        "Should I send original documents for an initial enquiry?",
-        "Ask which limited copies are needed for the first review. Send originals only when a defined task requires them, and confirm who will hold them, provide a receipt and return them."
+        "What should a couple prepare for the first Karachi Nikah-file review?",
+        "Prepare readable identity documents, a factual account of each person’s current marital status and any relevant previous-marriage records. Explain the proposed Nikah location, who can attend and whether either party is abroad so the review can identify missing evidence before an appointment is fixed."
       ],
       [
-        "What should I ask before authorizing additional work?",
-        "Ask which new issue was identified, what evidence is needed, which authority decides the matter and what professional or official charges apply. Agree the revised scope before further work is undertaken."
+        "How should we separate pre-Nikah document preparation from later certificate work?",
+        "Ask the quotation to identify the identity and marital-status review, Nikah Nama preparation and participant arrangements first. Confirm separately whether registration follow-up or a computerised certificate is included, who will handle it and what additional charges may apply."
       ]
     ],
     "related": [
@@ -1461,7 +1461,7 @@
         ]
       ]
     },
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "imageAlt": "Karachi office setting with an organized marriage-document file",
     "diagramAlt": "Court Marriage file checklist covering Spouse Identities, Marital-Status Evidence, Agreed Terms, Registration Plan",
     "diagramCaption": "Karachi Court Marriage Document Preparation — A Visual Checklist"
