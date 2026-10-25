@@ -1,0 +1,167 @@
+{
+  "commit": "cf034226cc7389afcdf2a8a4d30990c89078597c",
+  "deployment": "https://vercel.com/taxocrate-pks-projects/court-marriage-live/HG686Et12i2sbVSFjy1ETAEbHpAt",
+  "live_checks": [
+    {
+      "url": "https://courtmarriage.live/nikah-services/",
+      "image": "/images/approved/garden-nikah-ceremony.webp",
+      "live": true,
+      "sha256": "c0ab2674c89e6c0ee4562d5e971adff07799eba01b85768c687669ad96ad1cf9"
+    },
+    {
+      "url": "https://courtmarriage.live/nikahnama-certificate/",
+      "image": "/images/approved/marriage-register-preservation.webp",
+      "live": true,
+      "sha256": "8ef91bddc53e4781898210092fc8877379525b07527f24c8b839220259341edd"
+    },
+    {
+      "url": "https://courtmarriage.live/online-nikah-has-gained-popularity/",
+      "image": "/images/approved/online-nikah-veranda-consultation.webp",
+      "live": true,
+      "sha256": "80823a286602c1567d772e9f4e0144afcb8fa48d2c0262f5a0160efbacb7cca0"
+    },
+    {
+      "url": "https://courtmarriage.live/category/wedding-planning/",
+      "image": "/images/approved/garden-nikah-planning.webp",
+      "live": true,
+      "sha256": "413896f7378e5662ea158d749f6cd035c476efce842f13907890ea91938247d8"
+    }
+  ],
+  "responsive_local_checks": [
+    {
+      "slug": "nikah-services",
+      "width": 360,
+      "scrollWidth": 360,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fgarden-nikah-ceremony.webp&w=384&q=75",
+      "alt": "Illustrative garden Nikah ceremony with an officiant, adult bride and groom, and two witnesses"
+    },
+    {
+      "slug": "nikah-services",
+      "width": 390,
+      "scrollWidth": 390,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fgarden-nikah-ceremony.webp&w=640&q=75",
+      "alt": "Illustrative garden Nikah ceremony with an officiant, adult bride and groom, and two witnesses"
+    },
+    {
+      "slug": "nikah-services",
+      "width": 768,
+      "scrollWidth": 768,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fgarden-nikah-ceremony.webp&w=828&q=75",
+      "alt": "Illustrative garden Nikah ceremony with an officiant, adult bride and groom, and two witnesses"
+    },
+    {
+      "slug": "nikah-services",
+      "width": 1365,
+      "scrollWidth": 1365,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fgarden-nikah-ceremony.webp&w=750&q=75",
+      "alt": "Illustrative garden Nikah ceremony with an officiant, adult bride and groom, and two witnesses"
+    },
+    {
+      "slug": "nikahnama-certificate",
+      "width": 360,
+      "scrollWidth": 360,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fmarriage-register-preservation.webp&w=384&q=75",
+      "alt": "Illustrative records professional carefully opening a marriage register in an archive"
+    },
+    {
+      "slug": "nikahnama-certificate",
+      "width": 390,
+      "scrollWidth": 390,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fmarriage-register-preservation.webp&w=640&q=75",
+      "alt": "Illustrative records professional carefully opening a marriage register in an archive"
+    },
+    {
+      "slug": "nikahnama-certificate",
+      "width": 768,
+      "scrollWidth": 768,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fmarriage-register-preservation.webp&w=828&q=75",
+      "alt": "Illustrative records professional carefully opening a marriage register in an archive"
+    },
+    {
+      "slug": "nikahnama-certificate",
+      "width": 1365,
+      "scrollWidth": 1365,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fmarriage-register-preservation.webp&w=750&q=75",
+      "alt": "Illustrative records professional carefully opening a marriage register in an archive"
+    },
+    {
+      "slug": "online-nikah-has-gained-popularity",
+      "width": 360,
+      "scrollWidth": 360,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fonline-nikah-veranda-consultation.webp&w=384&q=75",
+      "alt": "Illustrative adult man discussing an Online Nikah enquiry by video from his home veranda"
+    },
+    {
+      "slug": "online-nikah-has-gained-popularity",
+      "width": 390,
+      "scrollWidth": 390,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fonline-nikah-veranda-consultation.webp&w=640&q=75",
+      "alt": "Illustrative adult man discussing an Online Nikah enquiry by video from his home veranda"
+    },
+    {
+      "slug": "online-nikah-has-gained-popularity",
+      "width": 768,
+      "scrollWidth": 768,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fonline-nikah-veranda-consultation.webp&w=828&q=75",
+      "alt": "Illustrative adult man discussing an Online Nikah enquiry by video from his home veranda"
+    },
+    {
+      "slug": "online-nikah-has-gained-popularity",
+      "width": 1365,
+      "scrollWidth": 1365,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fonline-nikah-veranda-consultation.webp&w=750&q=75",
+      "alt": "Illustrative adult man discussing an Online Nikah enquiry by video from his home veranda"
+    },
+    {
+      "slug": "category/wedding-planning",
+      "width": 360,
+      "scrollWidth": 360,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fgarden-nikah-planning.webp&w=384&q=75",
+      "alt": "Illustrative garden courtyard prepared with a signing table and seating for a Nikah ceremony"
+    },
+    {
+      "slug": "category/wedding-planning",
+      "width": 390,
+      "scrollWidth": 390,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fgarden-nikah-planning.webp&w=640&q=75",
+      "alt": "Illustrative garden courtyard prepared with a signing table and seating for a Nikah ceremony"
+    },
+    {
+      "slug": "category/wedding-planning",
+      "width": 768,
+      "scrollWidth": 768,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fgarden-nikah-planning.webp&w=828&q=75",
+      "alt": "Illustrative garden courtyard prepared with a signing table and seating for a Nikah ceremony"
+    },
+    {
+      "slug": "category/wedding-planning",
+      "width": 1365,
+      "scrollWidth": 1365,
+      "src": "http://127.0.0.1:3056/_next/image/?url=%2Fimages%2Fapproved%2Fgarden-nikah-planning.webp&w=750&q=75",
+      "alt": "Illustrative garden courtyard prepared with a signing table and seating for a Nikah ceremony"
+    }
+  ],
+  "build": "PASS: Next.js webpack production build; Turbopack local persistence cache failed, webpack completed successfully.",
+  "visual": "16 local Chromium captures reviewed: 4 pages at 360,390,768,1365. Fresh production HTML and exact image byte hashes verified independently.",
+  "lighthouse": {
+    "page": "https://courtmarriage.live/nikah-services/",
+    "report": "https://pagespeed.web.dev/analysis/https-courtmarriage-live-nikah-services/c68aq7axod",
+    "mobile": {
+      "performance": 98,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100,
+      "LCP_seconds": 2.0,
+      "CLS": 0
+    },
+    "desktop": {
+      "performance": 100,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100,
+      "LCP_seconds": 0.5,
+      "CLS": 0
+    }
+  },
+  "limits": "Lighthouse covers the changed Nikah Services page; responsive screenshots were local production build, not live viewport screenshots."
+}
