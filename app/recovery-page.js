@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import './recovery.css'
 import { SiteHeader as RecoveryHeader, SiteFooter as RecoveryFooter, ContactActions, callHours } from '@/components/site-chrome'
-import { titleCase } from '@/lib/editorial'
+import { titleCase, firstArticleSubheading } from '@/lib/editorial'
 import { legacyPages } from '@/lib/legacy-page-definitions'
 import { getSitePage } from '@/lib/site-pages'
 import { site, cityServices } from '@/lib/site-config'
@@ -63,7 +63,7 @@ export default function RecoveryPage({ page }) {
       <div className="container recovery-layout">
         <article className="recovery-article">{page.slug === 'contact-us' && <section className="recovery-section"><h2>Contact and Office Appointments</h2><p>Pakistan Legal Helpline (WhatsApp): {site.primaryPhoneDisplay}. Please confirm an appointment and the relevant document checklist before visiting.</p><h3>Karachi Johar Office</h3><p>A-220, 2nd Floor, Supreme Corner, Johar Chowrangi, Block 18, Gulistan-e-Johar, Karachi.</p><h3>Karachi DHA Branch</h3><p>76-C, Mezzanine, Main Jami Commercial, Phase 7, DHA, Karachi.</p><h3>Faisalabad Office</h3><p>Rana Shafqat Rasool, M.A., LL.B., Advocate High Court. Chamber No. 6, Jalal Law Chambers, Near Bakhshi Khana, District Courts, Faisalabad. Please use the central helpline to arrange assistance.</p></section>}
           {archive.length > 0 && <section id="resource-directory" className="recovery-section"><h2>{page.directoryHeading || (page.slug.endsWith('marriage-services') ? 'Marriage Services and City Guides' : 'Marriage Law and Practical Guides')}</h2><div className="recovery-directory">{archive.map((item) => <a href={recoveryHref(item)} key={item.slug}><h3>{item.title}</h3><p>{item.description}</p><span>Read the Guide →</span></a>)}</div></section>}
-          {page.sections.map((section, index) => <section className="recovery-section" id={recoveryAnchor(index)} key={section.heading}><h2>{titleCase(section.heading)}</h2>{index === 0 && <h3>{page.firstSubheading || (page.focus === 'Nikah Nama' ? 'Reading the Prescribed Marriage Record' : page.focus === 'Online Nikah' ? 'Checking Participation, Authority and Documentation' : 'Documents and Circumstances to Review')}</h3>}{section.paragraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+          {page.sections.map((section, index) => <section className="recovery-section" id={recoveryAnchor(index)} key={section.heading}><h2>{titleCase(section.heading)}</h2>{index === 0 && <h3>{firstArticleSubheading(page)}</h3>}{section.paragraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
             {index === 2 && <div className="recovery-table-wrap" role="region" aria-label={page.table.caption} tabIndex={0}><table><caption>{page.table.caption}</caption><thead><tr>{page.table.headers.map((heading) => <th scope="col" key={heading}>{heading}</th>)}</tr></thead><tbody>{page.table.rows.map((row, i) => <tr key={i}>{row.map((cell, j) => j === 0 ? <th scope="row" key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></div>}
             {index === 4 && page.secondarySrc && <figure className="recovery-checklist"><Image src={page.secondarySrc} alt={page.diagramAlt} width={1200} height={600} sizes="(max-width: 800px) 100vw, 70vw" /></figure>}
             {section.links?.length > 0 && <p className="recovery-context-links">Continue Reading: {section.links.map((link, i) => <span key={link.href}>{i > 0 && ' · '}<a href={link.href}>{link.label}</a></span>)}</p>}

@@ -43,7 +43,7 @@ export default function Page() {
   const pageSchema = {
     '@context':'https://schema.org',
     '@graph':[
-      {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:pageHeadings['/'].h1,dateModified:'2026-10-24',about:{'@id':`${site.url}/#legalservice`}},
+      {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:pageHeadings['/'].h1,dateModified:'2026-10-26',about:{'@id':`${site.url}/#legalservice`}},
       {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Multan']},
       {'@type':'BreadcrumbList','@id':`${site.url}/#breadcrumb`,itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${site.url}/`}]}
     ]
@@ -110,7 +110,7 @@ export default function Page() {
               ['02','Nikah preparation','Confirm the appropriate Nikah arrangements, witnesses, Mahr and any wakalat or supporting declarations that are actually required.'],
               ['03','Nikah & Nikah Nama','Solemnise the Nikah in accordance with the applicable religious requirements and complete the prescribed marriage record accurately.'],
               ['04','Registration follow-up','Proceed through the authorised Nikah Registrar and competent local authority, followed by MRC or other civil-record steps where applicable.'],
-            ].map(([n,t,d]) => <article className="process-card" key={n}><span className="step-no">{n}</span><h3>{t}</h3><p>{d}</p><span className="step-arrow">↗</span></article>)}
+            ].map(([n,t,d]) => <article className="process-card" key={n}><span className="step-no">{n}</span><h3>{titleCase(t)}</h3><p>{d}</p><span className="step-arrow">↗</span></article>)}
           </div>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="container">
           <div className="section-heading"><div><div className="section-kicker">Marriage Legal Services</div><h2>Court Marriage, Nikah and Registration Support.</h2></div><p>Choose the service matching your documents, intended ceremony and registration requirements.</p></div>
           <div className="service-grid">
-            {services.map(([n,t,d,href]) => <article className="service-card" key={n}><span className="service-no">{n}</span><h3>{t}</h3><p>{d}</p><a href={href}>Learn more <span>→</span></a></article>)}
+            {services.map(([n,t,d,href]) => <article className="service-card" key={n}><span className="service-no">{n}</span><h3>{titleCase(t)}</h3><p>{d}</p><a href={href}>Learn more <span>→</span></a></article>)}
           </div>
         </div>
       </section>
@@ -171,7 +171,7 @@ export default function Page() {
           <div className="section-heading"><div><div className="section-kicker">Legal Team And Karachi Offices</div><h2>Regional Court Marriage and Nikah Coordination.</h2><h3>Lawyers for Marriage and Family Documentation</h3></div><p>Karachi: Mohsin Ali Mirani, Zaheer Ahmed Qazi and Sobia Mohsin handle relevant marriage and family matters. Islamabad: Muhammad Usman Bhatti, Advocate High Court, with coordination managed by Haider Mohsin. Rawalpindi: Raja Zarb-e-Hasnain Bhatti, Advocate High Court. Lahore: Junaid Kahloon, Advocate High Court. Mohsin Ali Shah serves as Chairman, overseeing client coordination, case preparation, research support and network management.</p></div>
           <div className="why-grid">
             <div className="why-item"><span>01</span><div><h3>DHA Phase 7, Karachi</h3><p>76C, Mezzanine Floor, Main Jami Commercial, Phase 7, DHA, Karachi.</p></div></div>
-            <div className="why-item"><span>02</span><div><h3>Gulistan-e-jauhar, Karachi</h3><p>A-220, 2nd Floor, Supreme Corner, Johar Chowrangi, Block 18, Gulistan-e-Jauhar, Karachi.</p></div></div>
+            <div className="why-item"><span>02</span><div><h3>Gulistan-e-Jauhar, Karachi</h3><p>A-220, 2nd Floor, Supreme Corner, Johar Chowrangi, Block 18, Gulistan-e-Jauhar, Karachi.</p></div></div>
           </div>
         </div>
       </section>
@@ -185,7 +185,7 @@ export default function Page() {
               ['02','City-specific assistance','Karachi, Lahore, Islamabad and Rawalpindi contact routing is kept separate so clients reach the relevant team.'],
               ['03','Qualified expectations','Timelines, foreign-document requirements and authority decisions are explained as variable where they genuinely vary.'],
               ['04','Private handling','Sensitive personal and marriage information is treated as confidential client material.'],
-            ].map(([n,t,d]) => <div className="why-item" key={n}><span>{n}</span><div><h3>{t}</h3><p>{d}</p></div></div>)}
+            ].map(([n,t,d]) => <div className="why-item" key={n}><span>{n}</span><div><h3>{titleCase(t)}</h3><p>{d}</p></div></div>)}
           </div>
         </div>
       </section>
@@ -235,7 +235,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-24">24 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
+      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-26">26 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
     </>
   )
 }
