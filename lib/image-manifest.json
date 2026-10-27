@@ -4,209 +4,580 @@
     "bytes": 60942,
     "sha256": "2d58ba33be6d7789cbaad982b02e75a06100e229bd6f5018cdc051abceb29bb7",
     "title": "Court Marriage Karachi",
-    "description": "Illustrative photograph for Court Marriage Karachi. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Karachi. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-lahore": {
     "file": "images/site/court-marriage-lahore.webp",
     "bytes": 70244,
     "sha256": "b8349e30a75337d42a0e3b48469eac732e5ab6e051904022d32327fa600fd8a3",
     "title": "Court Marriage Lahore",
-    "description": "Illustrative photograph for Court Marriage Lahore. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Lahore. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-islamabad": {
     "file": "images/site/court-marriage-islamabad.webp",
     "bytes": 70200,
     "sha256": "ecb70d890813f10d9e0c464a45a4151db3e02646d238f1ab0af1eb7576e2fc98",
     "title": "Court Marriage Islamabad",
-    "description": "Illustrative photograph for Court Marriage Islamabad. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Islamabad. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-lahore-records": {
     "file": "images/site/court-marriage-lahore-records.webp",
     "bytes": 61288,
     "sha256": "857a36bf24fb829033ceffd66c86b2cb0c75696f7772139a40d64dfde96cc259",
     "title": "Court Marriage Lahore Records",
-    "description": "Illustrative photograph for Court Marriage Lahore Records. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Lahore Records. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-rawalpindi": {
     "file": "images/site/court-marriage-rawalpindi.webp",
     "bytes": 64034,
     "sha256": "729af0ca1f91882bd4f93c6561a29f45b8acbdb0bf8340233e3b87f315e9ea54",
     "title": "Court Marriage Rawalpindi",
-    "description": "Illustrative photograph for Court Marriage Rawalpindi. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Rawalpindi. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-karachi-records": {
     "file": "images/site/court-marriage-karachi-records.webp",
     "bytes": 55674,
     "sha256": "d1a6346aafbea1e07ec4542a5b7b6894a8aaaa5206ddd5cc90fba322aad2bca8",
     "title": "Court Marriage Karachi Records",
-    "description": "Illustrative photograph for Court Marriage Karachi Records. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Karachi Records. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-islamabad-records": {
     "file": "images/site/court-marriage-islamabad-records.webp",
     "bytes": 69424,
     "sha256": "8c28630fc8f7e1d619a64863543088fd670efee13d05fbb77249c87bc0975513",
     "title": "Court Marriage Islamabad Records",
-    "description": "Illustrative photograph for Court Marriage Islamabad Records. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Islamabad Records. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-rawalpindi-records": {
     "file": "images/site/court-marriage-rawalpindi-records.webp",
     "bytes": 63140,
     "sha256": "d83399368d580a23c68145872b5bd7b046be0845eb2fdc4c787dd1c5132cbb00",
     "title": "Court Marriage Rawalpindi Records",
-    "description": "Illustrative photograph for Court Marriage Rawalpindi Records. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Rawalpindi Records. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-faisalabad": {
     "file": "images/site/court-marriage-faisalabad.webp",
     "bytes": 48306,
     "sha256": "c6693dd0c523c0ec08bae0877f603165dd3556b80fcffa1db78a99f31748022e",
     "title": "Court Marriage Faisalabad",
-    "description": "Illustrative photograph for Court Marriage Faisalabad. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Faisalabad. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-faisalabad-records": {
     "file": "images/site/court-marriage-faisalabad-records.webp",
     "bytes": 70138,
     "sha256": "5c912db212be8b329ca6266a1e92e0e4edeb042114714d4af93cec2271004c15",
     "title": "Court Marriage Faisalabad Records",
-    "description": "Illustrative photograph for Court Marriage Faisalabad Records. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Faisalabad Records. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-nama-karachi": {
     "file": "images/site/nikah-nama-karachi.webp",
     "bytes": 70450,
     "sha256": "d97fd5af853640c123441b156938e08abdb574eed0f0c287347437c89335eb27",
     "title": "Nikah Nama Karachi",
-    "description": "Illustrative photograph for Nikah Nama Karachi. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Nama Karachi. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-nama-karachi-translation": {
     "file": "images/site/nikah-nama-karachi-translation.webp",
     "bytes": 58310,
     "sha256": "0e1209d4b7b6c22626c605deb170576f52685b5265970393333ab631e163e057",
     "title": "Nikah Nama Karachi Translation",
-    "description": "Illustrative photograph for Nikah Nama Karachi Translation. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Nama Karachi Translation. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-multan": {
     "file": "images/site/court-marriage-multan.webp",
     "bytes": 67074,
     "sha256": "759e30a00e3f3f80ec7eb60918b75721cd5e0d83da17c446ec34ea4416d3f06f",
     "title": "Court Marriage Multan",
-    "description": "Illustrative photograph for Court Marriage Multan. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Multan. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "court-marriage-multan-records": {
     "file": "images/site/court-marriage-multan-records.webp",
     "bytes": 60600,
     "sha256": "45cdeb978c27e9a8dccffd5fb6af93e5b9f4e223a2165d1a6fb992fed7d1cb85",
     "title": "Court Marriage Multan Records",
-    "description": "Illustrative photograph for Court Marriage Multan Records. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Court Marriage Multan Records. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-nama-lahore-translation": {
     "file": "images/site/nikah-nama-lahore-translation.webp",
     "bytes": 63904,
     "sha256": "07ae8d0150a72f641d38fc959e5ee0980877583bb9be353cd47594fbecc190fd",
     "title": "Nikah Nama Lahore Translation",
-    "description": "Illustrative photograph for Nikah Nama Lahore Translation. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Nama Lahore Translation. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-nama-lahore": {
     "file": "images/site/nikah-nama-lahore.webp",
     "bytes": 66028,
     "sha256": "9a425082c68382db18ab23f7c5e7ae4e7b2c9c13842bb0753c22863d484f54a7",
     "title": "Nikah Nama Lahore",
-    "description": "Illustrative photograph for Nikah Nama Lahore. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Nama Lahore. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-nama-islamabad": {
     "file": "images/site/nikah-nama-islamabad.webp",
     "bytes": 53862,
     "sha256": "2892b5bd7e57da9d4146727fac21ab54d8e3497731d067a51eac696aa693a292",
     "title": "Nikah Nama Islamabad",
-    "description": "Illustrative photograph for Nikah Nama Islamabad. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Nama Islamabad. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-nama-rawalpindi-translation": {
     "file": "images/site/nikah-nama-rawalpindi-translation.webp",
     "bytes": 59490,
     "sha256": "3a740e4c9ed085565acee980b6bf8dcec6d0d869494cbb54b4e0fbf0a74b7000",
     "title": "Nikah Nama Rawalpindi Translation",
-    "description": "Illustrative photograph for Nikah Nama Rawalpindi Translation. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Nama Rawalpindi Translation. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-nama-islamabad-translation": {
     "file": "images/site/nikah-nama-islamabad-translation.webp",
     "bytes": 45504,
     "sha256": "6d234e777624bdd05951e34f00ef457a215aedb8375ffc71525356e7e11f4615",
     "title": "Nikah Nama Islamabad Translation",
-    "description": "Illustrative photograph for Nikah Nama Islamabad Translation. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Nama Islamabad Translation. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-nama-rawalpindi": {
     "file": "images/site/nikah-nama-rawalpindi.webp",
     "bytes": 52794,
     "sha256": "1023cba5937507ed7c445343da5984302ba27baa09991fb6f3de56141b2e4482",
     "title": "Nikah Nama Rawalpindi",
-    "description": "Illustrative photograph for Nikah Nama Rawalpindi. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Nama Rawalpindi. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "home-registration-records": {
     "file": "images/site/home-registration-records.webp",
     "bytes": 56764,
     "sha256": "d820029e07e445c7d290c961c5d96de653911a7409b675ab56afcdccab4ab1ec",
     "title": "Home Registration Records",
-    "description": "Illustrative photograph for Home Registration Records. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Home Registration Records. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "online-nikah-foreigners": {
     "file": "images/site/online-nikah-foreigners.webp",
     "bytes": 44762,
     "sha256": "2b67d5e5f85825fb32d126b84fa1eb31c82b80d0f14b0461728c781ffeb28602",
     "title": "Online Nikah Foreigners",
-    "description": "Illustrative photograph for Online Nikah Foreigners. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Online Nikah Foreigners. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "online-nikah-pakistan": {
     "file": "images/site/online-nikah-pakistan.webp",
     "bytes": 54790,
     "sha256": "a51461267ad0f57b3eb878ebdd7256ccb1af70dd47abc1348667e646914b9a3f",
     "title": "Online Nikah Pakistan",
-    "description": "Illustrative photograph for Online Nikah Pakistan. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Online Nikah Pakistan. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "home-marriage-guidance": {
     "file": "images/site/home-marriage-guidance.webp",
     "bytes": 60134,
     "sha256": "1bfe5a6df381eaeecf942b3aa27dc304447cf8004da7ace544e916ed7dd2511c",
     "title": "Home Marriage Guidance",
-    "description": "Illustrative photograph for Home Marriage Guidance. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Home Marriage Guidance. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "about-private-legal-practice": {
     "file": "images/site/about-private-legal-practice.webp",
     "bytes": 78018,
     "sha256": "b42304e21c2e4b7ec89c458d3f34f2535b98dfe53536d8773ac44d9fdf751793",
     "title": "About Private Legal Practice",
-    "description": "Illustrative photograph for About Private Legal Practice. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for About Private Legal Practice. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-services-pakistan": {
     "file": "images/site/nikah-services-pakistan.webp",
     "bytes": 69528,
     "sha256": "009c1beccd6ab5724ec088678470aacf1230b9a3b5b0da5b19f32a2aa5a4f371",
     "title": "Nikah Services Pakistan",
-    "description": "Illustrative photograph for Nikah Services Pakistan. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Services Pakistan. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "marriage-guides-library": {
     "file": "images/site/marriage-guides-library.webp",
     "bytes": 105498,
     "sha256": "71c12fa0abe3759c68f4182ff7d9d9d69aea9d0a3d4ed9f6a541d7585fb489e7",
     "title": "Marriage Guides Library",
-    "description": "Illustrative photograph for Marriage Guides Library. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Marriage Guides Library. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "nikah-khawan-guidance": {
     "file": "images/site/nikah-khawan-guidance.webp",
     "bytes": 48112,
     "sha256": "5177e40f5f70c8d2f52d58bf6c35bdae3398ed8953f2c8e6388e366834b7aca6",
     "title": "Nikah Khawan Guidance",
-    "description": "Illustrative photograph for Nikah Khawan Guidance. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Nikah Khawan Guidance. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "contact-legal-guidance": {
     "file": "images/site/contact-legal-guidance.webp",
     "bytes": 65996,
     "sha256": "d88568242796a288f4a2cb9ef9937c8a93f97f2005b68516c35d3d33b7a81535",
     "title": "Contact Legal Guidance",
-    "description": "Illustrative photograph for Contact Legal Guidance. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Contact Legal Guidance. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
   },
   "marriage-certificate-pakistan": {
     "file": "images/site/marriage-certificate-pakistan.webp",
     "bytes": 53352,
     "sha256": "176b3ab58a4e276643d1f923beaa7ded4148811434d6d8a96353c0160e20acc9",
     "title": "Marriage Certificate Pakistan",
-    "description": "Illustrative photograph for Marriage Certificate Pakistan. No actual client or named professional is depicted."
+    "description": "Illustrative photograph for Marriage Certificate Pakistan. No actual client or named professional is depicted.",
+    "width": 1200,
+    "height": 800
+  },
+  "court-marriage-action-sequence-checklist": {
+    "bytes": 71650,
+    "sha256": "cdaa24c3bac109b96ac5bbd1ec0f3f2373f998a25d2c74fcf87a3a81c2462eeb",
+    "title": "Court Marriage Action Sequence Checklist",
+    "description": "Illustrative folders and a checklist arranged for successive marriage-document tasks. AI-generated conceptual editorial illustration, not an actual client record or government document.",
+    "width": 1200,
+    "height": 800,
+    "pixelSHA256": "10be6e57e7e959dfdf1a2b277ec9f1aa5a7643f386eb1e962485efe142a2122b",
+    "file": "images/site/court-marriage-action-sequence-checklist.webp",
+    "alt": "Illustrative folders and a checklist arranged for successive marriage-document tasks",
+    "route": "how-to-do-court-marriage-in-pakistan",
+    "generationMethod": "Built-in image generation; ImageMagick WebP compression only"
+  },
+  "marriage-record-handover-checklist": {
+    "bytes": 49450,
+    "sha256": "2fe453a0d0e17d46d355e1495896318ff4f28b5b68af27d6294e406e00b49414",
+    "title": "Marriage Record Handover Checklist",
+    "description": "Illustrative document inventory and envelopes prepared for a private handover. AI-generated conceptual editorial illustration, not an actual client record or government document.",
+    "width": 1200,
+    "height": 600,
+    "pixelSHA256": "e3e28fb4968d9179997f5b1cb56e6758ad12855de647e62adb28f7b28f030ad5",
+    "file": "images/site/marriage-record-handover-checklist.webp",
+    "alt": "Illustrative document inventory and envelopes prepared for a private handover",
+    "route": "how-to-do-court-marriage-in-pakistan",
+    "generationMethod": "Built-in image generation; ImageMagick WebP compression only"
+  },
+  "court-marriage-informed-decision-consultation": {
+    "bytes": 66644,
+    "sha256": "f2f0d2f10c301044c72120e7924644eee04602ca80577faa48b44e7f3fed06b6",
+    "title": "Court Marriage Informed Decision Consultation",
+    "description": "Illustrative private consultation with a writing pad and closed folders. AI-generated conceptual editorial illustration, not an actual client record or government document.",
+    "width": 1200,
+    "height": 800,
+    "pixelSHA256": "ff393add1cc1c9fdca5d1736ad53b82f3bef2dd1e83aa6426e0a915d2979d333",
+    "file": "images/site/court-marriage-informed-decision-consultation.webp",
+    "alt": "Illustrative private consultation with a writing pad and closed folders",
+    "route": "information-about-court-marriage-in-pakistan",
+    "generationMethod": "Built-in image generation; ImageMagick WebP compression only"
+  },
+  "marriage-service-roles-decision-notes": {
+    "bytes": 81628,
+    "sha256": "59780a38f820e9fdcdf284d681559d4ca59f28e72a0435b68f102109eb939672",
+    "title": "Marriage Service Roles Decision Notes",
+    "description": "Illustrative separate note cards and a folder for considering service responsibilities. AI-generated conceptual editorial illustration, not an actual client record or government document.",
+    "width": 1200,
+    "height": 600,
+    "pixelSHA256": "e41e114a0960eaed388e21dbe186eebb6c84f5e6cc7abb1e9f34dd910f461937",
+    "file": "images/site/marriage-service-roles-decision-notes.webp",
+    "alt": "Illustrative separate note cards and a folder for considering service responsibilities",
+    "route": "information-about-court-marriage-in-pakistan",
+    "generationMethod": "Built-in image generation; ImageMagick WebP compression only"
+  },
+  "marriage-certificate-city-cost-comparison": {
+    "bytes": 69204,
+    "sha256": "e0c9b41011f9d1cc3cb88d3627c62486194a8f6d1661cf7f4b29f613d684af22",
+    "title": "Marriage Certificate City Cost Comparison",
+    "description": "Four document folders beside a calculator and blank quotation sheets. AI-generated conceptual editorial illustration, not an actual client record or government document.",
+    "width": 1200,
+    "height": 800,
+    "pixelSHA256": "4fe9aaef3b7f8bb224b2e77f503a864e3a5e1edd3bed60ac652a3f25127418d0",
+    "file": "images/site/marriage-certificate-city-cost-comparison.webp",
+    "alt": "Four document folders beside a calculator and blank quotation sheets",
+    "route": "nadra-marriage-certificate-in-karachi-islamabad-lahore-pakistan",
+    "generationMethod": "Built-in image generation; ImageMagick WebP compression only"
+  },
+  "marriage-certificate-itemised-expenses": {
+    "bytes": 39054,
+    "sha256": "66101a6dab38bc19ae3f7ceb351c544275a7290860b5e8bdfe5198932ed65b74",
+    "title": "Marriage Certificate Itemised Expenses",
+    "description": "Blank expense notebook with envelopes and receipt-sized slips. AI-generated conceptual editorial illustration, not an actual client record or government document.",
+    "width": 1200,
+    "height": 600,
+    "pixelSHA256": "5caa052c4df2a83f2b6f089f8aa0992e29f8b853eaab0b735641e0082183c4cc",
+    "file": "images/site/marriage-certificate-itemised-expenses.webp",
+    "alt": "Blank expense notebook with envelopes and receipt-sized slips",
+    "route": "nadra-marriage-certificate-in-karachi-islamabad-lahore-pakistan",
+    "generationMethod": "Built-in image generation; ImageMagick WebP compression only"
+  },
+  "marriage-certificate-verification-record-review": {
+    "bytes": 56284,
+    "sha256": "76cccd318addf304a7717ce14ded70324bfada3d31059905b26fdcbfeaf75ae0",
+    "title": "Marriage Certificate Verification Record Review",
+    "description": "Hands comparing two document sheets beside a magnifying glass and folder. AI-generated conceptual editorial illustration, not an actual client record or government document.",
+    "width": 1200,
+    "height": 800,
+    "pixelSHA256": "d9a430b499c92f3d612c13721bdbbbe3244977afcba74e9873269fe9dd85e9c3",
+    "file": "images/site/marriage-certificate-verification-record-review.webp",
+    "alt": "Hands comparing two document sheets beside a magnifying glass and folder",
+    "route": "nadra-verified-marriage-registration-certificate-service",
+    "generationMethod": "Built-in image generation; ImageMagick WebP compression only"
+  },
+  "marriage-certificate-issuer-enquiry-trail": {
+    "bytes": 72682,
+    "sha256": "417f1729be04bc5ca0030090a5a5b8699921cb35870151c3b6b96386492228b2",
+    "title": "Marriage Certificate Issuer Enquiry Trail",
+    "description": "Organised correspondence folder with an envelope and a plain checklist. AI-generated conceptual editorial illustration, not an actual client record or government document.",
+    "width": 1200,
+    "height": 600,
+    "pixelSHA256": "69f8766cd30bb9729dd2027efc566a112e7913113f66735cb5f60850ee9cbc35",
+    "file": "images/site/marriage-certificate-issuer-enquiry-trail.webp",
+    "alt": "Organised correspondence folder with an envelope and a plain checklist",
+    "route": "nadra-verified-marriage-registration-certificate-service",
+    "generationMethod": "Built-in image generation; ImageMagick WebP compression only"
+  },
+  "approved-online-nikah-veranda-consultation": {
+    "file": "images/approved/online-nikah-veranda-consultation.webp",
+    "bytes": 104702,
+    "sha256": "80823a286602c1567d772e9f4e0144afcb8fa48d2c0262f5a0160efbacb7cca0",
+    "title": "Illustrative Adult Man Discussing an Online Nikah Enquiry by Video from His Home Veranda",
+    "description": "Conceptual editorial image: Illustrative adult man discussing an Online Nikah enquiry by video from his home veranda. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "approved-garden-nikah-ceremony": {
+    "file": "images/approved/garden-nikah-ceremony.webp",
+    "bytes": 199102,
+    "sha256": "c0ab2674c89e6c0ee4562d5e971adff07799eba01b85768c687669ad96ad1cf9",
+    "title": "Illustrative Garden Nikah Ceremony with an Officiant, Adult Bride and Groom, and Two Witnesses",
+    "description": "Conceptual editorial image: Illustrative garden Nikah ceremony with an officiant, adult bride and groom, and two witnesses. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "recovery-karachi-documents": {
+    "file": "images/recovery/karachi-documents.webp",
+    "bytes": 75984,
+    "sha256": "fd75dac28e32d060b30a4420d7b8c7028e4bfcf1b96f2d0f3ee5d4848de8603b",
+    "title": "Karachi Office Setting with an Organized Marriage-Document File",
+    "description": "Conceptual editorial image: Karachi office setting with an organized marriage-document file. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-benefits-hero": {
+    "file": "images/legacy/benefits-hero.webp",
+    "bytes": 112126,
+    "sha256": "76f3bb3cd48e9a48118d7e1ed889ae7fc42807cf6b264b715a3c0dc5f342d2c4",
+    "title": "Illustrative Simple Nikah Appointment Setting with Flowers and Two Chairs",
+    "description": "Conceptual editorial image: Illustrative simple Nikah appointment setting with flowers and two chairs. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-benefits-records": {
+    "file": "images/legacy/benefits-records.webp",
+    "bytes": 108158,
+    "sha256": "5e6a6ac6e38e20169315e0fd3a2338c2a7928cf2a81e368812d1e59abaf18e18",
+    "title": "Illustrative Comparison of Ceremony Expenses and Document-Service Costs",
+    "description": "Conceptual editorial image: Illustrative comparison of ceremony expenses and document-service costs. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-khawan-directory-hero": {
+    "file": "images/legacy/khawan-directory-hero.webp",
+    "bytes": 68560,
+    "sha256": "13a333a1e9cac3f7aaa08365a33234591ccca15641ef88e09144baa07d29f520",
+    "title": "Illustrative Pakistani Officiant Discussing Ceremony Preparation with Adult Clients",
+    "description": "Conceptual editorial image: Illustrative Pakistani officiant discussing ceremony preparation with adult clients. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-online-directory-hero": {
+    "file": "images/legacy/online-directory-hero.webp",
+    "bytes": 69614,
+    "sha256": "349b94d824884cde18747a0e7bfd148f950ffc6a7add376dddd7b9c900f94516",
+    "title": "Illustrative Remote Coordination Workspace Overlooking Islamabad Hills",
+    "description": "Conceptual editorial image: Illustrative remote coordination workspace overlooking Islamabad hills. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "approved-garden-nikah-planning": {
+    "file": "images/approved/garden-nikah-planning.webp",
+    "bytes": 191320,
+    "sha256": "413896f7378e5662ea158d749f6cd035c476efce842f13907890ea91938247d8",
+    "title": "Illustrative Garden Courtyard Prepared with a Signing Table and Seating for a Nikah Ceremony",
+    "description": "Conceptual editorial image: Illustrative garden courtyard prepared with a signing table and seating for a Nikah ceremony. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-rawalpindi-directory-hero": {
+    "file": "images/legacy/rawalpindi-directory-hero.webp",
+    "bytes": 121436,
+    "sha256": "009c601c78c1bc97b9e6a7596fb7040a3ca4fae5746b7716737a1fec8305ba6d",
+    "title": "Illustrative Adult Pakistani Couple Travelling to an Appointment in a Rawalpindi-Style Streetscape",
+    "description": "Conceptual editorial image: Illustrative adult Pakistani couple travelling to an appointment in a Rawalpindi-style streetscape. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-civil-hero": {
+    "file": "images/legacy/civil-hero.webp",
+    "bytes": 70526,
+    "sha256": "e8bc25a447efdb29c7e94c4b84a8141fe71f7b16437369d09b46f86ad1ad6762",
+    "title": "Illustrative Pakistani Couple Discussing Marriage Registration with an Adviser",
+    "description": "Conceptual editorial image: Illustrative Pakistani couple discussing marriage registration with an adviser. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-civil-records": {
+    "file": "images/legacy/civil-records.webp",
+    "bytes": 70254,
+    "sha256": "fd862b1c4b3dafe7790cfe26f0afdd340cb606980c7613ade72ea386ed68a3f6",
+    "title": "Illustrative Separate Marriage Register and Civil-Record File",
+    "description": "Conceptual editorial image: Illustrative separate marriage register and civil-record file. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-divorce-hero": {
+    "file": "images/legacy/divorce-hero.webp",
+    "bytes": 74518,
+    "sha256": "d028b9b1022116526f989677b0a9ebbf3c3090e2006090a4f989fdc7ec1a0003",
+    "title": "Illustrative Confidential Family-Law Consultation between Two Adult Women",
+    "description": "Conceptual editorial image: Illustrative confidential family-law consultation between two adult women. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-divorce-records": {
+    "file": "images/legacy/divorce-records.webp",
+    "bytes": 73768,
+    "sha256": "6fa29895a5a8179c4fda6233abd1014095470381cd0b95cd57a272b1a92ba755",
+    "title": "Illustrative Separate Religious-Study Book and Legal File for a Divorce Review",
+    "description": "Conceptual editorial image: Illustrative separate religious-study book and legal file for a divorce review. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-free-will-hero": {
+    "file": "images/legacy/free-will-hero.webp",
+    "bytes": 84872,
+    "sha256": "47a5e229063a17c31efa19d4ff72f9c24b207361229a2d661c1c0d9db84a0a38",
+    "title": "Illustrative Adult Pakistani Partners Discussing Their Own Marriage Instructions with a Lawyer",
+    "description": "Conceptual editorial image: Illustrative adult Pakistani partners discussing their own marriage instructions with a lawyer. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-free-will-records": {
+    "file": "images/legacy/free-will-records.webp",
+    "bytes": 58796,
+    "sha256": "41f73c2f806d8f7aab96dfc92ba66249809bf7dfd3e72a004f0e214313548d9e",
+    "title": "Illustrative Confidential Preparation of a Family-Law Document File",
+    "description": "Conceptual editorial image: Illustrative confidential preparation of a family-law document file. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-mrc-importance-hero": {
+    "file": "images/legacy/mrc-importance-hero.webp",
+    "bytes": 76468,
+    "sha256": "11f29e0c857127a0ca36b0046a19f9dc5c9ff5a3e0b5d5f1a9b4dffdbf55beb3",
+    "title": "Illustrative Blank Civil Marriage Certificate Beside a Source Register",
+    "description": "Conceptual editorial image: Illustrative blank civil marriage certificate beside a source register. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-mrc-importance-records": {
+    "file": "images/legacy/mrc-importance-records.webp",
+    "bytes": 90142,
+    "sha256": "361da7d067db582195e02f5535cf94e93c1f9331fb4dfb740093e4d87f9103ff",
+    "title": "Illustrative Organised Marriage-Record Files without Identifying Information",
+    "description": "Conceptual editorial image: Illustrative organised marriage-record files without identifying information. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "approved-marriage-register-preservation": {
+    "file": "images/approved/marriage-register-preservation.webp",
+    "bytes": 101774,
+    "sha256": "8ef91bddc53e4781898210092fc8877379525b07527f24c8b839220259341edd",
+    "title": "Illustrative Records Professional Carefully Opening a Marriage Register in an Archive",
+    "description": "Conceptual editorial image: Illustrative records professional carefully opening a marriage register in an archive. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-nikahnama-records": {
+    "file": "images/legacy/nikahnama-records.webp",
+    "bytes": 51644,
+    "sha256": "b27f0a7431989795aee863afd4acc118ebf0da2e0c80832d61b83a63c86782a7",
+    "title": "Illustrative Review of Marriage-Record Copies without Personal Information",
+    "description": "Conceptual editorial image: Illustrative review of marriage-record copies without personal information. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-online-guide-hero": {
+    "file": "images/legacy/online-guide-hero.webp",
+    "bytes": 89648,
+    "sha256": "746d7dc69de54e9dbf8f6bc494461e54dcdc2bd436605a10fb1a11501fa28303",
+    "title": "Illustrative Adult Pakistani Woman Attending a Private Video Consultation from Home",
+    "description": "Conceptual editorial image: Illustrative adult Pakistani woman attending a private video consultation from home. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-online-guide-records": {
+    "file": "images/legacy/online-guide-records.webp",
+    "bytes": 100764,
+    "sha256": "2109f71a2da4504eac013661f0ae0af7d978246f3a338065cb0848fe5763c4ee",
+    "title": "Illustrative Appointment Planner and Clocks for Overseas Coordination",
+    "description": "Conceptual editorial image: Illustrative appointment planner and clocks for overseas coordination. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-online-requirements-hero": {
+    "file": "images/legacy/online-requirements-hero.webp",
+    "bytes": 99394,
+    "sha256": "6c8a6502a4cf881af29eba76d48370a584aac9a7246052baaa7919c3be109ef7",
+    "title": "Illustrative Adult Pakistani Friends Discussing Their Roles as Witnesses Before a Nikah Appointment",
+    "description": "Conceptual editorial image: Illustrative adult Pakistani friends discussing their roles as witnesses before a Nikah appointment. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
+  },
+  "legacy-online-requirements-records": {
+    "file": "images/legacy/online-requirements-records.webp",
+    "bytes": 44372,
+    "sha256": "9e7b7b9b84e9894e6af2f9896440c4173d48364e995bfed79452a8dc3b874f90",
+    "title": "Illustrative Identity-Document Review with No Personal Information",
+    "description": "Conceptual editorial image: Illustrative identity-document review with no personal information. No actual client or named practitioner is identified.",
+    "width": 1200,
+    "height": 800
   }
 }

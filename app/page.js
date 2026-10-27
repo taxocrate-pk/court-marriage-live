@@ -43,7 +43,7 @@ export default function Page() {
   const pageSchema = {
     '@context':'https://schema.org',
     '@graph':[
-      {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:pageHeadings['/'].h1,dateModified:'2026-10-26',about:{'@id':`${site.url}/#legalservice`}},
+      {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:pageHeadings['/'].h1,dateModified:'2026-10-27',about:{'@id':`${site.url}/#legalservice`}},
       {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Multan']},
       {'@type':'BreadcrumbList','@id':`${site.url}/#breadcrumb`,itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${site.url}/`}]}
     ]
@@ -235,7 +235,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-26">26 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
+      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-27">27 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
     </>
   )
 }
