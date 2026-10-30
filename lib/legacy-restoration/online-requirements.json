@@ -6,9 +6,9 @@
   "focus": "Online Nikah",
   "heroSubtitle": "Build the Legal and Document Checklist Before Booking a Call",
   "intro": "Online Nikah requirements depend on the people, places and proposed participation method. A video appointment supports the process; it does not replace the essential checks.",
-  "heroSrc": "/images/legacy/online-requirements-hero.webp",
-  "secondarySrc": "/images/legacy/online-requirements-records.webp",
-  "imageAlt": "Illustrative adult Pakistani friends discussing their roles as witnesses before a Nikah appointment",
+  "heroSrc": "/images/site/online-nikah-requirements-file-graphic-dna207c.webp",
+  "secondarySrc": null,
+  "imageAlt": "Online Nikah Requirements: illustrated blank document sheets and blue record folder",
   "diagramAlt": "Illustrative identity-document review with no personal information",
   "preserveCall": false,
   "related": [
@@ -98,7 +98,7 @@
       "heading": "Online Nikah Witnesses, Solemniser and Marriage Terms",
       "paragraphs": [
         "Confirm the witness arrangements appropriate to the parties' circumstances and applicable requirements. Obtain the relevant particulars and make sure the witnesses understand their role. Requirements can involve religious and legal considerations, including the tradition applicable to the marriage; a generic Online Nikah advertisement should not be treated as a complete answer. Ask who has reviewed the proposed Online Nikah arrangement and how identity and participation will be established.",
-        "Identify the person solemnising the Online Nikah separately from the licensed registrar responsible for the relevant registration function. The same individual may perform both roles in a suitable case, but that should be checked rather than presumed. Discuss Mahr and other material entries before the record is finalised. A blank space or unexplained “standard clause” can create later disagreement. The Online Nikah participants should know what will be said, what will be entered and which person is responsible for the completed documents. Clear preparation lets the Online Nikah ceremony remain respectful and straightforward without using speed as a reason to leave essential terms unsettled."
+        "Identify the person solemnising the Online Nikah separately from the licensed registrar responsible for the relevant registration function. The same individual may perform both roles in a suitable case, but that should be checked rather than presumed. Discuss Mahr and other material entries before the record is finalised. A blank space or unexplained \u201cstandard clause\u201d can create later disagreement. The Online Nikah participants should know what will be said, what will be entered and which person is responsible for the completed documents. Clear preparation lets the Online Nikah ceremony remain respectful and straightforward without using speed as a reason to leave essential terms unsettled."
       ]
     },
     {
@@ -165,9 +165,10 @@
       "Confirm the ceremony and professional scope, registration assistance, official documents, third-party charges and delivery arrangements, including any separate translation or authentication work."
     ]
   ],
-  "updated": "2026-10-27",
+  "updated": "2026-10-31",
   "kind": "article",
   "densityKeyword": "Online Nikah",
   "keywordReviewNote": "Owner-directed operational primary is page.focus. Exact phrase occurrences are counted as units against strict non-FAQ article words; full topic wording is reviewed separately. Targeted wording reviewed on 26 October 2026.",
-  "firstSubheading": "Verify Eligibility Before Confirming Remote Participation"
+  "firstSubheading": "Verify Eligibility Before Confirming Remote Participation",
+  "imageTitle": "Online Nikah Requirements"
 }

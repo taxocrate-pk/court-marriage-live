@@ -7,9 +7,9 @@
   "focus": "Nikah Khawan",
   "heroSubtitle": "Choose the Right Guide Before Arranging the Officiant",
   "intro": "Nikah Khawan guidance helps you prepare for solemnisation while keeping the registrar's statutory responsibilities clear. Use this directory to choose the next relevant step.",
-  "heroSrc": "/images/legacy/khawan-directory-hero.webp",
+  "heroSrc": "/images/site/nikah-khawan-guides-records-graphic-dna207c.webp",
   "secondarySrc": null,
-  "imageAlt": "Illustrative Pakistani officiant discussing ceremony preparation with adult clients",
+  "imageAlt": "Nikah Khawan Guides: illustrated record folder, pen and wedding rings",
   "preserveCall": true,
   "directoryHeading": "Nikah Khawan and Ceremony Preparation Guides",
   "directorySlugs": [
@@ -86,7 +86,7 @@
     {
       "heading": "Religious Arrangements to Discuss With the Nikah Khawan",
       "paragraphs": [
-        "Explain to the proposed Nikah Khawan any requirements connected with the parties’ religious tradition and ceremony. A Nikah Khawan advertisement should not be assumed to establish availability, credentials or suitability for every arrangement. Where a particular scholar or officiant is requested, confirm the actual person and appointment before relying on a name.",
+        "Explain to the proposed Nikah Khawan any requirements connected with the parties\u2019 religious tradition and ceremony. A Nikah Khawan advertisement should not be assumed to establish availability, credentials or suitability for every arrangement. Where a particular scholar or officiant is requested, confirm the actual person and appointment before relying on a name.",
         "Ask the Nikah Khawan how relevant witness participation, communication and marriage terms will be handled. Remote arrangements need careful attention to authority and the applicable requirements; a video platform cannot supply them automatically. If a specialised religious question arises, obtain appropriate advice instead of assuming that ordinary administrative coordination answers it. The responsible provider should describe the work it can actually arrange and identify anything that needs further review."
       ]
     },
@@ -162,6 +162,7 @@
       "Choose according to the task: officiant, wider ceremony preparation, remote requirements, legal terminology or marriage-record retrieval."
     ]
   ],
-  "updated": "2026-10-27",
-  "firstSubheading": "Select Ceremony Guidance and the Relevant Registration Task"
+  "updated": "2026-10-31",
+  "firstSubheading": "Select Ceremony Guidance and the Relevant Registration Task",
+  "imageTitle": "Nikah Khawan Guides"
 }

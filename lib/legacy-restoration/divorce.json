@@ -6,9 +6,9 @@
   "focus": "Divorce in Islam",
   "heroSubtitle": "Distinguish Religious Guidance, Personal Facts and Official Legal Steps",
   "intro": "Divorce in Islam involves religious principles and serious family responsibilities. In Pakistan, the marriage's legal status must also be examined through the applicable statutory process and records.",
-  "heroSrc": "/images/legacy/divorce-hero.webp",
-  "secondarySrc": "/images/legacy/divorce-records.webp",
-  "imageAlt": "Illustrative confidential family-law consultation between two adult women",
+  "heroSrc": "/images/site/divorce-law-record-review-graphic-dna207c.webp",
+  "secondarySrc": null,
+  "imageAlt": "Divorce Law Guidance: conceptual legal file, writing paper and pen",
   "diagramAlt": "Illustrative separate religious-study book and legal file for a divorce review",
   "preserveCall": false,
   "firstSubheading": "Religious Principles and the Legal Status of a Marriage",
@@ -16,7 +16,7 @@
   "sourceNote": "The linked Quranic passages provide religious source material; legal advice also requires the applicable Pakistani law, documents and individual circumstances.",
   "sources": [
     [
-      "Quran: Al-Baqarah 2:229–232",
+      "Quran: Al-Baqarah 2:229\u2013232",
       "https://quran.com/al-baqarah/229-232"
     ],
     [
@@ -24,7 +24,7 @@
       "https://quran.com/an-nisa/35"
     ],
     [
-      "Quran: At-Talaq 65:1–7",
+      "Quran: At-Talaq 65:1\u20137",
       "https://quran.com/at-talaq/1-7"
     ],
     [
@@ -85,7 +85,7 @@
     {
       "heading": "Dignity and Fair Dealing During Divorce in Islam",
       "paragraphs": [
-        "Al-Baqarah 2:229–232 addresses matters including honourable conduct and limits concerning separation and related decisions. These passages inform study of divorce in Islam and should be approached carefully, rather than selectively quoted to justify humiliation or control. Religious disagreement does not authorise falsifying records, withholding a person's essential papers or misrepresenting what another party has said. In divorce in Islam, ethical conduct matters alongside the legal steps being considered.",
+        "Al-Baqarah 2:229\u2013232 addresses matters including honourable conduct and limits concerning separation and related decisions. These passages inform study of divorce in Islam and should be approached carefully, rather than selectively quoted to justify humiliation or control. Religious disagreement does not authorise falsifying records, withholding a person's essential papers or misrepresenting what another party has said. In divorce in Islam, ethical conduct matters alongside the legal steps being considered.",
         "When seeking advice about divorce in Islam, communicate through appropriate channels and preserve relevant messages without using public accusations as a substitute for legal advice. If papers concerning divorce in Islam must be exchanged, record what was provided and when. A Divorce in Islam consultation may concern financial claims, children, residence or documentation as well as the dissolution itself. Those matters should be identified separately. Avoid signing a broad divorce settlement simply to bring a difficult discussion to an end before its terms are understood. A carefully drafted and informed arrangement is more useful than vague assurances that all rights have been settled when the parties have not agreed what that means."
       ],
       "links": [
@@ -98,7 +98,7 @@
     {
       "heading": "Divorce in Islam: Distinguishing Iddah From the Legal Timeline",
       "paragraphs": [
-        "At-Talaq 65:1–7 contains guidance relevant to waiting periods and responsibilities. Religious advice on divorce in Islam can depend on the person's circumstances. Do not assume that one calendar calculation copied from another family's experience answers every question. Equally, a discussion of iddah and divorce in Islam should not be used to bypass the statutory process applicable to a Pakistani marriage.",
+        "At-Talaq 65:1\u20137 contains guidance relevant to waiting periods and responsibilities. Religious advice on divorce in Islam can depend on the person's circumstances. Do not assume that one calendar calculation copied from another family's experience answers every question. Equally, a discussion of iddah and divorce in Islam should not be used to bypass the statutory process applicable to a Pakistani marriage.",
         "Where section 7 of the Muslim Family Laws Ordinance applies to a husband's talaq, its legal framework includes written notice to the Chairman and a copy to the wife. The provision addresses effectiveness after the prescribed period from delivery of notice to the Chairman, subject to its conditions, including revocation and the pregnancy provision. The relevant date should therefore not be assumed from an unverified ceremony, conversation or private document alone. A practitioner advising on the civil consequences of divorce in Islam needs the actual notices, delivery evidence and circumstances to advise on status. This distinction is essential before remarriage or a foreign submission. A statutory rule is not a promise that every disputed file or official certificate will be resolved within the same period."
       ]
     },
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "heading": "Children’s Arrangements and Advice on Divorce in Islam",
+      "heading": "Children\u2019s Arrangements and Advice on Divorce in Islam",
       "paragraphs": [
         "Divorce in Islam does not make children's practical needs disappear. Care arrangements, contact, schooling, medical needs and financial support can require separate decisions and, where relevant, legal proceedings. A couple should not assume that a general religious statement or a private divorce or separation document determines every custody or guardianship issue. Disclose existing orders and the particular welfare circumstances to the practitioner advising on divorce in Islam and its civil consequences.",
         "Advice about divorce in Islam should keep children out of avoidable conflict and identify the evidence needed. Relevant material may include existing court papers, actual care arrangements and information about the child's needs. Do not rely on a universal claim that one parent's remarriage or the dissolution itself automatically produces the same custody result in every case. Divorce in Islam guidance can encourage responsible conduct, but the legal assessment remains fact-specific. If an agreement is proposed, consider how it will work in practice and whether any court process or existing order affects it. A document described as a complete divorce settlement should not quietly leave important children's issues unexplained."
@@ -133,7 +133,7 @@
       "heading": "Documenting the Chronology for Advice on Divorce in Islam",
       "paragraphs": [
         "For advice about divorce in Islam, prepare the registered marriage record and a short timeline of the relevant events. Include the actual words or documents relied upon, dates, notices, evidence of delivery, any reconciliation or revocation, proceedings and official outcomes already obtained. If a party is abroad, explain locations and foreign documents or orders that may affect the review. Do not reconstruct a convenient timeline to match a form.",
-        "A lawyer should know whether the question concerns Pakistani legal status, a particular financial claim, remarriage or a foreign application. A qualified adviser on the religious aspects of divorce in Islam needs the same factual accuracy when assessing a separate fiqh question. Keep conclusions about divorce in Islam and civil status distinct, with each adviser’s scope clear. Divorce in Islam cannot responsibly be reduced to an instant answer obtained from an incomplete message. Where documents conflict, identify the conflict rather than withholding the less convenient version. A structured factual file allows each adviser to explain what can be concluded, what remains uncertain and which lawful step or evidence is needed next."
+        "A lawyer should know whether the question concerns Pakistani legal status, a particular financial claim, remarriage or a foreign application. A qualified adviser on the religious aspects of divorce in Islam needs the same factual accuracy when assessing a separate fiqh question. Keep conclusions about divorce in Islam and civil status distinct, with each adviser\u2019s scope clear. Divorce in Islam cannot responsibly be reduced to an instant answer obtained from an incomplete message. Where documents conflict, identify the conflict rather than withholding the less convenient version. A structured factual file allows each adviser to explain what can be concluded, what remains uncertain and which lawful step or evidence is needed next."
       ]
     },
     {
@@ -186,8 +186,9 @@
       "Prepare the marriage record, a truthful timeline, relevant notices and delivery evidence, court papers, official outcomes and any material foreign documents."
     ]
   ],
-  "updated": "2026-10-27",
+  "updated": "2026-10-31",
   "kind": "article",
   "densityKeyword": "Divorce",
-  "keywordReviewNote": "Owner-directed operational primary is page.focus. Exact phrase occurrences are counted as units against strict non-FAQ article words; full topic wording is reviewed separately. Targeted wording reviewed on 26 October 2026."
+  "keywordReviewNote": "Owner-directed operational primary is page.focus. Exact phrase occurrences are counted as units against strict non-FAQ article words; full topic wording is reviewed separately. Targeted wording reviewed on 26 October 2026.",
+  "imageTitle": "Divorce Law Guidance"
 }

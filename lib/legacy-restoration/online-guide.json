@@ -6,9 +6,9 @@
   "focus": "Online Nikah",
   "heroSubtitle": "Coordinate People in Different Places Without Losing the Registration Trail",
   "intro": "Online Nikah coordination connects personal instructions, authorised participation and the competent registration route. The correct plan depends on where the people and relevant records are located.",
-  "heroSrc": "/images/legacy/online-guide-hero.webp",
-  "secondarySrc": "/images/legacy/online-guide-records.webp",
-  "imageAlt": "Illustrative adult Pakistani woman attending a private video consultation from home",
+  "heroSrc": "/images/site/online-nikah-coordination-guide-graphic-dna207c.webp",
+  "secondarySrc": null,
+  "imageAlt": "Online Nikah Guide: conceptual time-zone clocks and blank marriage paperwork",
   "diagramAlt": "Illustrative appointment planner and clocks for overseas coordination",
   "preserveCall": true,
   "related": [
@@ -97,7 +97,7 @@
     {
       "heading": "Online Nikah Records: Rawalpindi and Islamabad Have Distinct Jurisdictions",
       "paragraphs": [
-        "A Rawalpindi connection can involve Saddar, Chaklala, Satellite Town, Westridge, Adiala Road, Bahria Town or other localities. Although the two cities are close, an Online Nikah file’s Punjab marriage record is not automatically an ICT record. Online Nikah coordination should identify the relevant place and authority rather than assume that the nearest appointment location can issue every document connected with the couple.",
+        "A Rawalpindi connection can involve Saddar, Chaklala, Satellite Town, Westridge, Adiala Road, Bahria Town or other localities. Although the two cities are close, an Online Nikah file\u2019s Punjab marriage record is not automatically an ICT record. Online Nikah coordination should identify the relevant place and authority rather than assume that the nearest appointment location can issue every document connected with the couple.",
         "For Online Nikah applicants, this distinction matters when arranging a later certified copy or computerised certificate. Keep the marriage date, registrar particulars and local record reference available. If one party is in Islamabad while another is in Rawalpindi or abroad, describe each location and the intended participation clearly. An Online Nikah call can connect those people, but it cannot transfer a registration entry from one jurisdiction to another. Ask which original documents or accepted authority will be needed and who will undertake any follow-up visit. Planning around the actual source reduces unnecessary travel between the cities and avoids paying for an application addressed to an office that does not hold the relevant record."
       ]
     },
@@ -165,9 +165,10 @@
       "No. The foreign authority applies its own rules and evidence requirements. Obtain its instructions before making dependent commitments."
     ]
   ],
-  "updated": "2026-10-27",
+  "updated": "2026-10-31",
   "kind": "article",
   "densityKeyword": "Online Nikah",
   "keywordReviewNote": "Owner-directed operational primary is page.focus. Exact phrase occurrences are counted as units against strict non-FAQ article words; full topic wording is reviewed separately. Targeted wording reviewed on 26 October 2026.",
-  "firstSubheading": "Map the Participants, Locations and Responsible Registrar"
+  "firstSubheading": "Map the Participants, Locations and Responsible Registrar",
+  "imageTitle": "Online Nikah Guide"
 }

@@ -1,3 +1,5 @@
+> Historical integration note. The candidate below is carried forward into the 31 October 2026 SEO DNA 2.07C work. Current release and QA status are recorded in `docs/dna207c-release-report.json`.
+
 # Four Proven Historical Routes — Local Integration Candidate
 
 Base: beca2b65b041dca9eaa636b69194bcb224b510cb. Isolated local clone; no remote configured and no production publication. Existing 46-route reviewed checkout remains untouched.
@@ -17,3 +19,4 @@ Production build passed locally. All four have one H1 followed immediately by H2
 All 46 existing strict bodies, titles/H1/descriptions/canonicals, contacts and image paths match the frozen review output. Blogs, Marriage Services and Marriage Law directory cards naturally expand to link the added routes; this is the only observed main-text change to those existing pages.
 
 Final build and rendered integration QA were rerun with all eight image files present. Every rendered image path resolves to an actual candidate file. Byte counts, WebP signatures and SHA-256 match the generated asset manifest. Responsive page visuals and Lighthouse are not claimed by these static checks.
+

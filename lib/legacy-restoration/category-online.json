@@ -7,9 +7,9 @@
   "focus": "Online Marriage",
   "heroSubtitle": "Find the Guide That Matches Your Remote Marriage Question",
   "intro": "Online Marriage enquiries can concern different legal and practical tasks. This directory helps you distinguish participation, representation, registration and later document use.",
-  "heroSrc": "/images/legacy/online-directory-hero.webp",
+  "heroSrc": "/images/site/online-marriage-guides-paperwork-graphic-dna207c.webp",
   "secondarySrc": null,
-  "imageAlt": "Illustrative remote coordination workspace overlooking Islamabad hills",
+  "imageAlt": "Online Marriage Guides: illustrated marriage documents and record tray",
   "preserveCall": true,
   "directoryHeading": "Remote Marriage and Document Guidance",
   "directorySlugs": [
@@ -161,6 +161,7 @@
       "It should identify the actual work, professional and third-party charges, official dependencies and document-delivery arrangements."
     ]
   ],
-  "updated": "2026-10-27",
-  "firstSubheading": "Separate Remote Participation from the Document Application"
+  "updated": "2026-10-31",
+  "firstSubheading": "Separate Remote Participation from the Document Application",
+  "imageTitle": "Online Marriage Guides"
 }

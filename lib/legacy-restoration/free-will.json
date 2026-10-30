@@ -6,9 +6,9 @@
   "focus": "Court Marriage",
   "heroSubtitle": "Respect Each Person's Decision and Prepare for the Actual Risks",
   "intro": "Court Marriage by free choice needs more than a declaration of love. Both parties must understand the decision, satisfy the applicable requirements and plan for their individual circumstances.",
-  "heroSrc": "/images/legacy/free-will-hero.webp",
-  "secondarySrc": "/images/legacy/free-will-records.webp",
-  "imageAlt": "Illustrative adult Pakistani partners discussing their own marriage instructions with a lawyer",
+  "heroSrc": "/images/site/free-will-marriage-terms-graphic-dna207c.webp",
+  "secondarySrc": null,
+  "imageAlt": "Free-Will Court Marriage: illustrated marriage register and agreed terms",
   "diagramAlt": "Illustrative confidential preparation of a family-law document file",
   "preserveCall": false,
   "related": [
@@ -58,7 +58,7 @@
       "heading": "Age, Identity and Current Marital Status",
       "paragraphs": [
         "Reliable identity and age evidence is particularly important where a relationship may be challenged. Our Court Marriage screening requires both parties to be at least eighteen and the practitioner must examine the law applicable to the proposed marriage. A disagreement about age should be resolved through proper records and advice, rather than an approximate statement or a convenient date entered on a private form.",
-        "The couple should disclose current marital status and any previous marriage during the Court Marriage review. Bring the relevant divorce, dissolution, khula or death documents where applicable, including foreign records that may need individual review. A private declaration should not conceal an unresolved legal question. Check that the Court Marriage file’s names and other particulars proposed for the Nikah Nama correspond with reliable documents. If a spelling or identity discrepancy exists, identify it before booking. Careful preparation protects both people from avoidable contradictions in later registration or proceedings. It also lets the adviser distinguish a genuine eligibility issue from a family disagreement that concerns a different matter."
+        "The couple should disclose current marital status and any previous marriage during the Court Marriage review. Bring the relevant divorce, dissolution, khula or death documents where applicable, including foreign records that may need individual review. A private declaration should not conceal an unresolved legal question. Check that the Court Marriage file\u2019s names and other particulars proposed for the Nikah Nama correspond with reliable documents. If a spelling or identity discrepancy exists, identify it before booking. Careful preparation protects both people from avoidable contradictions in later registration or proceedings. It also lets the adviser distinguish a genuine eligibility issue from a family disagreement that concerns a different matter."
       ]
     },
     {
@@ -98,7 +98,7 @@
       "heading": "Mahr and Material Terms in Court Marriage",
       "paragraphs": [
         "Court Marriage by free choice still requires attention to the actual marriage terms. Discuss Mahr, its agreed form and relevant payment arrangements before the Nikah Nama is completed. Where lawful special conditions or delegated rights are proposed, obtain advice about clear wording and their implications. A private understanding that nobody can later identify is less useful than accurate, understood entries in the proper record.",
-        "During Court Marriage preparation, each person should be able to ask questions without the other answering automatically on their behalf. Court Marriage assistance should explain material entries rather than rush the couple through a form described as standard. Do not sign a blank or unexplained page on the assumption that somebody else will fill it correctly later. Where a party cannot read the Court Marriage document’s language, arrange a reliable explanation or translation. If a representative is involved, the scope of authority should correspond with the actual instructions. Thoughtful drafting at this stage can reduce later uncertainty, without promising that every disagreement or legal dispute will be prevented by the document."
+        "During Court Marriage preparation, each person should be able to ask questions without the other answering automatically on their behalf. Court Marriage assistance should explain material entries rather than rush the couple through a form described as standard. Do not sign a blank or unexplained page on the assumption that somebody else will fill it correctly later. Where a party cannot read the Court Marriage document\u2019s language, arrange a reliable explanation or translation. If a representative is involved, the scope of authority should correspond with the actual instructions. Thoughtful drafting at this stage can reduce later uncertainty, without promising that every disagreement or legal dispute will be prevented by the document."
       ]
     },
     {
@@ -165,9 +165,10 @@
       "The appropriate assigned practitioner should be identified from the facts and relief required. Confirm the scope of representation and fees separately."
     ]
   ],
-  "updated": "2026-10-27",
+  "updated": "2026-10-31",
   "kind": "article",
   "densityKeyword": "Court Marriage",
   "keywordReviewNote": "Make service references explicit where they are contextually accurate; retain natural alternatives and do not repeat the full city phrase mechanically.",
-  "firstSubheading": "Obtain Each Party's Independent and Informed Instructions"
+  "firstSubheading": "Obtain Each Party's Independent and Informed Instructions",
+  "imageTitle": "Free-Will Court Marriage"
 }

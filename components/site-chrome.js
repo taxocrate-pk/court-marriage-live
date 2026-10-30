@@ -5,7 +5,7 @@ export function Brand() {
   return <a href="/" className="brand" aria-label="CourtMarriage.live Home"><div className="brand-mark" aria-hidden="true"/><span><strong>CourtMarriage</strong><b>.live</b><small>Marriage Legal Services</small></span></a>
 }
 function ServiceMenu() {
-  return <><a href={serviceLinks.onlineNikah}>Online Nikah</a><a href={serviceLinks.foreignNikah}>Online Nikah for Foreigners</a><a href={serviceLinks.nikahServices}>Nikah Services</a><a href={serviceLinks.nikahKhawan}>Nikah Khawan Services</a><a href={serviceLinks.marriageCertificate}>Marriage Registration Certificate</a>{nikahNamaServices.map(item=><a href={item.href} key={item.href}>Nikah Nama in {item.name}</a>)}<a href="/category/marriage-services/">Marriage Services Directory</a></>
+  return <><a href={serviceLinks.onlineNikah}>Online Nikah</a><a href={serviceLinks.foreignNikah}>Online Nikah for Foreigners</a><a href={serviceLinks.nikahServices}>Nikah Services</a><a href={serviceLinks.nikahKhawan}>Nikah Khawan Services</a><a href={serviceLinks.marriageCertificate}>Marriage Registration Certificate</a>{nikahNamaServices.map(item=><a href={item.href} key={item.href}>Nikah Nama in {item.name}</a>)}<a href="/category/marriage-services/">Marriage Services Directory</a><a href="/category/nikah/nikah-khawan/">Nikah Khawan Guides</a><a href="/category/wedding-planning/">Wedding Planning Guides</a><a href="/category/court-marriage-in-pakistan/court-marriage-in-rawalpindi/">Rawalpindi Marriage Guides</a></>
 }
 export function SiteHeader({phone=site.primaryPhone,display=site.primaryPhoneDisplay,showCall=true}) {
  const whatsapp=`https://wa.me/${phone.replace(/[^0-9]/g,'')}`

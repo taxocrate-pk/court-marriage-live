@@ -36,6 +36,8 @@ export default function Page() {
     name: 'CourtMarriage.live',
     url: site.url,
     telephone: site.primaryPhoneDisplay,
+    logo: `${site.url}/court-marriage-live-services-logo.png`,
+    image: `${site.url}/images/site/court-marriage-pakistan-dna207c.webp`,
     areaServed: ['Pakistan', 'Karachi', 'Lahore', 'Islamabad', 'Rawalpindi', 'Faisalabad', 'Hyderabad Sindh', 'Multan'],
     serviceType: ['Court Marriage Assistance', 'Nikah Services', 'Marriage Registration Assistance', 'Online Nikah Assistance'],
   }
@@ -118,7 +120,7 @@ export default function Page() {
       <section className="documents section">
         <div className="container documents-grid">
           <div className="document-visual photo-document">
-            <Image src={assetUrl(pageAssets['/'][1])} alt="Illustrative marriage documents and wedding rings prepared for registration" fill sizes="(max-width: 800px) 100vw, 50vw" />
+            <Image src={'/images/site/pakistan-marriage-registration-records-dna207c.webp'} alt="Illustrative marriage documents and wedding rings prepared for registration" fill sizes="(max-width: 800px) 100vw, 50vw" />
             <div className="photo-label">Nikah Nama signing</div>
           </div>
           <div>
@@ -235,7 +237,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-27">31 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
+      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-31">31 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
     </>
   )
 }
