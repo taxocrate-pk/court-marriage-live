@@ -6,7 +6,7 @@ import { pageHeadings } from '@/lib/page-headings'
 export const metadata = {
   metadataBase: new URL('https://courtmarriage.live'),
   title: pageHeadings['/'].seo,
-  description: 'Court marriage, Nikah and marriage registration assistance in Pakistan. Document guidance for Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad and Multan.',
+  description: 'Court Marriage in Pakistan with Nikah arrangements, clear document checks and registration guidance. Find local assistance and discuss the service fees.',
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
@@ -14,13 +14,13 @@ export const metadata = {
     siteName: 'CourtMarriage.live',
     title: pageHeadings['/'].seo,
     description: 'Professional assistance with lawful Nikah, marriage documentation and registration in Pakistan.',
-    images: [{ url: '/court-marriage-hero.png', width: 1200, height: 1350, alt: 'Court marriage and Nikah documentation in Pakistan' }],
+    images: [{ url: '/images/site/court-marriage-pakistan-dna207c.webp', width: 1200, height: 800, alt: 'Court marriage and Nikah documentation in Pakistan' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: pageHeadings['/'].seo,
     description: 'Professional assistance with lawful Nikah, marriage documentation and registration in Pakistan.',
-    images: ['/court-marriage-hero.png'],
+    images: ['/images/site/court-marriage-pakistan-dna207c.webp'],
   },
   robots: { index: true, follow: true },
   generator: 'CourtMarriage.live',
@@ -51,3 +51,4 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+

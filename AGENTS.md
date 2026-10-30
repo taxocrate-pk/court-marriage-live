@@ -2,7 +2,8 @@
 
 This is the Next.js source for https://courtmarriage.live/, repository taxocrate-pk/court-marriage-live, production branch main, Vercel project court-marriage-live.
 
-Before drafting or editing, read the complete SEO DNA 2.07 master and current 2.07B addendum. Current source references:
+Before drafting or editing, read the complete SEO DNA 2.07 master and current 2.07B addendum and owner-approved SEO DNA 2.07C amendments of 29 October 2026. Current source references:
+- Current owner amendments: docs/seo-dna207c-owner-amendments.md (29 October 2026), prevailing over conflicting earlier rules.
 - Master: SEO_DNA_2_07_Master_Policy.docx, ChatGPT Library libfile_141a7f1a5c84819184e8790a0cc86ffc, version 2.
 - Versioned addendum: https://github.com/taxocrate-pk/Qanoon-group-of-taxocrate/blob/main/SEO_DNA_2_07B.md
 - The 24 October 2026 owner amendments override conflicting earlier limits. Current explicit user instructions override generic policy.
@@ -13,4 +14,7 @@ Use the shared header/footer, page template and typography. Primary contact labe
 
 One H1, immediate meaningful H2 before normal copy; first main paragraph begins with the primary keyword. Use Title Case and semantic nesting. Main-copy counts exclude FAQ, navigation, footer, metadata and image ALT. Exactly ten FAQs when main copy is at least 1,200 words; otherwise 12–20. Newly added images must be distinct genuine WebP encodings, compressed, with metadata and ALT, with no public image captions. Truthful Last Updated appears after FAQs at the bottom of main content.
 
+The 2.07C city target is 5–7 full-keyphrase H2/H3 headings and 8–12 body uses, naturally distributed. Use people-free original illustrations; no fabricated lawyer/client portraits. H1 is 28–42px, H2 22–30px, H3 18–21px. Johar office unit is T-219. Every internal link uses the canonical trailing slash.
+
 A saved source or successful build is not live verification. Record exact commit, deployment and URL-level QA. Desktop, tablet, 390px and 360px visual checks and actual Lighthouse results are required before claiming those passes. Report any unverified check explicitly.
+

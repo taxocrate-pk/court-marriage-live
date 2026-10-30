@@ -23,3 +23,22 @@ body{font-family:var(--site-font-body)}h1,.hero h1,.recovery-hero h1{font-family
 
 .topbar-whatsapp{text-decoration:underline;text-underline-offset:3px}.topbar-whatsapp:focus-visible{outline:2px solid currentColor;outline-offset:4px}
 @media(max-width:800px){.topbar-inner>span{display:none}}
+
+
+/* SEO DNA 2.07C: one heading scale, complete card rows and distinct navigation boxes. */
+:root{--site-h1:clamp(28px,3.5vw,42px);--site-h2:clamp(22px,2.5vw,30px);--site-h3:clamp(18px,1.8vw,21px)}
+h1,.hero h1,.recovery-hero h1{font-size:var(--site-h1)!important;line-height:1.18}
+h2,.hero .hero-subtitle,.content-section h2,.recovery-section h2,.section h2,.section-muted h2{font-size:var(--site-h2)!important}
+h3,.section h3,.section-muted h3,.recovery-section h3,.service-card h3,.why-item h3{font-size:var(--site-h3)!important}
+h4{font-size:17px}
+.recovery-sidebar h2{font-size:18px!important}.recovery-sidebar h3{font-size:16px!important}
+.recovery-sidebar nav{padding:18px;border:1px solid var(--line);background:#f8faf8;border-radius:5px}
+.recovery-sidebar nav a,.recovery-context-links a,.city-extra-link a{text-decoration:underline;text-underline-offset:3px}
+.recovery-hero-photo img{aspect-ratio:3/2;object-fit:contain;background:#f5f2ec}
+.recovery-directory{grid-template-columns:1fr!important}
+.home-unified .recovery-article .city-grid,.home-unified .recovery-article .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.city-extra-link{margin:0 0 18px;color:var(--muted)}
+@media(max-width:800px){:root{--site-h1:clamp(28px,7vw,38px);--site-h2:clamp(22px,5vw,28px);--site-h3:20px}}
+@media(max-width:480px){.home-unified .recovery-article .city-grid,.home-unified .recovery-article .service-grid{grid-template-columns:1fr}}
+
+.appointment-checklist ul{list-style:none;padding:0;margin:0}.appointment-checklist li{font-size:13px;line-height:1.6;margin:9px 0;color:#52615c}

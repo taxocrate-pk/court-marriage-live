@@ -1,0 +1,427 @@
+{
+  "record": "Pre-release verification evidence",
+  "date": "2026-10-31",
+  "policy": "SEO DNA 2.07C owner amendments of 29 October 2026, with inherited 2.07/2.07B where consistent",
+  "sourceBase": "0e363f52a8ecafbbcc933bd0d09b5f31f7b23f4f",
+  "build": "PASS: Next.js 16.3.6 production build; 51 public sitemap URLs",
+  "tests": "PASS: 3 existing tests",
+  "http": {
+    "sitemapUrls": 51,
+    "pageFailures": [],
+    "uniqueInternalTargets": 51,
+    "linkFailures": [],
+    "redirectedLinks": []
+  },
+  "static": {
+    "publicPages": 51,
+    "internalTargets": 51,
+    "missingTargets": [],
+    "brokenTargets": [],
+    "slashlessTargets": [],
+    "failures": [],
+    "reusedContentImages": {},
+    "cityPages": [
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-lahore/",
+        "city": "Lahore",
+        "paragraphWords": 1176,
+        "bodyExactMatches": 9,
+        "exactPhraseHeadings": 6,
+        "faqs": 10,
+        "title": "Court Marriage in Lahore | Fees, Witnesses & Nikah Help",
+        "description": "Court Marriage in Lahore with local legal guidance on adult consent, Nikah Nama terms, witnesses, fees and Punjab marriage registration.",
+        "h1": "Court Marriage in Lahore | Nikah Appointments and Punjab Registration",
+        "hero": "Court Marriage in Lahore: illustrated marriage register and red-brick courtyard"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-karachi-lahore-islamabad-rawalpindi/",
+        "city": "Rawalpindi",
+        "paragraphWords": 1066,
+        "bodyExactMatches": 9,
+        "exactPhraseHeadings": 6,
+        "faqs": 12,
+        "title": "Court Marriage in Rawalpindi | Nikah Fees & Punjab Records",
+        "description": "Court Marriage in Rawalpindi with twin-city document planning, Nikah Nama checks, itemised fees and guidance on Punjab registration records.",
+        "h1": "Court Marriage in Rawalpindi | Legal Support for Twin-city Marriage Files",
+        "hero": "Court Marriage in Rawalpindi: illustrated record folder and unlabelled city map"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-islamabad/",
+        "city": "Islamabad",
+        "paragraphWords": 1088,
+        "bodyExactMatches": 10,
+        "exactPhraseHeadings": 6,
+        "faqs": 10,
+        "title": "Court Marriage in Islamabad | ICT Nikah & Document Review",
+        "description": "Court Marriage in Islamabad with ICT eligibility checks, overseas document review, Nikah arrangements and guidance on registration costs.",
+        "h1": "Court Marriage in Islamabad | ICT Legal Advice for Local and Overseas Couples",
+        "hero": "Court Marriage in Islamabad: illustrated document tray and Margalla Hills"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-karachi/",
+        "city": "Karachi",
+        "paragraphWords": 942,
+        "bodyExactMatches": 8,
+        "exactPhraseHeadings": 6,
+        "faqs": 12,
+        "title": "Court Marriage in Karachi | Nikah, Fees & Registration",
+        "description": "Court Marriage in Karachi with private Nikah arrangements at Johar or DHA, document checks, clear fees and registration guidance.",
+        "h1": "Court Marriage in Karachi | Confidential Nikah and Registration Assistance",
+        "hero": "Court Marriage in Karachi: illustrated document portfolio and coastal city skyline"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-in-hyderabad-sindh/",
+        "city": "Hyderabad Sindh",
+        "paragraphWords": 778,
+        "bodyExactMatches": 8,
+        "exactPhraseHeadings": 5,
+        "faqs": 12,
+        "title": "Court Marriage in Hyderabad Sindh | Nikah & Record Help",
+        "description": "Court Marriage in Hyderabad Sindh with Nikah document review, clear fees and local registration guidance. Arrange a Civil Court Road appointment.",
+        "h1": "Court Marriage in Hyderabad Sindh | Nikah, Fees and Registration Assistance",
+        "hero": "Court Marriage in Hyderabad Sindh: illustrated marriage papers, Sindhi geometric motifs and windcatcher architecture"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriage-services-in-faisalabad/",
+        "city": "Faisalabad",
+        "paragraphWords": 1070,
+        "bodyExactMatches": 9,
+        "exactPhraseHeadings": 6,
+        "faqs": 10,
+        "title": "Court Marriage in Faisalabad | Nikah & Chamber Assistance",
+        "description": "Court Marriage in Faisalabad with District Courts partner assistance, Nikah documents, witness planning, clear fees and registration follow-up.",
+        "h1": "Court Marriage in Faisalabad | District Courts Chamber Assistance",
+        "hero": "Court Marriage in Faisalabad: illustrated envelope, textile geometry and Clock Tower"
+      },
+      {
+        "url": "https://courtmarriage.live/court-marriages-in-multan/",
+        "city": "Multan",
+        "paragraphWords": 1191,
+        "bodyExactMatches": 9,
+        "exactPhraseHeadings": 6,
+        "faqs": 10,
+        "title": "Court Marriage in Multan | Document Checks & Clear Fees",
+        "description": "Court Marriage in Multan with South Punjab document planning, adult Nikah eligibility checks, transparent service quotations and record guidance.",
+        "h1": "Court Marriage in Multan | Document Review and South Punjab Appointment Planning",
+        "hero": "Court Marriage in Multan: illustrated marriage binder and blue-tile ceramics"
+      }
+    ]
+  },
+  "responsive": [
+    {
+      "width": 1440,
+      "capturedPages": 51,
+      "failedAudits": []
+    },
+    {
+      "width": 768,
+      "capturedPages": 51,
+      "failedAudits": []
+    },
+    {
+      "width": 390,
+      "capturedPages": 51,
+      "failedAudits": []
+    },
+    {
+      "width": 360,
+      "capturedPages": 51,
+      "failedAudits": []
+    }
+  ],
+  "imageAssets": {
+    "newlyGenerated": 17,
+    "preparedFromPreviouslyUnusedPeopleFreeAssets": 10,
+    "files": [
+      {
+        "file": "images/site/court-marriage-islamabad-dna207c.webp",
+        "bytes": 119088,
+        "sha256": "83140bccadf3a28b31b4d841b78450899028111d5847aeb1e604684e277cf428",
+        "title": "Court Marriage in Islamabad",
+        "description": "Court Marriage in Islamabad: a blank document tray with civic architecture and the Margalla Hills in an original illustration.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/nikah-khawan-dna207c.webp",
+        "bytes": 84872,
+        "sha256": "a58ffeb3e1be59a2ba1d394b82ec1456d55a0daa1f7a524ed02613adf510a5f7",
+        "title": "Original people-free conceptual illustration for nikah khawan. No actual advocate, client or official premises is depicted.",
+        "description": "Original people-free conceptual illustration for nikah khawan. No actual advocate, client or official premises is depicted.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/nikah-services-dna207c.webp",
+        "bytes": 71364,
+        "sha256": "d38bd515a1b7ef57adf8d4168415751fdad2b7cc60c6cb7481fca2cd512c3576",
+        "title": "Original people-free conceptual illustration for nikah services. No actual advocate, client or official premises is depicted.",
+        "description": "Original people-free conceptual illustration for nikah services. No actual advocate, client or official premises is depicted.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/online-nikah-dna207c.webp",
+        "bytes": 49308,
+        "sha256": "90f3b7b5a8f8a48d50d798aa612741ad314b7a5f719a35efe752ad49b0b06d8b",
+        "title": "Original people-free conceptual illustration for online nikah. No actual advocate, client or official premises is depicted.",
+        "description": "Original people-free conceptual illustration for online nikah. No actual advocate, client or official premises is depicted.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/court-marriage-multan-dna207c.webp",
+        "bytes": 125994,
+        "sha256": "4aa0abd65c29ee556b7824daadb82156c4382f9dd19c8334f8f27a473144a56c",
+        "title": "Court Marriage in Multan",
+        "description": "Court Marriage in Multan: an ivory marriage-record binder with blue-tile ceramic motifs and a brass pen.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/foreign-nikah-dna207c.webp",
+        "bytes": 74306,
+        "sha256": "bbd3b68d3786a7b6564bfafe151b20c3acafbb2024d3527b29cdbee5150e5019",
+        "title": "Original people-free conceptual illustration for foreign nikah. No actual advocate, client or official premises is depicted.",
+        "description": "Original people-free conceptual illustration for foreign nikah. No actual advocate, client or official premises is depicted.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/court-marriage-rawalpindi-dna207c.webp",
+        "bytes": 142630,
+        "sha256": "abe3488eb8ae28d72cf7e40b2fb088ed461f187ff3250ad423b813deaf2a84e3",
+        "title": "Court Marriage in Rawalpindi",
+        "description": "Court Marriage in Rawalpindi: an illustrated marriage record folder, compass and unlabelled street map beside old-city architecture.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/court-marriage-pakistan-dna207c.webp",
+        "bytes": 51700,
+        "sha256": "ec49d23b37a92d3e4b162f167dd17c470f9b8d38f6c36ae095f50b25d2a1325f",
+        "title": "Court Marriage in Pakistan",
+        "description": "Court Marriage in Pakistan: an original people-free illustration of an open marriage register, blank identity cards and a green folder.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/court-marriage-karachi-dna207c.webp",
+        "bytes": 98276,
+        "sha256": "a5834c69d21e8582dc6b630d374057f447d3463dc1aec502cbb82a7e94896d1c",
+        "title": "Court Marriage in Karachi",
+        "description": "Court Marriage in Karachi: teal Nikah document portfolio against a coastal skyline, with no people or official document text.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/court-marriage-lahore-dna207c.webp",
+        "bytes": 142998,
+        "sha256": "54227bb3d2bf346cf4d5bce69a05b335ba1878b9e5e54b265c6c8cf9e485a9b5",
+        "title": "Court Marriage in Lahore",
+        "description": "Court Marriage in Lahore: marriage register and wedding rings before an illustrated red-brick arched courtyard.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/court-marriage-hyderabad-dna207c.webp",
+        "bytes": 131378,
+        "sha256": "c0ffa25ef8e4fe3d16d05eb099c964cd866432dd3c4cc2ef6d2f8c21ea53f0ca",
+        "title": "Court Marriage in Hyderabad Sindh",
+        "description": "Court Marriage in Hyderabad Sindh: marriage papers with Sindhi geometric patterns and windcatcher-inspired architecture.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/court-marriage-faisalabad-dna207c.webp",
+        "bytes": 122946,
+        "sha256": "2a502ffe0820865de88de67940120bdb5fce29fcf8fd1bb1eb48038bf0817be4",
+        "title": "Court Marriage in Faisalabad",
+        "description": "Court Marriage in Faisalabad: a sealed document envelope, textile geometry and the Clock Tower in a people-free illustration.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/nikah-nama-karachi-dna207c.webp",
+        "bytes": 43280,
+        "sha256": "ab75b3406d1bf31f2a36058fbb3bcbeb695f328fa162c2c68d4ca194b2286063",
+        "title": "Nikah Nama in Karachi",
+        "description": "Nikah Nama in Karachi: a distinct original conceptual illustration of document preparation and preservation, with no people, official emblems or document text.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/nikah-nama-lahore-dna207c.webp",
+        "bytes": 56380,
+        "sha256": "da579ed33937c1b06284027e14025c73f6d2f521b0e8dab8be498c27dc28ed7b",
+        "title": "Nikah Nama in Lahore",
+        "description": "Nikah Nama in Lahore: a distinct original conceptual illustration of document preparation and preservation, with no people, official emblems or document text.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/nikah-nama-islamabad-dna207c.webp",
+        "bytes": 41404,
+        "sha256": "b4b6d8775cc3e40608e553af95392ed0016c0c426fc94076e66e2014e733892d",
+        "title": "Nikah Nama in Islamabad",
+        "description": "Nikah Nama in Islamabad: a distinct original conceptual illustration of document preparation and preservation, with no people, official emblems or document text.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/nikah-nama-rawalpindi-dna207c.webp",
+        "bytes": 63564,
+        "sha256": "d3c982b2a8022b06d6d97aeca5817e4f5ee723ba8e8101158f6283f93bffe6d2",
+        "title": "Nikah Nama in Rawalpindi",
+        "description": "Nikah Nama in Rawalpindi: a distinct original conceptual illustration of document preparation and preservation, with no people, official emblems or document text.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/marriage-certificate-dna207c.webp",
+        "bytes": 36954,
+        "sha256": "2ab38b8848030492bf7aea245274e77dc51b8df338a66d3f0334bef8a63d35ed",
+        "title": "Marriage Registration Certificate in Pakistan",
+        "description": "Marriage Registration Certificate in Pakistan: a distinct original conceptual illustration of document preparation and preservation, with no people, official emblems or document text.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "file": "images/site/free-will-marriage-terms-graphic-dna207c.webp",
+        "bytes": 64440,
+        "sha256": "b53efc490cfea307b1347808aec10a016c46f133c4be3677dfd110952b86cfdf",
+        "title": "Free-Will Court Marriage",
+        "description": "Free-Will Court Marriage: illustrated marriage register and agreed terms. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/site/court-marriage-lahore-records.webp"
+      },
+      {
+        "file": "images/site/nikahnama-certificate-records-graphic-dna207c.webp",
+        "bytes": 61562,
+        "sha256": "783801ebd35eaa0416b4aad0d606f253f329808868e2ccb3423d8dfa316b13da",
+        "title": "Nikahnama Certificate",
+        "description": "Nikahnama Certificate: illustrated registered marriage papers and file. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/site/nikah-nama-rawalpindi-translation.webp"
+      },
+      {
+        "file": "images/site/nikah-khawan-guides-records-graphic-dna207c.webp",
+        "bytes": 63784,
+        "sha256": "07656dd924b483417f07fef5ee99a8c63ee4925eb5ec11f6a3071b34797a59a8",
+        "title": "Nikah Khawan Guides",
+        "description": "Nikah Khawan Guides: illustrated record folder, pen and wedding rings. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/site/court-marriage-multan-records.webp"
+      },
+      {
+        "file": "images/site/online-marriage-guides-paperwork-graphic-dna207c.webp",
+        "bytes": 73682,
+        "sha256": "da139a66e9b1ada90dd03f3f3d31eca8925d81089bbe85a97cf7621d242c7f00",
+        "title": "Online Marriage Guides",
+        "description": "Online Marriage Guides: illustrated marriage documents and record tray. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/site/court-marriage-faisalabad-records.webp"
+      },
+      {
+        "file": "images/site/rawalpindi-marriage-guides-records-graphic-dna207c.webp",
+        "bytes": 65376,
+        "sha256": "25c88f2ca8df25ae187f2331ad061c53857120bab7b1f3be5cc6274a786aa565",
+        "title": "Court Marriage in Rawalpindi",
+        "description": "Court Marriage in Rawalpindi: illustrated document folder and legal records. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/site/court-marriage-rawalpindi-records.webp"
+      },
+      {
+        "file": "images/site/online-nikah-coordination-guide-graphic-dna207c.webp",
+        "bytes": 102668,
+        "sha256": "8fadd8ba0ddd57e31bafc250762154ac799bb3b87086d311c05e366fcf142f15",
+        "title": "Online Nikah Guide",
+        "description": "Online Nikah Guide: conceptual time-zone clocks and blank marriage paperwork. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/legacy/online-guide-records.webp"
+      },
+      {
+        "file": "images/site/online-nikah-requirements-file-graphic-dna207c.webp",
+        "bytes": 59656,
+        "sha256": "8237885e999e2381a0b48b65cb1f8764ac152c045f24ab255021addb0c693bb6",
+        "title": "Online Nikah Requirements",
+        "description": "Online Nikah Requirements: illustrated blank document sheets and blue record folder. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/site/nikah-nama-karachi-translation.webp"
+      },
+      {
+        "file": "images/site/divorce-law-record-review-graphic-dna207c.webp",
+        "bytes": 73654,
+        "sha256": "d232011c35a018143067ee97e9f997b4810c3dc655a9c2dad59282bd077fc06f",
+        "title": "Divorce Law Guidance",
+        "description": "Divorce Law Guidance: conceptual legal file, writing paper and pen. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/legacy/divorce-records.webp"
+      },
+      {
+        "file": "images/site/civil-marriage-registration-graphic-dna207c.webp",
+        "bytes": 69640,
+        "sha256": "ebaa885f25b7b31bcd3b6b681a7ec83aeabaefc6315e8fbbb4d5588d6dbc07c8",
+        "title": "Civil Marriage in Pakistan",
+        "description": "Civil Marriage in Pakistan: illustrated marriage document folder and wedding rings. People-free conceptual artwork; no actual advocate or client is depicted.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/legacy/civil-records.webp"
+      },
+      {
+        "file": "images/site/pakistan-marriage-registration-records-dna207c.webp",
+        "bytes": 65736,
+        "sha256": "ebd639cc67902f7a881a9a40475c392bef0b98da347ca593d1ece3c5003d6190",
+        "title": "Marriage Registration in Pakistan",
+        "description": "People-free illustrative marriage register and supporting papers, used once on the national homepage.",
+        "width": 1200,
+        "height": 800,
+        "sourceAsset": "images/site/nikah-nama-lahore-translation.webp"
+      }
+    ],
+    "allUnder150000Bytes": true,
+    "logoBytes": 5763,
+    "decodeFailures": [],
+    "repairedBeforeRelease": "Rawalpindi Nikah Nama WebP was regenerated and rechecked at all four widths."
+  },
+  "copyUniqueness": "No identical body paragraphs across the seven court-marriage city pages. Each page has distinct local context, headings, metadata and a unique hero.",
+  "keywordPrecedence": "Owner amendment C1 controls exact city-phrase heading/body targets where older density limits conflict. Counts exclude navigation, metadata, image ALT, related links and FAQs.",
+  "lighthouse": [
+    {
+      "case": "karachi-mobile",
+      "environment": "Local production build; representative implementation audit",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "LCPms": 1087.898,
+      "CLS": 0,
+      "limitation": "Best Practices 96 reflects the local-only 404 for Vercel Analytics script; this is not a live-domain score."
+    },
+    {
+      "case": "home-desktop",
+      "environment": "Local production build; representative implementation audit",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "LCPms": 595.5725000000001,
+      "CLS": 0,
+      "limitation": "Best Practices 96 reflects the local-only 404 for Vercel Analytics script; this is not a live-domain score."
+    }
+  ],
+  "previewAccess": "Vercel native protected-preview fetch returned 403 at read_protection_bypass; browser reached Vercel sign-in. Local Chrome rendering and HTTP checks were used for pre-release QA. No protection settings were disabled.",
+  "publication": "This evidence record does not itself assert a production release; use the merged pull request and Vercel deployment state."
+}

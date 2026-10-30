@@ -36,15 +36,17 @@ export default function Page() {
     name: 'CourtMarriage.live',
     url: site.url,
     telephone: site.primaryPhoneDisplay,
-    areaServed: ['Pakistan', 'Karachi', 'Lahore', 'Islamabad', 'Rawalpindi', 'Faisalabad', 'Multan'],
+    logo: `${site.url}/court-marriage-live-services-logo.png`,
+    image: `${site.url}/images/site/court-marriage-pakistan-dna207c.webp`,
+    areaServed: ['Pakistan', 'Karachi', 'Lahore', 'Islamabad', 'Rawalpindi', 'Faisalabad', 'Hyderabad Sindh', 'Multan'],
     serviceType: ['Court Marriage Assistance', 'Nikah Services', 'Marriage Registration Assistance', 'Online Nikah Assistance'],
   }
 
   const pageSchema = {
     '@context':'https://schema.org',
     '@graph':[
-      {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:pageHeadings['/'].h1,dateModified:'2026-10-24',about:{'@id':`${site.url}/#legalservice`}},
-      {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Multan']},
+      {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:pageHeadings['/'].h1,dateModified:'2026-10-31',about:{'@id':`${site.url}/#legalservice`}},
+      {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Hyderabad Sindh','Multan']},
       {'@type':'BreadcrumbList','@id':`${site.url}/#breadcrumb`,itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${site.url}/`}]}
     ]
   }
@@ -81,7 +83,7 @@ export default function Page() {
           </div>
           <div className="hero-visual">
             <div className="hero-image-wrap">
-              <Image src={assetUrl(pageAssets['/'][0])} alt="Couple completing Nikah documentation in Pakistan" fill priority sizes="(max-width: 800px) 100vw, 50vw" />
+              <Image src={'/images/site/court-marriage-pakistan-dna207c.webp'} alt="Court Marriage in Pakistan: illustrated marriage register, blank identity cards and green document folder" fill priority sizes="(max-width: 800px) 100vw, 50vw" />
             </div>
             <div className="floating-card"><span className="seal">✓</span><div><strong>Lawful Nikah & documentation</strong><small>Requirements reviewed case by case</small></div></div>
 
@@ -110,7 +112,7 @@ export default function Page() {
               ['02','Nikah preparation','Confirm the appropriate Nikah arrangements, witnesses, Mahr and any wakalat or supporting declarations that are actually required.'],
               ['03','Nikah & Nikah Nama','Solemnise the Nikah in accordance with the applicable religious requirements and complete the prescribed marriage record accurately.'],
               ['04','Registration follow-up','Proceed through the authorised Nikah Registrar and competent local authority, followed by MRC or other civil-record steps where applicable.'],
-            ].map(([n,t,d]) => <article className="process-card" key={n}><span className="step-no">{n}</span><h3>{t}</h3><p>{d}</p><span className="step-arrow">↗</span></article>)}
+            ].map(([n,t,d]) => <article className="process-card" key={n}><span className="step-no">{n}</span><h3>{titleCase(t)}</h3><p>{d}</p><span className="step-arrow">↗</span></article>)}
           </div>
         </div>
       </section>
@@ -118,7 +120,7 @@ export default function Page() {
       <section className="documents section">
         <div className="container documents-grid">
           <div className="document-visual photo-document">
-            <Image src={assetUrl(pageAssets['/'][1])} alt="Illustrative marriage documents and wedding rings prepared for registration" fill sizes="(max-width: 800px) 100vw, 50vw" />
+            <Image src={'/images/site/pakistan-marriage-registration-records-dna207c.webp'} alt="Illustrative marriage documents and wedding rings prepared for registration" fill sizes="(max-width: 800px) 100vw, 50vw" />
             <div className="photo-label">Nikah Nama signing</div>
           </div>
           <div>
@@ -141,16 +143,16 @@ export default function Page() {
         <div className="container">
           <div className="section-heading"><div><div className="section-kicker">Marriage Legal Services</div><h2>Court Marriage, Nikah and Registration Support.</h2></div><p>Choose the service matching your documents, intended ceremony and registration requirements.</p></div>
           <div className="service-grid">
-            {services.map(([n,t,d,href]) => <article className="service-card" key={n}><span className="service-no">{n}</span><h3>{t}</h3><p>{d}</p><a href={href}>Learn more <span>→</span></a></article>)}
+            {services.map(([n,t,d,href]) => <article className="service-card" key={n}><span className="service-no">{n}</span><h3>{titleCase(t)}</h3><p>{d}</p><a href={href}>Learn more <span>→</span></a></article>)}
           </div>
         </div>
       </section>
 
       <section className="cities section">
         <div className="container">
-          <div className="section-heading"><div><div className="section-kicker">Court Marriage By City</div><h2>Local Guidance Across Major Pakistani Cities.</h2></div><p>Use the relevant city guide to prepare the documents and identify the competent local registration route.</p></div>
-          <div className="city-grid">
-            {cityServices.map((city, i) => <a href={city.href} className="city-card" key={city.name}><span>0{i + 1}</span><strong>{city.name}</strong><b>{city.phone || 'View service'} →</b></a>)}
+          <div className="section-heading"><div><div className="section-kicker">Court Marriage By City</div><h2>Local Guidance for Court Marriage in Pakistan</h2></div><p>Use the relevant city guide to prepare the documents and identify the competent local registration route.</p></div>
+          <p className="city-extra-link">Also see <a href="/court-marriages-in-multan/">Court Marriage in Multan</a> for South Punjab document planning.</p><div className="city-grid">
+            {cityServices.filter(city => city.name !== 'Multan').map((city, i) => <a href={city.href} className="city-card" key={city.name}><span>0{i + 1}</span><strong>{city.name}</strong><b>{city.phone || 'View service'} →</b></a>)}
           </div>
         </div>
       </section>
@@ -171,7 +173,7 @@ export default function Page() {
           <div className="section-heading"><div><div className="section-kicker">Legal Team And Karachi Offices</div><h2>Regional Court Marriage and Nikah Coordination.</h2><h3>Lawyers for Marriage and Family Documentation</h3></div><p>Karachi: Mohsin Ali Mirani, Zaheer Ahmed Qazi and Sobia Mohsin handle relevant marriage and family matters. Islamabad: Muhammad Usman Bhatti, Advocate High Court, with coordination managed by Haider Mohsin. Rawalpindi: Raja Zarb-e-Hasnain Bhatti, Advocate High Court. Lahore: Junaid Kahloon, Advocate High Court. Mohsin Ali Shah serves as Chairman, overseeing client coordination, case preparation, research support and network management.</p></div>
           <div className="why-grid">
             <div className="why-item"><span>01</span><div><h3>DHA Phase 7, Karachi</h3><p>76C, Mezzanine Floor, Main Jami Commercial, Phase 7, DHA, Karachi.</p></div></div>
-            <div className="why-item"><span>02</span><div><h3>Gulistan-e-jauhar, Karachi</h3><p>A-220, 2nd Floor, Supreme Corner, Johar Chowrangi, Block 18, Gulistan-e-Jauhar, Karachi.</p></div></div>
+            <div className="why-item"><span>02</span><div><h3>Gulistan-e-Jauhar, Karachi</h3><p>T-219, 2nd Floor, Supreme Corner, Johar Chowrangi, Block 18, Gulistan-e-Jauhar, Karachi.</p></div></div>
           </div>
         </div>
       </section>
@@ -185,7 +187,7 @@ export default function Page() {
               ['02','City-specific assistance','Karachi, Lahore, Islamabad and Rawalpindi contact routing is kept separate so clients reach the relevant team.'],
               ['03','Qualified expectations','Timelines, foreign-document requirements and authority decisions are explained as variable where they genuinely vary.'],
               ['04','Private handling','Sensitive personal and marriage information is treated as confidential client material.'],
-            ].map(([n,t,d]) => <div className="why-item" key={n}><span>{n}</span><div><h3>{t}</h3><p>{d}</p></div></div>)}
+            ].map(([n,t,d]) => <div className="why-item" key={n}><span>{n}</span><div><h3>{titleCase(t)}</h3><p>{d}</p></div></div>)}
           </div>
         </div>
       </section>
@@ -235,7 +237,8 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-24">24 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
+      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-31">31 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
     </>
   )
 }
+
