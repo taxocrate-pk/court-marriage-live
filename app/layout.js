@@ -11,7 +11,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     url: 'https://courtmarriage.live/',
-    siteName: 'CourtMarriage.live',
+    siteName: 'Court Marriage Live Service',
     title: pageHeadings['/'].seo,
     description: 'Professional assistance with lawful Nikah, marriage documentation and registration in Pakistan.',
     images: [{ url: '/images/site/court-marriage-pakistan-dna207c.webp', width: 1200, height: 800, alt: 'Court marriage and Nikah documentation in Pakistan' }],
@@ -23,7 +23,7 @@ export const metadata = {
     images: ['/images/site/court-marriage-pakistan-dna207c.webp'],
   },
   robots: { index: true, follow: true },
-  generator: 'CourtMarriage.live',
+  generator: 'Court Marriage Live Service',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '16x16 32x32 48x48 64x64 128x128 256x256' },
