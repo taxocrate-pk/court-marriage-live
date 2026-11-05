@@ -33,7 +33,7 @@ export default function Page() {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
     '@id': `${site.url}/#legalservice`,
-    name: 'CourtMarriage.live',
+    name: 'Court Marriage Live Service',
     url: site.url,
     telephone: site.primaryPhoneDisplay,
     logo: `${site.url}/court-marriage-live-services-logo.png`,
@@ -46,7 +46,7 @@ export default function Page() {
     '@context':'https://schema.org',
     '@graph':[
       {'@type':'WebPage','@id':`${site.url}/#webpage`,url:`${site.url}/`,name:pageHeadings['/'].h1,dateModified:'2026-10-31',about:{'@id':`${site.url}/#legalservice`}},
-      {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'CourtMarriage.live',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Hyderabad Sindh','Multan']},
+      {'@type':'LocalBusiness','@id':`${site.url}/#localbusiness`,name:'Court Marriage Live Service',url:`${site.url}/`,telephone:site.primaryPhoneDisplay,areaServed:['Pakistan','Karachi','Lahore','Islamabad','Rawalpindi','Faisalabad','Hyderabad Sindh','Multan']},
       {'@type':'BreadcrumbList','@id':`${site.url}/#breadcrumb`,itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${site.url}/`}]}
     ]
   }
@@ -97,7 +97,7 @@ export default function Page() {
           <div><div className="section-kicker">Court Marriage In Pakistan</div><h2>What Court Marriage Actually Means.</h2><h3>Lawful Nikah, Documentation and Registration Guidance</h3></div>
           <div className="intro-text">
             <p>“Court marriage” is a widely used practical expression in Pakistan. For an ordinary Muslim marriage, it does not mean that every couple must marry before a judge or inside a courtroom. The usual focus is a lawful Nikah based on free consent, accurate identity and marital-status information, proper Nikah documentation and registration through the competent Nikah Registrar and local authority.</p>
-            <p>The correct route can differ according to the parties’ ages, nationality, religion, previous marital status, city and intended use of the documents. CourtMarriage.live therefore starts with the facts instead of promising one fixed procedure for every couple.</p>
+            <p>The correct route can differ according to the parties’ ages, nationality, religion, previous marital status, city and intended use of the documents. Court Marriage Live Service therefore starts with the facts instead of promising one fixed procedure for every couple.</p>
             <a className="text-link" href={serviceLinks.contact}>Discuss your circumstances <span>→</span></a>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function Page() {
 
       <section className="why section" id="about">
         <div className="container">
-          <div className="section-heading"><div><div className="section-kicker">Why CourtMarriage.live</div><h2>Legal Accuracy Before Marketing Claims.</h2></div></div>
+          <div className="section-heading"><div><div className="section-kicker">Why Court Marriage Live Service</div><h2>Legal Accuracy Before Marketing Claims.</h2></div></div>
           <div className="why-grid">
             {[
               ['01','Clear legal distinctions','Nikah solemnisation, Nikah Nama registration, MRC processing and NADRA identity updates are not described as one automatic step.'],
@@ -237,7 +237,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for CourtMarriage.live · Last Updated: <time dateTime="2026-10-31">31 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
+      <section className="recovery-section recovery-sources"><p className="recovery-updated">Edited for Court Marriage Live Service · Last Updated: <time dateTime="2026-10-31">31 October 2026</time></p></section></article><GuideSidebar showReferences={false} sections={homeSections} anchor={(section,index)=>anchorFromHeading(section.heading,index)}/></div></main><SiteFooter preserveCityCalls/>
     </>
   )
 }
